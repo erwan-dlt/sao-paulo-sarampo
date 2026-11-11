@@ -1,0 +1,24 @@
+[
+  {
+    "arquivo": "data/raw/EXANBR19.dbc",
+    "sha256": "4a57515ba25ddef87f587ac9bd82a7985c0e1d806e1fe3b87b814abf74daa47d",
+    "linhas": 68765,
+    "colunas": 107
+  },
+  {
+    "arquivo": "data/raw/EXANBR20.dbc",
+    "sha256": "7539124381d2ee9e5609f91025c753bf63b2b04d5dbbda2dbbfebb1455eb6552",
+    "linhas": 17937,
+    "colunas": 107
+  },
+  {
+    "arquivo": "data/raw/mmr_2016_2018.csv",
+    "sha256": "794ee20ee4c6f4e082131e535b477b35739d1da55fc8f02d5f3449b9ae89f4a8",
+    "linhas": 3870
+  },
+  {
+    "arquivo": "data/raw/gdp_per_capita_2016.csv",
+    "sha256": "4bfe59b6896af4d0faf6fbe93d1b5bd1fc4987d73b6d04c75ff022632b6f82d7",
+    "linhas": 645
+  }
+]

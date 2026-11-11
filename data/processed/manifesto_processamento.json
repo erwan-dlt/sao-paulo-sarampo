@@ -1,0 +1,120 @@
+{
+  "python": "3.12.14",
+  "pacotes": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "dbfread": "2.0.7",
+    "dbc-to-dbf": "1.0.1",
+    "xlrd": "2.0.1"
+  },
+  "recorte": "SG_UF=35, CLASSI_FIN=1, ano(DT_INICIO_)=2019; arquivos 2019 e 2020",
+  "casos": 18025,
+  "arquivos": [
+    {
+      "arquivo": "data/raw/EXANBR19.dbc",
+      "sha256": "4a57515ba25ddef87f587ac9bd82a7985c0e1d806e1fe3b87b814abf74daa47d",
+      "bytes": 3862285
+    },
+    {
+      "arquivo": "data/raw/EXANBR20.dbc",
+      "sha256": "7539124381d2ee9e5609f91025c753bf63b2b04d5dbbda2dbbfebb1455eb6552",
+      "bytes": 1037349
+    },
+    {
+      "arquivo": "data/raw/gdp_per_capita_2016.csv",
+      "sha256": "4bfe59b6896af4d0faf6fbe93d1b5bd1fc4987d73b6d04c75ff022632b6f82d7",
+      "bytes": 17767
+    },
+    {
+      "arquivo": "data/raw/ibge_sidra_gdp_2016.json",
+      "sha256": "078edd1c74d67b78bae7c9344c6032213e3e5a3278cbb54b1c99f748118f6752",
+      "bytes": 127461
+    },
+    {
+      "arquivo": "data/raw/ibge_sidra_population_2016.json",
+      "sha256": "a337afff9cbfbe2c5fdcdb9d8dfd7796158695117d621669f4c7c5624b73fdce",
+      "bytes": 119450
+    },
+    {
+      "arquivo": "data/raw/manifesto_consultas_original.json",
+      "sha256": "0817cf0da127473b977b8c7d4cf2574b369737845b5a077836c7d51f44f6b645",
+      "bytes": 39056
+    },
+    {
+      "arquivo": "data/raw/mmr_2016_2018.csv",
+      "sha256": "794ee20ee4c6f4e082131e535b477b35739d1da55fc8f02d5f3449b9ae89f4a8",
+      "bytes": 97624
+    },
+    {
+      "arquivo": "data/raw/mmr_provenance.json",
+      "sha256": "5180452cb7c843806c7b7a4cbeacfe19712452569b3fd3d0400f7985fac59666",
+      "bytes": 2503
+    },
+    {
+      "arquivo": "data/raw/pop2019.xls",
+      "sha256": "e2cd7382178a11ab93941ffb3680b64efae9d9096b507b4ff3ebb99e324b9452",
+      "bytes": 696320
+    },
+    {
+      "arquivo": "data/raw/pop_idade.html",
+      "sha256": "28948f57a86714e58548a3d3a134a2c8a92d1e1d43e1327b57201cae2d49328f",
+      "bytes": 218455
+    },
+    {
+      "arquivo": "data/raw/pop_sexo.html",
+      "sha256": "a3536d270b03d53bb95091ccddaf1d1f87b61ba7d5bf98f4cb94c1ba7cec738f",
+      "bytes": 27333
+    },
+    {
+      "arquivo": "data/raw/query_population.json",
+      "sha256": "4c9466b2aea2c2cddf915b62d502af7be9aac11ebe9d0f252bb9a531bf8c08d4",
+      "bytes": 1255
+    },
+    {
+      "arquivo": "data/raw/sp_municipios.zip",
+      "sha256": "454e6f65782fc08b306c2df9e298103e117b7918274666aaeaae3027991320b0",
+      "bytes": 10146482
+    },
+    {
+      "arquivo": "data/processed/fontes.json",
+      "sha256": "83450de91594702b63174785d04b96d06d419ad029c93109a6e9228be96a49a0",
+      "bytes": 659
+    },
+    {
+      "arquivo": "data/processed/malha.json",
+      "sha256": "74114676881478c1de9949a2ac283e8be2dce451a0098a940834db8f1b302337",
+      "bytes": 26434903
+    },
+    {
+      "arquivo": "data/processed/mmr.csv",
+      "sha256": "794ee20ee4c6f4e082131e535b477b35739d1da55fc8f02d5f3449b9ae89f4a8",
+      "bytes": 97624
+    },
+    {
+      "arquivo": "data/processed/municipios.csv",
+      "sha256": "25bd0d03645ff8d8fa6d4c2beed0017e7bd0e9caebb7ec16dd0501f12891008a",
+      "bytes": 26077
+    },
+    {
+      "arquivo": "data/processed/notificacoes.csv",
+      "sha256": "78eea1feb6f0e707cc943d03d21271f0a47a51fcbc236770b003ba638d1a499b",
+      "bytes": 11070611
+    },
+    {
+      "arquivo": "data/processed/pib.csv",
+      "sha256": "4bfe59b6896af4d0faf6fbe93d1b5bd1fc4987d73b6d04c75ff022632b6f82d7",
+      "bytes": 17767
+    },
+    {
+      "arquivo": "data/processed/pop_idade.csv",
+      "sha256": "c377720ea47a9c7cf4ec95b22715a094d2ee987d9f3fe87f96ef6013bbe8a408",
+      "bytes": 42347
+    },
+    {
+      "arquivo": "data/processed/pop_sexo.csv",
+      "sha256": "af2f6d06331c28838657b08ee04d52d6d65f0ebcbf9f2675b917994a6f328f98",
+      "bytes": 27243
+    }
+  ]
+}

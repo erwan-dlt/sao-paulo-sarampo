@@ -1,0 +1,54 @@
+{
+  "assinatura": {
+    "data/processed/fontes.json": "83450de91594702b63174785d04b96d06d419ad029c93109a6e9228be96a49a0",
+    "data/processed/malha.json": "74114676881478c1de9949a2ac283e8be2dce451a0098a940834db8f1b302337",
+    "data/processed/manifesto_processamento.json": "1fa9eb5143d58a8a249308da2f77c69e2139b8a3be26c15cb603299204646eb8",
+    "data/processed/mmr.csv": "794ee20ee4c6f4e082131e535b477b35739d1da55fc8f02d5f3449b9ae89f4a8",
+    "data/processed/municipios.csv": "25bd0d03645ff8d8fa6d4c2beed0017e7bd0e9caebb7ec16dd0501f12891008a",
+    "data/processed/notificacoes.csv": "78eea1feb6f0e707cc943d03d21271f0a47a51fcbc236770b003ba638d1a499b",
+    "data/processed/pib.csv": "4bfe59b6896af4d0faf6fbe93d1b5bd1fc4987d73b6d04c75ff022632b6f82d7",
+    "data/processed/pop_idade.csv": "c377720ea47a9c7cf4ec95b22715a094d2ee987d9f3fe87f96ef6013bbe8a408",
+    "data/processed/pop_sexo.csv": "af2f6d06331c28838657b08ee04d52d6d65f0ebcbf9f2675b917994a6f328f98",
+    "scripts/clustering.py": "e505a3ffc7626798b55475faa7daa7db2dbb407ffdcaeaf6dfa8b1105fb9c58a",
+    "scripts/modelagem.py": "093273b769dc67b3eb2cfa60fa4e645f7780a1a3821ac03bc46ec4c9fd2f44f0"
+  },
+  "k": 3,
+  "silhueta": 0.3225811509267585,
+  "limiar_D2": 87.04,
+  "limiar_incidencia": 39.784895375878314,
+  "PCA_variancia": [
+    0.42383234559176747,
+    0.19636042053962416
+  ],
+  "atributos": [
+    "d1_media",
+    "d2_media",
+    "d1_delta",
+    "d2_delta",
+    "log_incidencia",
+    "log_densidade",
+    "frac_0a4"
+  ],
+  "pesos": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    1.0,
+    0.7071067811865475,
+    0.7071067811865475
+  ],
+  "arquivos": {
+    "centros_padronizados.csv": "0bb768393e013eaed7e8b306ff408d88d54067480ab14cc11e489bc9c79963eb",
+    "controle_permutado.csv": "57342c9e7996b9c6200fa1c5250a409365a1a46851ecb6e138a86eff4c10dfed",
+    "estabilidade.csv": "e04a0ece4f4bab5ab8e260456e593db2699b0db4182d22fe41d33237730ca084",
+    "grupos_alternativos.csv": "43a2415509fd9408fc52fdaf1cfebfb3a4114fea4a62bf05e28448413e520b7e",
+    "grupos_quadrantes.csv": "cb21610370a9d49d531acbe62efbfdaa18173c9472d144213feb028266832cbb",
+    "jaccard.csv": "5e8c3189e8ee81119d0fb39fca348604382b0b7e9394c481d3070099b72c9dc9",
+    "municipios.csv": "f50208dc586e39c0021ebb5861c4c0257939ce6d2739c8ed77f99e96560c380b",
+    "perfil_casos.csv": "265368a6327f398be419ed9e2a9750442cdd4214c6c61a57af9be82f46af6162",
+    "perfis.csv": "a7ea6726214b4dd2c582da34148338c7aa7b998e74a6e4cc260dc48a443dd106",
+    "selecao_k.csv": "4d09f457072333a53a4ceb9a936ee23adfd090fd6f15432b643871eff3340372",
+    "sensibilidades.csv": "3bd38b7aea155659428a6e96060b95cb7990fe873ed571cc51d4285729aa6a72"
+  }
+}

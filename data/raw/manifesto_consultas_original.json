@@ -1,0 +1,1568 @@
+[
+  {
+    "arquivo": "data/raw/casos_ano_notificacao.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 8682,
+    "sha256": "555628279279a85214ed066ee65bf2ee4c92627bac2830ab6d6e686bca38791b",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Ano_Notificação"
+      ],
+      "Coluna": [
+        "Mês_Notificação"
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/casos_criterio.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 200978,
+    "sha256": "c74d52aa54bd31a1559e6fc84785e46f4063ecf777ff9a88456d0f0d6481d133",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município_de_residência"
+      ],
+      "Coluna": [
+        "Criterio_conf."
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/casos_evolucao.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 189734,
+    "sha256": "433e0fc60c9aabb2fba5669d10c5f8e1bad02cef8b719ae2e0fa8cdc357a26f6",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município_de_residência"
+      ],
+      "Coluna": [
+        "Evolução"
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/casos_idade.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 290646,
+    "sha256": "edcda28f7bea4a88d22dfe998e1bf3d11cb8752c9fd09b85660ac41faacd5166",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município_de_residência"
+      ],
+      "Coluna": [
+        "Faixa_Etária"
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/casos_mes.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 189735,
+    "sha256": "5d434350830aef112f7a8eea7a41446d0e156b0c327790faeddceac79ce863cb",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município_de_residência"
+      ],
+      "Coluna": [
+        "Mês_de_início_do_exantema"
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/casos_mes_notif2019.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 268268,
+    "sha256": "922a05b8a8938099a9b2149805fedf6634186189c33ddcec4ceddb5613b91532",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município_de_residência"
+      ],
+      "Coluna": [
+        "Mês_Notificação"
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "47"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/casos_notificacao.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 279427,
+    "sha256": "265764938b64e592a9806471eff2ad0047ddf2a4ba31d60429160556a92e1191",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município_de_residência"
+      ],
+      "Coluna": [
+        "Mês_Notificação"
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/casos_sexo.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 178503,
+    "sha256": "ea72f75b4235e2ab04df4c460996713de8081a7f0bae9ef30d790b0e9717d33a",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/exantbr.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município_de_residência"
+      ],
+      "Coluna": [
+        "Sexo"
+      ],
+      "Incremento": [
+        "casos_notificados"
+      ],
+      "Arquivos": [
+        "exanbr19.dbf",
+        "exanbr20.dbf",
+        "exanbr21.dbf",
+        "exanbr22.dbf",
+        "exanbr23.dbf",
+        "exanbr24.dbf",
+        "exanbr25.dbf",
+        "exanbr26.dbf"
+      ],
+      "SAno(s)_de_início_do_exantema": [
+        "47"
+      ],
+      "SMês_de_início_do_exantema": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAno_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMês_Notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_notificação": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_notif": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_notific": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(notificação)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(notific)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_de_residência": [
+        "25"
+      ],
+      "SMunicípio_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital_de_residência": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorreg.de_Saúde_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SReg.Metropolit/RIDE_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "STerrit_da_Cidadania_de_resid": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMesorregião_PNDR_de_residênc": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido_(residência)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira_(residênc)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunic_extrem_pobreza_(resid)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAutoctone_Mun_Res": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SPaís_F._infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUF_F.infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_Infecção": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRaça": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SClass._Final": [
+        "1"
+      ],
+      "SCriterio_conf.": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SEvolução": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ],
+      "zeradas": [
+        "exibirlz"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/form.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 965681,
+    "sha256": "b968695777441a0a1bdbbcbb2e4d948f48abd9693af6c1663359bf7a003021bd",
+    "url": "https://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/exantbr.def"
+  },
+  {
+    "arquivo": "data/raw/pop2019.xls",
+    "consulta_em": "2026-11-11",
+    "bytes": 696320,
+    "sha256": "e2cd7382178a11ab93941ffb3680b64efae9d9096b507b4ff3ebb99e324b9452",
+    "url": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/POP2019_20220905.xls"
+  },
+  {
+    "arquivo": "data/raw/pop_age_form.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 343410,
+    "sha256": "b7199f4db8567141ae0dd063e26a624237eea56a5d62a1f94da496e19fbeb599",
+    "url": "http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def"
+  },
+  {
+    "arquivo": "data/raw/pop_idade.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 218455,
+    "sha256": "28948f57a86714e58548a3d3a134a2c8a92d1e1d43e1327b57201cae2d49328f",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popsvs2024br.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município"
+      ],
+      "Coluna": [
+        "Idade_simples"
+      ],
+      "Incremento": [
+        "População_residente"
+      ],
+      "Arquivos": [
+        "pop19.dbf"
+      ],
+      "SRegião": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUnidade_da_Federação": [
+        "25"
+      ],
+      "SMunicípio": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorregião_de_Saúde": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_Metropolitana_-_RIDE": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorregião_PNDR": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_extrema_pobreza": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária_1": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária_2": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SIdade_simples": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/pop_sexo.html",
+    "consulta_em": "2026-11-11",
+    "bytes": 27333,
+    "sha256": "a3536d270b03d53bb95091ccddaf1d1f87b61ba7d5bf98f4cb94c1ba7cec738f",
+    "url": "http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/popsvs2024br.def",
+    "metodo": "POST",
+    "parametros": {
+      "Linha": [
+        "Município"
+      ],
+      "Coluna": [
+        "Sexo"
+      ],
+      "Incremento": [
+        "População_residente"
+      ],
+      "Arquivos": [
+        "pop19.dbf"
+      ],
+      "SRegião": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SUnidade_da_Federação": [
+        "25"
+      ],
+      "SMunicípio": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SCapital": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_de_Saúde_(CIR)": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorregião_de_Saúde": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMicrorregião_IBGE": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SRegião_Metropolitana_-_RIDE": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMacrorregião_PNDR": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SAmazônia_Legal": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSemiárido": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_de_Fronteira": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SZona_de_Fronteira": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SMunicípio_de_extrema_pobreza": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SSexo": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária_1": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SFaixa_Etária_2": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "SIdade_simples": [
+        "TODAS_AS_CATEGORIAS__"
+      ],
+      "formato": [
+        "prn"
+      ],
+      "mostre": [
+        "Mostra"
+      ]
+    }
+  },
+  {
+    "arquivo": "data/raw/query_base.json",
+    "consulta_em": "2026-11-11",
+    "bytes": 3262,
+    "sha256": "262ef32189d6d914d58fc64e19625708851788aaed44e011d3c839fc465ea70a",
+    "descricao": "Parâmetros de consulta derivados do formulário oficial"
+  },
+  {
+    "arquivo": "data/raw/query_population.json",
+    "consulta_em": "2026-11-11",
+    "bytes": 1255,
+    "sha256": "4c9466b2aea2c2cddf915b62d502af7be9aac11ebe9d0f252bb9a531bf8c08d4",
+    "descricao": "Parâmetros de consulta derivados do formulário oficial"
+  },
+  {
+    "arquivo": "data/raw/sp_municipios.zip",
+    "consulta_em": "2026-11-11",
+    "bytes": 10146482,
+    "sha256": "454e6f65782fc08b306c2df9e298103e117b7918274666aaeaae3027991320b0",
+    "url": "http://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/SP/sp_municipios.zip"
+  }
+]

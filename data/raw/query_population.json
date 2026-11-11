@@ -1,0 +1,74 @@
+{
+  "Linha": [
+    "Município"
+  ],
+  "Coluna": [
+    "Idade_simples"
+  ],
+  "Incremento": [
+    "População_residente"
+  ],
+  "Arquivos": [
+    "pop19.dbf"
+  ],
+  "SRegião": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SUnidade_da_Federação": [
+    "25"
+  ],
+  "SMunicípio": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SCapital": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SRegião_de_Saúde_(CIR)": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SMacrorregião_de_Saúde": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SMicrorregião_IBGE": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SRegião_Metropolitana_-_RIDE": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SMacrorregião_PNDR": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SAmazônia_Legal": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SSemiárido": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SFaixa_de_Fronteira": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SZona_de_Fronteira": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SMunicípio_de_extrema_pobreza": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SSexo": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SFaixa_Etária_1": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SFaixa_Etária_2": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "SIdade_simples": [
+    "TODAS_AS_CATEGORIAS__"
+  ],
+  "formato": [
+    "prn"
+  ],
+  "mostre": [
+    "Mostra"
+  ]
+}

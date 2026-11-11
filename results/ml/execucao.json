@@ -1,0 +1,151 @@
+{
+  "assinatura_entradas": {
+    "data/processed/fontes.json": "83450de91594702b63174785d04b96d06d419ad029c93109a6e9228be96a49a0",
+    "data/processed/malha.json": "74114676881478c1de9949a2ac283e8be2dce451a0098a940834db8f1b302337",
+    "data/processed/manifesto_processamento.json": "1fa9eb5143d58a8a249308da2f77c69e2139b8a3be26c15cb603299204646eb8",
+    "data/processed/mmr.csv": "794ee20ee4c6f4e082131e535b477b35739d1da55fc8f02d5f3449b9ae89f4a8",
+    "data/processed/municipios.csv": "25bd0d03645ff8d8fa6d4c2beed0017e7bd0e9caebb7ec16dd0501f12891008a",
+    "data/processed/notificacoes.csv": "78eea1feb6f0e707cc943d03d21271f0a47a51fcbc236770b003ba638d1a499b",
+    "data/processed/pib.csv": "4bfe59b6896af4d0faf6fbe93d1b5bd1fc4987d73b6d04c75ff022632b6f82d7",
+    "data/processed/pop_idade.csv": "c377720ea47a9c7cf4ec95b22715a094d2ee987d9f3fe87f96ef6013bbe8a408",
+    "data/processed/pop_sexo.csv": "af2f6d06331c28838657b08ee04d52d6d65f0ebcbf9f2675b917994a6f328f98",
+    "scripts/modelagem.py": "093273b769dc67b3eb2cfa60fa4e645f7780a1a3821ac03bc46ec4c9fd2f44f0"
+  },
+  "python": "3.12.14",
+  "versoes": {
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.15.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "semente": 42,
+  "modelos": {
+    "Referência populacional": [
+      "base",
+      [],
+      [
+        0
+      ]
+    ],
+    "Poisson demografia": [
+      "pois",
+      [
+        "log_densidade",
+        "frac_0a4",
+        "frac_5a19",
+        "frac_20a39",
+        "frac_60mais"
+      ],
+      [
+        0.1,
+        1.0,
+        10.0
+      ]
+    ],
+    "Poisson + PIB": [
+      "pois",
+      [
+        "log_densidade",
+        "frac_0a4",
+        "frac_5a19",
+        "frac_20a39",
+        "frac_60mais",
+        "log_pib"
+      ],
+      [
+        0.1,
+        1.0,
+        10.0
+      ]
+    ],
+    "Poisson + PIB + vacina": [
+      "pois",
+      [
+        "log_densidade",
+        "frac_0a4",
+        "frac_5a19",
+        "frac_20a39",
+        "frac_60mais",
+        "log_pib",
+        "d1_media",
+        "d2_media",
+        "d1_delta",
+        "d2_delta",
+        "fracao_cob_acima100"
+      ],
+      [
+        0.1,
+        1.0,
+        10.0
+      ]
+    ],
+    "Binomial negativa completa": [
+      "nb",
+      [
+        "log_densidade",
+        "frac_0a4",
+        "frac_5a19",
+        "frac_20a39",
+        "frac_60mais",
+        "log_pib",
+        "d1_media",
+        "d2_media",
+        "d1_delta",
+        "d2_delta",
+        "fracao_cob_acima100"
+      ],
+      [
+        0.1,
+        1.0,
+        10.0
+      ]
+    ],
+    "Boosting sem vacina": [
+      "boost",
+      [
+        "log_densidade",
+        "frac_0a4",
+        "frac_5a19",
+        "frac_20a39",
+        "frac_60mais",
+        "log_pib"
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "Boosting com vacina": [
+      "boost",
+      [
+        "log_densidade",
+        "frac_0a4",
+        "frac_5a19",
+        "frac_20a39",
+        "frac_60mais",
+        "log_pib",
+        "d1_media",
+        "d2_media",
+        "d1_delta",
+        "d2_delta",
+        "fracao_cob_acima100"
+      ],
+      [
+        3,
+        7
+      ]
+    ]
+  },
+  "protocolo": "Validação externa de cinco blocos; ajuste interno por blocos restantes. Critério: desvio Poisson médio por município.",
+  "arquivos_resultados": {
+    "ajustes.csv": "23f0acefc5cebdbfff493d980e659cc33e780b0def8b3cae40a9d5ea3a986007",
+    "base_municipal_ml.csv": "b47a4795d37779cb7488c862277e85f5293e026f9661f80c3d4aeebd06e57fce",
+    "dispersao.csv": "84e075a2cd468048dc0ed98b5ac6da511872c76bcfcd9ba82cc934510669f7d3",
+    "folds.csv": "0b75161daee1efabdcb7233b88c9b2e95ff5fc525606c01d576711387a10c73c",
+    "metricas.csv": "812a78be84374129d5f80961e810af5c2a48dd4c3d9666fced81b3de9bf2566a",
+    "metricas_sem_capital.csv": "a48a0d0c2b3d7b2f9afa490a0d1de0db8a496ccc238269e3e3de49fc6853668a",
+    "permutacao.csv": "249750e487cd99b432187228a389616cc158418bbab60037bf586d3714fd6873",
+    "predicoes.csv": "d390b60c815c8b18d13ccda6e73900a2b9a775e0aed67370c6bebf68d8566804"
+  }
+}

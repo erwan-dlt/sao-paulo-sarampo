@@ -1,0 +1,90 @@
+{
+  "status": "computed_from_historical_SI_PNI",
+  "source": "DATASUS SI-PNI CPNI coverage via unchanged healthbr-data parquet mirror or original DBF",
+  "source_url": "https://huggingface.co/datasets/SidneyBissoli/sipni-agregados-cobertura",
+  "dictionary": "IMUNOCOB (historical coverage composite indicators)",
+  "dictionary_code_mapping": {
+    "021": "MMR1",
+    "098": "MMR2"
+  },
+  "retrieved_utc": "2026-10-15T01:14:23.451141+00:00",
+  "source_partitions": [
+    {
+      "year": 2016,
+      "path": "sipni_sp_2016.parquet",
+      "sha256": "bdef5d552f2a813abd529a7bb0873c9402e1a4ae3389b64787c6feba4d738648",
+      "rows": 23737,
+      "selected_mmr_rows": 1290,
+      "schema": {
+        "input_columns": [
+          "ANO",
+          "UF",
+          "MUNIC",
+          "IMUNO",
+          "QT_DOSE",
+          "POP",
+          "COBERT"
+        ],
+        "canonical_field_sources": {
+          "MUNIC": "MUNICIP",
+          "IMUNO": "IMESSION",
+          "COBERT": "COB"
+        }
+      },
+      "mmr_municipalities": 645
+    },
+    {
+      "year": 2017,
+      "path": "sipni_sp_2017.parquet",
+      "sha256": "618381bcdf266893697079ddfd3293ee2ff376ca5c4c0acb27896591c821d135",
+      "rows": 15793,
+      "selected_mmr_rows": 1290,
+      "schema": {
+        "input_columns": [
+          "ANO",
+          "UF",
+          "MUNIC",
+          "IMUNO",
+          "QT_DOSE",
+          "POP",
+          "COBERT"
+        ],
+        "canonical_field_sources": {
+          "MUNIC": "MUNICIP",
+          "IMUNO": "IMESSION",
+          "COBERT": "COB"
+        }
+      },
+      "mmr_municipalities": 645
+    },
+    {
+      "year": 2018,
+      "path": "sipni_sp_2018.parquet",
+      "sha256": "f29d1e97b2b2b51ce1565529c48af11eb62f8dbe09936529048238af909fde70",
+      "rows": 15648,
+      "selected_mmr_rows": 1290,
+      "schema": {
+        "input_columns": [
+          "ANO",
+          "UF",
+          "MUNIC",
+          "IMUNO",
+          "QT_DOSE",
+          "POP",
+          "COBERT"
+        ],
+        "canonical_field_sources": {
+          "MUNIC": "MUNICIP",
+          "IMUNO": "IMESSION",
+          "COBERT": "COB"
+        }
+      },
+      "mmr_municipalities": 645
+    }
+  ],
+  "municipalities": 645,
+  "nonmissing": 3870,
+  "values_above_100": 1380,
+  "values_above_200": 55,
+  "limitations": "Routine childhood vaccination administrative indicator; not immune share, adult coverage, or vaccine effectiveness"
+}
