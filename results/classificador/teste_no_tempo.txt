@@ -1,0 +1,5 @@
+Classificador (estrutura) treinado com o surto de 2019-20; posição de risco de 1 (maior) a 645.
+2007-18 (antes do treino): 24 municípios com caso; posições [1, 2, 3, 4, 5, 11, 17, 18, 21, 28, 31, 33, 43, 55, 65, 80, 98, 118, 143, 227, 269, 330, 368, 392]; 10 entre os 30 primeiros; 5 entre os 7 primeiros (1%)
+2021-25: 7 municípios com caso; posições [1, 4, 7, 19, 37, 62, 334]; 4 entre os 30 primeiros; 3 entre os 7 primeiros (1%)
+2026: 4 municípios com caso; posições [1, 2, 5, 7]; 4 entre os 30 primeiros; 4 entre os 7 primeiros (1%)
+Maior risco sem caso em 2026: Osasco (3º, RRAS5), Campinas (4º, RRAS15), Diadema (6º, RRAS1), Carapicuíba (8º, RRAS5), Mauá (9º, RRAS1), Sorocaba (10º, RRAS8), Taboão da Serra (11º, RRAS4), Ribeirão Preto (12º, RRAS13), Itaquaquecetuba (13º, RRAS2), Barueri (14º, RRAS5)
