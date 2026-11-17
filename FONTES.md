@@ -37,7 +37,7 @@ A nota técnica da série de população está em `docs/NT-POPULACAO-RESIDENTE-2
 
 ## 2. Processamento (`scripts/prepare_data.py`)
 
-Lê só `data/raw`, sem rede, e grava `data/processed`. Os DBC são lidos por `scripts/dbc.py`, que descomprime em Python puro, sem dependências. O script confere os totais e grava um manifesto com o SHA-256 de cada fonte e derivado; o notebook recusa rodar se algum hash mudar.
+Lê só `data/raw`, sem rede, e grava `data/processed`. A lista completa do que foi limpo, com o número de linhas afetadas, está em `docs/integracao_e_limpeza.md`. Os DBC são lidos por `scripts/dbc.py`, que descomprime em Python puro, sem dependências. O script confere os totais e grava um manifesto com o SHA-256 de cada fonte e derivado; o notebook recusa rodar se algum hash mudar.
 
 **Regras do projeto aplicadas aqui:**
 

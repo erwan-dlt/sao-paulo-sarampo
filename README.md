@@ -26,7 +26,8 @@ Projeto PTC3567 (Poli-USP). Caracterização do surto de sarampo de 2019 em São
 | `scripts/projecao.py` | Cenários 2026–2027 (seção 18) |
 | `scripts/coleta/` | Scripts que baixaram as fontes (precisam de rede; não são necessários para reproduzir) |
 | `results/` | Saídas dos scripts, uma pasta por análise |
-| `docs/` | Nota técnica da série de população do Ministério da Saúde |
+| `docs/integracao_e_limpeza.md` | Catálogo da integração e da limpeza: problema, linhas afetadas e tratamento |
+| `docs/NT-POPULACAO-RESIDENTE-2000-2024.pdf` | Nota técnica da série de população do Ministério da Saúde |
 | `FONTES.md` | Proveniência, dicionário de dados, regras do projeto, pendências e limites |
 
 ## Instalar
