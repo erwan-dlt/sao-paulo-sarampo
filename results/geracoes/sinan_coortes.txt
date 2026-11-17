@@ -1,0 +1,36 @@
+Casos confirmados de residentes de SP, ano do caso 2019-2020: 18975 {np.int64(2019): 18109, np.int64(2020): 866}
+
+Casos por faixa etaria e situacao vacinal registrada (CS_VACINA):
+       casos   pct  vacinado_%  nao_vacinado_%  ignorado_%
+faixa                                                     
+<1      3504  18.5        32.0            61.0         7.0
+1-4     2714  14.3        71.0            19.0        10.0
+5-9      476   2.5        70.0            15.0        15.0
+10-14    342   1.8        61.0            22.0        16.0
+15-19   2322  12.2        46.0            35.0        19.0
+20-24   2841  15.0        35.0            43.0        22.0
+25-29   2995  15.8        35.0            43.0        23.0
+30-39   2519  13.3        32.0            41.0        28.0
+40-49    733   3.9        27.0            46.0        27.0
+50+      529   2.8        19.0            54.0        27.0
+TPAUTOCTO (1 = autoctone do municipio de residencia, 2 = nao, 3 = indeterminado): {'1': 15016, '3': 3434, '2': 525}
+
+Cobertura historica (1a dose), mediana municipal: {1995: 95.3, 1996: 92.6, 1997: 112.0, 1998: 106.9, 1999: 100.0, 2000: 105.3, 2001: 105.3, 2002: 107.5, 2003: 124.3, 2004: 102.2, 2005: 101.0, 2006: 104.8, 2007: 103.1, 2008: 98.9, 2009: 101.9, 2010: 98.0, 2011: 100.7}
+Municipio-anos 1995-2004 com cobertura > 100%: 60%
+
+Razao de chances por 1 DP de cobertura, ajustada por log pop, distancia, log PIB pc e arranjo:
+  >=2 casos autoctones (175 municipios):
+    d1_media           0.79 (0.58-1.09) p=0.157
+    cob_coorte_95_04   1.40 (1.05-1.86) p=0.021
+    cob_coorte_95_99   1.29 (0.95-1.74) p=0.106
+    cob_coorte_00_04   1.38 (1.03-1.85) p=0.032
+  >=1 caso de 15-39 anos (199 municipios):
+    d1_media           1.12 (0.84-1.50) p=0.429
+    cob_coorte_95_04   1.28 (0.97-1.69) p=0.077
+    cob_coorte_95_99   1.15 (0.85-1.54) p=0.359
+    cob_coorte_00_04   1.34 (1.02-1.78) p=0.039
+  >=2 casos de 15-39 anos (150 municipios):
+    d1_media           1.06 (0.73-1.54) p=0.748
+    cob_coorte_95_04   1.49 (1.06-2.09) p=0.020
+    cob_coorte_95_99   1.44 (1.01-2.03) p=0.041
+    cob_coorte_00_04   1.33 (0.93-1.92) p=0.120

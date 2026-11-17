@@ -1,0 +1,65 @@
+alvo,cv,conjunto,modelo,auc
+A.,estratificada 5x,so populacao,logistica,0.8714603131853336
+A.,estratificada 5x,so populacao,boosting,0.8551181178100111
+A.,estratificada 5x,so cobertura D1+D2,logistica,0.6270439767611865
+A.,estratificada 5x,so cobertura D1+D2,boosting,0.5947780000769497
+A.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.8709938055480743
+A.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.8569889577161325
+A.,estratificada 5x,estrutura + cobertura,logistica,0.8692816744257628
+A.,estratificada 5x,estrutura + cobertura,boosting,0.8504193759378245
+A.,espacial por RRAS,so populacao,logistica,0.8680023854411143
+A.,espacial por RRAS,so populacao,boosting,0.8509195490746796
+A.,espacial por RRAS,so cobertura D1+D2,logistica,0.569552922165365
+A.,espacial por RRAS,so cobertura D1+D2,boosting,0.6128756107883497
+A.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.8653764764726251
+A.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.8468700704089878
+A.,espacial por RRAS,estrutura + cobertura,logistica,0.864039475202955
+A.,espacial por RRAS,estrutura + cobertura,boosting,0.8371840252395059
+B.,estratificada 5x,so populacao,logistica,0.8682157360913837
+B.,estratificada 5x,so populacao,boosting,0.8564726828975534
+B.,estratificada 5x,so cobertura D1+D2,logistica,0.6439074159281413
+B.,estratificada 5x,so cobertura D1+D2,boosting,0.6511342949166783
+B.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.8654450157040832
+B.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.8518014683817792
+B.,estratificada 5x,estrutura + cobertura,logistica,0.8646648128513412
+B.,estratificada 5x,estrutura + cobertura,boosting,0.8477504151079281
+B.,espacial por RRAS,so populacao,logistica,0.8623142016924401
+B.,espacial por RRAS,so populacao,boosting,0.8522465841118692
+B.,espacial por RRAS,so cobertura D1+D2,logistica,0.603436893592334
+B.,espacial por RRAS,so cobertura D1+D2,boosting,0.6134645007702002
+B.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.8590033408686257
+B.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.8408636245423811
+B.,espacial por RRAS,estrutura + cobertura,logistica,0.8568427791225719
+B.,espacial por RRAS,estrutura + cobertura,boosting,0.8424390341488788
+C.,estratificada 5x,so populacao,logistica,0.908498480243161
+C.,estratificada 5x,so populacao,boosting,0.8997325227963526
+C.,estratificada 5x,so cobertura D1+D2,logistica,0.654273556231003
+C.,estratificada 5x,so cobertura D1+D2,boosting,0.6391732522796353
+C.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.908449848024316
+C.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.8891793313069908
+C.,estratificada 5x,estrutura + cobertura,logistica,0.9088632218844985
+C.,estratificada 5x,estrutura + cobertura,boosting,0.8875379939209727
+C.,espacial por RRAS,so populacao,logistica,0.905969604863222
+C.,espacial por RRAS,so populacao,boosting,0.8928206686930091
+C.,espacial por RRAS,so cobertura D1+D2,logistica,0.6207659574468085
+C.,espacial por RRAS,so cobertura D1+D2,boosting,0.6340243161094226
+C.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.9045592705167173
+C.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.8878419452887538
+C.,espacial por RRAS,estrutura + cobertura,logistica,0.9024316109422492
+C.,espacial por RRAS,estrutura + cobertura,boosting,0.8861033434650456
+D.,estratificada 5x,so populacao,logistica,0.7082847990681421
+D.,estratificada 5x,so populacao,boosting,0.7286054892253931
+D.,estratificada 5x,so cobertura D1+D2,logistica,0.5161255096097845
+D.,estratificada 5x,so cobertura D1+D2,boosting,0.5426798194525335
+D.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.7440302853814794
+D.,estratificada 5x,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.7839982527664532
+D.,estratificada 5x,estrutura + cobertura,logistica,0.7388067850902738
+D.,estratificada 5x,estrutura + cobertura,boosting,0.7625946418171229
+D.,espacial por RRAS,so populacao,logistica,0.6933605125218405
+D.,espacial por RRAS,so populacao,boosting,0.7017690739662202
+D.,espacial por RRAS,so cobertura D1+D2,logistica,0.3777300524170064
+D.,espacial por RRAS,so cobertura D1+D2,boosting,0.505105198019802
+D.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",logistica,0.7240463016889923
+D.,espacial por RRAS,"estrutura (pop, dens, dist, REGIC, arranjo, PIB)",boosting,0.7505096097845079
+D.,espacial por RRAS,estrutura + cobertura,logistica,0.7167661619103086
+D.,espacial por RRAS,estrutura + cobertura,boosting,0.7333102795573675

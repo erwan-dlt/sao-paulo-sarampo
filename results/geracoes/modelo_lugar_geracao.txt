@@ -1,0 +1,10 @@
+1) Nivel municipio: % da populacao em geracoes de risco (2019)
+   % dose unica (nascidos ~1989-2001): media 18.9%, desvio-padrao 2.1 pp
+   % bebes (nascidos ~2018-2019): media 2.65%, desvio-padrao 0.38 pp
+   alvo >=1 caso: AUC lugar 0.865 -> lugar + geracoes 0.864
+   alvo >=2 autoctones: AUC lugar 0.905 -> lugar + geracoes 0.904
+
+2) Nivel municipio x geracao: 3870 grupos, 18905 casos
+   so lugar        : deviance explicada  13.9% | AUC ">=1 caso no grupo" 0.895 | AUC ">=2 casos no grupo" 0.887
+   so geracao      : deviance explicada   5.1% | AUC ">=1 caso no grupo" 0.526 | AUC ">=2 casos no grupo" 0.900
+   lugar + geracao : deviance explicada  33.9% | AUC ">=1 caso no grupo" 0.906 | AUC ">=2 casos no grupo" 0.920

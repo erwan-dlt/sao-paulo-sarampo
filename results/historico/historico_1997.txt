@@ -1,0 +1,10 @@
+Municipios com internacao por sarampo em 1997-98 (SIH): 72 de 645
+  desses, com caso em 2019-20: 85%; sem internacao em 1997-98: 45%
+  correlacao (Spearman) internacoes 1997-98 x log populacao: 0.39
+  correlacao (Spearman) internacoes 1997-98 x casos 2019-20: 0.38
+  so municipios > 100 mil hab (n=79): Spearman int 97-98 por hab x incidencia 2019-20 = 0.43
+
+Historico de 1997 como variavel do classificador (validacao espacial: 1 RRAS de fora por vez):
+  >=1 caso (316 pos): AUC so historico 0.453 | estrutura 0.865 -> +historico 0.865 (-0.001) | OR ajustado 1.03 (0.68-1.57) p=0.872
+  >=2 autoctones (175 pos): AUC so historico 0.495 | estrutura 0.905 -> +historico 0.903 (-0.002) | OR ajustado 1.04 (0.73-1.49) p=0.824
+  incidencia >=20/100 mil (101 pos): AUC so historico 0.504 | estrutura 0.724 -> +historico 0.717 (-0.007) | OR ajustado 1.43 (1.13-1.81) p=0.003
