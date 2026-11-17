@@ -1,0 +1,1936 @@
+co_ibge,nome,ano,var_id,variavel,unidade,valor
+350010,Adamantina - SP,2022,93,População residente,Pessoas,34687
+350020,Adolfo - SP,2022,93,População residente,Pessoas,4351
+350030,Aguaí - SP,2022,93,População residente,Pessoas,32072
+350040,Águas da Prata - SP,2022,93,População residente,Pessoas,7369
+350050,Águas de Lindóia - SP,2022,93,População residente,Pessoas,17930
+350055,Águas de Santa Bárbara - SP,2022,93,População residente,Pessoas,7177
+350060,Águas de São Pedro - SP,2022,93,População residente,Pessoas,2780
+350070,Agudos - SP,2022,93,População residente,Pessoas,37680
+350075,Alambari - SP,2022,93,População residente,Pessoas,6141
+350080,Alfredo Marcondes - SP,2022,93,População residente,Pessoas,4445
+350090,Altair - SP,2022,93,População residente,Pessoas,3451
+350100,Altinópolis - SP,2022,93,População residente,Pessoas,16818
+350110,Alto Alegre - SP,2022,93,População residente,Pessoas,3841
+350115,Alumínio - SP,2022,93,População residente,Pessoas,17301
+350120,Álvares Florence - SP,2022,93,População residente,Pessoas,3915
+350130,Álvares Machado - SP,2022,93,População residente,Pessoas,27255
+350140,Álvaro de Carvalho - SP,2022,93,População residente,Pessoas,4808
+350150,Alvinlândia - SP,2022,93,População residente,Pessoas,2885
+350160,Americana - SP,2022,93,População residente,Pessoas,237240
+350170,Américo Brasiliense - SP,2022,93,População residente,Pessoas,33019
+350180,Américo de Campos - SP,2022,93,População residente,Pessoas,5870
+350190,Amparo - SP,2022,93,População residente,Pessoas,68008
+350200,Analândia - SP,2022,93,População residente,Pessoas,4589
+350210,Andradina - SP,2022,93,População residente,Pessoas,59783
+350220,Angatuba - SP,2022,93,População residente,Pessoas,24022
+350230,Anhembi - SP,2022,93,População residente,Pessoas,5674
+350240,Anhumas - SP,2022,93,População residente,Pessoas,4023
+350250,Aparecida - SP,2022,93,População residente,Pessoas,32569
+350260,Aparecida d'Oeste - SP,2022,93,População residente,Pessoas,4086
+350270,Apiaí - SP,2022,93,População residente,Pessoas,24585
+350275,Araçariguama - SP,2022,93,População residente,Pessoas,21522
+350280,Araçatuba - SP,2022,93,População residente,Pessoas,200124
+350290,Araçoiaba da Serra - SP,2022,93,População residente,Pessoas,32443
+350300,Aramina - SP,2022,93,População residente,Pessoas,5420
+350310,Arandu - SP,2022,93,População residente,Pessoas,6885
+350315,Arapeí - SP,2022,93,População residente,Pessoas,2330
+350320,Araraquara - SP,2022,93,População residente,Pessoas,242228
+350330,Araras - SP,2022,93,População residente,Pessoas,130866
+350335,Arco-Íris - SP,2022,93,População residente,Pessoas,2044
+350340,Arealva - SP,2022,93,População residente,Pessoas,8130
+350350,Areias - SP,2022,93,População residente,Pessoas,3577
+350360,Areiópolis - SP,2022,93,População residente,Pessoas,10130
+350370,Ariranha - SP,2022,93,População residente,Pessoas,7602
+350380,Artur Nogueira - SP,2022,93,População residente,Pessoas,51456
+350390,Arujá - SP,2022,93,População residente,Pessoas,86678
+350395,Aspásia - SP,2022,93,População residente,Pessoas,1842
+350400,Assis - SP,2022,93,População residente,Pessoas,101409
+350410,Atibaia - SP,2022,93,População residente,Pessoas,158647
+350420,Auriflama - SP,2022,93,População residente,Pessoas,13692
+350430,Avaí - SP,2022,93,População residente,Pessoas,4483
+350440,Avanhandava - SP,2022,93,População residente,Pessoas,11263
+350450,Avaré - SP,2022,93,População residente,Pessoas,92805
+350460,Bady Bassitt - SP,2022,93,População residente,Pessoas,27260
+350470,Balbinos - SP,2022,93,População residente,Pessoas,3887
+350480,Bálsamo - SP,2022,93,População residente,Pessoas,9596
+350490,Bananal - SP,2022,93,População residente,Pessoas,9969
+350500,Barão de Antonina - SP,2022,93,População residente,Pessoas,3531
+350510,Barbosa - SP,2022,93,População residente,Pessoas,5640
+350520,Bariri - SP,2022,93,População residente,Pessoas,31595
+350530,Barra Bonita - SP,2022,93,População residente,Pessoas,34346
+350535,Barra do Chapéu - SP,2022,93,População residente,Pessoas,5179
+350540,Barra do Turvo - SP,2022,93,População residente,Pessoas,6876
+350550,Barretos - SP,2022,93,População residente,Pessoas,122485
+350560,Barrinha - SP,2022,93,População residente,Pessoas,32092
+350570,Barueri - SP,2022,93,População residente,Pessoas,316473
+350580,Bastos - SP,2022,93,População residente,Pessoas,21503
+350590,Batatais - SP,2022,93,População residente,Pessoas,58402
+350600,Bauru - SP,2022,93,População residente,Pessoas,379146
+350610,Bebedouro - SP,2022,93,População residente,Pessoas,76373
+350620,Bento de Abreu - SP,2022,93,População residente,Pessoas,2606
+350630,Bernardino de Campos - SP,2022,93,População residente,Pessoas,11607
+350635,Bertioga - SP,2022,93,População residente,Pessoas,64188
+350640,Bilac - SP,2022,93,População residente,Pessoas,7319
+350650,Birigui - SP,2022,93,População residente,Pessoas,118979
+350660,Biritiba Mirim - SP,2022,93,População residente,Pessoas,29683
+350670,Boa Esperança do Sul - SP,2022,93,População residente,Pessoas,12978
+350680,Bocaina - SP,2022,93,População residente,Pessoas,11259
+350690,Bofete - SP,2022,93,População residente,Pessoas,10460
+350700,Boituva - SP,2022,93,População residente,Pessoas,61081
+350710,Bom Jesus dos Perdões - SP,2022,93,População residente,Pessoas,22006
+350715,Bom Sucesso de Itararé - SP,2022,93,População residente,Pessoas,3555
+350720,Borá - SP,2022,93,População residente,Pessoas,907
+350730,Boracéia - SP,2022,93,População residente,Pessoas,4715
+350740,Borborema - SP,2022,93,População residente,Pessoas,14226
+350745,Borebi - SP,2022,93,População residente,Pessoas,2713
+350750,Botucatu - SP,2022,93,População residente,Pessoas,145155
+350760,Bragança Paulista - SP,2022,93,População residente,Pessoas,176811
+350770,Braúna - SP,2022,93,População residente,Pessoas,5356
+350775,Brejo Alegre - SP,2022,93,População residente,Pessoas,2565
+350780,Brodowski - SP,2022,93,População residente,Pessoas,25201
+350790,Brotas - SP,2022,93,População residente,Pessoas,23898
+350800,Buri - SP,2022,93,População residente,Pessoas,20250
+350810,Buritama - SP,2022,93,População residente,Pessoas,17210
+350820,Buritizal - SP,2022,93,População residente,Pessoas,4356
+350830,Cabrália Paulista - SP,2022,93,População residente,Pessoas,4299
+350840,Cabreúva - SP,2022,93,População residente,Pessoas,47011
+350850,Caçapava - SP,2022,93,População residente,Pessoas,96202
+350860,Cachoeira Paulista - SP,2022,93,População residente,Pessoas,31564
+350870,Caconde - SP,2022,93,População residente,Pessoas,17101
+350880,Cafelândia - SP,2022,93,População residente,Pessoas,16654
+350890,Caiabu - SP,2022,93,População residente,Pessoas,3712
+350900,Caieiras - SP,2022,93,População residente,Pessoas,95032
+350910,Caiuá - SP,2022,93,População residente,Pessoas,5466
+350920,Cajamar - SP,2022,93,População residente,Pessoas,92689
+350925,Cajati - SP,2022,93,População residente,Pessoas,28515
+350930,Cajobi - SP,2022,93,População residente,Pessoas,9133
+350940,Cajuru - SP,2022,93,População residente,Pessoas,23830
+350945,Campina do Monte Alegre - SP,2022,93,População residente,Pessoas,5954
+350950,Campinas - SP,2022,93,População residente,Pessoas,1139047
+350960,Campo Limpo Paulista - SP,2022,93,População residente,Pessoas,77632
+350970,Campos do Jordão - SP,2022,93,População residente,Pessoas,46974
+350980,Campos Novos Paulista - SP,2022,93,População residente,Pessoas,4888
+350990,Cananéia - SP,2022,93,População residente,Pessoas,12289
+350995,Canas - SP,2022,93,População residente,Pessoas,4931
+351000,Cândido Mota - SP,2022,93,População residente,Pessoas,29449
+351010,Cândido Rodrigues - SP,2022,93,População residente,Pessoas,2889
+351015,Canitar - SP,2022,93,População residente,Pessoas,6283
+351020,Capão Bonito - SP,2022,93,População residente,Pessoas,46337
+351030,Capela do Alto - SP,2022,93,População residente,Pessoas,22866
+351040,Capivari - SP,2022,93,População residente,Pessoas,50068
+351050,Caraguatatuba - SP,2022,93,População residente,Pessoas,134873
+351060,Carapicuíba - SP,2022,93,População residente,Pessoas,386984
+351070,Cardoso - SP,2022,93,População residente,Pessoas,11345
+351080,Casa Branca - SP,2022,93,População residente,Pessoas,28083
+351090,Cássia dos Coqueiros - SP,2022,93,População residente,Pessoas,2799
+351100,Castilho - SP,2022,93,População residente,Pessoas,19977
+351110,Catanduva - SP,2022,93,População residente,Pessoas,115791
+351120,Catiguá - SP,2022,93,População residente,Pessoas,7003
+351130,Cedral - SP,2022,93,População residente,Pessoas,12618
+351140,Cerqueira César - SP,2022,93,População residente,Pessoas,21469
+351150,Cerquilho - SP,2022,93,População residente,Pessoas,44695
+351160,Cesário Lange - SP,2022,93,População residente,Pessoas,19048
+351170,Charqueada - SP,2022,93,População residente,Pessoas,15535
+351190,Clementina - SP,2022,93,População residente,Pessoas,6982
+351200,Colina - SP,2022,93,População residente,Pessoas,18486
+351210,Colômbia - SP,2022,93,População residente,Pessoas,6629
+351220,Conchal - SP,2022,93,População residente,Pessoas,28101
+351230,Conchas - SP,2022,93,População residente,Pessoas,15232
+351240,Cordeirópolis - SP,2022,93,População residente,Pessoas,24514
+351250,Coroados - SP,2022,93,População residente,Pessoas,5400
+351260,Coronel Macedo - SP,2022,93,População residente,Pessoas,4280
+351270,Corumbataí - SP,2022,93,População residente,Pessoas,4195
+351280,Cosmópolis - SP,2022,93,População residente,Pessoas,59773
+351290,Cosmorama - SP,2022,93,População residente,Pessoas,8719
+351300,Cotia - SP,2022,93,População residente,Pessoas,274413
+351310,Cravinhos - SP,2022,93,População residente,Pessoas,33281
+351320,Cristais Paulista - SP,2022,93,População residente,Pessoas,9272
+351330,Cruzália - SP,2022,93,População residente,Pessoas,2108
+351340,Cruzeiro - SP,2022,93,População residente,Pessoas,74961
+351350,Cubatão - SP,2022,93,População residente,Pessoas,112476
+351360,Cunha - SP,2022,93,População residente,Pessoas,22110
+351370,Descalvado - SP,2022,93,População residente,Pessoas,31756
+351380,Diadema - SP,2022,93,População residente,Pessoas,393237
+351385,Dirce Reis - SP,2022,93,População residente,Pessoas,1620
+351390,Divinolândia - SP,2022,93,População residente,Pessoas,11158
+351400,Dobrada - SP,2022,93,População residente,Pessoas,8759
+351410,Dois Córregos - SP,2022,93,População residente,Pessoas,24510
+351420,Dolcinópolis - SP,2022,93,População residente,Pessoas,2207
+351430,Dourado - SP,2022,93,População residente,Pessoas,8096
+351440,Dracena - SP,2022,93,População residente,Pessoas,45474
+351450,Duartina - SP,2022,93,População residente,Pessoas,12328
+351460,Dumont - SP,2022,93,População residente,Pessoas,9471
+351470,Echaporã - SP,2022,93,População residente,Pessoas,6205
+351480,Eldorado - SP,2022,93,População residente,Pessoas,13069
+351490,Elias Fausto - SP,2022,93,População residente,Pessoas,17699
+351492,Elisiário - SP,2022,93,População residente,Pessoas,3138
+351495,Embaúba - SP,2022,93,População residente,Pessoas,2323
+351500,Embu das Artes - SP,2022,93,População residente,Pessoas,250691
+351510,Embu-Guaçu - SP,2022,93,População residente,Pessoas,66970
+351512,Emilianópolis - SP,2022,93,População residente,Pessoas,3014
+351515,Engenheiro Coelho - SP,2022,93,População residente,Pessoas,19566
+351518,Espírito Santo do Pinhal - SP,2022,93,População residente,Pessoas,39816
+351519,Espírito Santo do Turvo - SP,2022,93,População residente,Pessoas,4157
+351520,Estrela d'Oeste - SP,2022,93,População residente,Pessoas,9417
+351530,Estrela do Norte - SP,2022,93,População residente,Pessoas,2703
+351535,Euclides da Cunha Paulista - SP,2022,93,População residente,Pessoas,7924
+351540,Fartura - SP,2022,93,População residente,Pessoas,16641
+351550,Fernandópolis - SP,2022,93,População residente,Pessoas,71186
+351560,Fernando Prestes - SP,2022,93,População residente,Pessoas,5942
+351565,Fernão - SP,2022,93,População residente,Pessoas,1656
+351570,Ferraz de Vasconcelos - SP,2022,93,População residente,Pessoas,179198
+351580,Flora Rica - SP,2022,93,População residente,Pessoas,1487
+351590,Floreal - SP,2022,93,População residente,Pessoas,2733
+351600,Flórida Paulista - SP,2022,93,População residente,Pessoas,12958
+351610,Florínea - SP,2022,93,População residente,Pessoas,3851
+351620,Franca - SP,2022,93,População residente,Pessoas,352536
+351630,Francisco Morato - SP,2022,93,População residente,Pessoas,165139
+351640,Franco da Rocha - SP,2022,93,População residente,Pessoas,144849
+351650,Gabriel Monteiro - SP,2022,93,População residente,Pessoas,2763
+351660,Gália - SP,2022,93,População residente,Pessoas,6380
+351670,Garça - SP,2022,93,População residente,Pessoas,42110
+351680,Gastão Vidigal - SP,2022,93,População residente,Pessoas,3252
+351685,Gavião Peixoto - SP,2022,93,População residente,Pessoas,4702
+351690,General Salgado - SP,2022,93,População residente,Pessoas,10312
+351700,Getulina - SP,2022,93,População residente,Pessoas,10232
+351710,Glicério - SP,2022,93,População residente,Pessoas,4138
+351720,Guaiçara - SP,2022,93,População residente,Pessoas,11239
+351730,Guaimbê - SP,2022,93,População residente,Pessoas,5512
+351740,Guaíra - SP,2022,93,População residente,Pessoas,39279
+351750,Guapiaçu - SP,2022,93,População residente,Pessoas,21711
+351760,Guapiara - SP,2022,93,População residente,Pessoas,17071
+351770,Guará - SP,2022,93,População residente,Pessoas,18606
+351780,Guaraçaí - SP,2022,93,População residente,Pessoas,7441
+351790,Guaraci - SP,2022,93,População residente,Pessoas,10350
+351800,Guarani d'Oeste - SP,2022,93,População residente,Pessoas,1968
+351810,Guarantã - SP,2022,93,População residente,Pessoas,6427
+351820,Guararapes - SP,2022,93,População residente,Pessoas,31043
+351830,Guararema - SP,2022,93,População residente,Pessoas,31236
+351840,Guaratinguetá - SP,2022,93,População residente,Pessoas,118044
+351850,Guareí - SP,2022,93,População residente,Pessoas,15013
+351860,Guariba - SP,2022,93,População residente,Pessoas,37498
+351870,Guarujá - SP,2022,93,População residente,Pessoas,287634
+351880,Guarulhos - SP,2022,93,População residente,Pessoas,1291771
+351885,Guatapará - SP,2022,93,População residente,Pessoas,7320
+351890,Guzolândia - SP,2022,93,População residente,Pessoas,4246
+351900,Herculândia - SP,2022,93,População residente,Pessoas,9125
+351905,Holambra - SP,2022,93,População residente,Pessoas,15094
+351907,Hortolândia - SP,2022,93,População residente,Pessoas,236641
+351910,Iacanga - SP,2022,93,População residente,Pessoas,10437
+351920,Iacri - SP,2022,93,População residente,Pessoas,6131
+351925,Iaras - SP,2022,93,População residente,Pessoas,8010
+351930,Ibaté - SP,2022,93,População residente,Pessoas,32178
+351940,Ibirá - SP,2022,93,População residente,Pessoas,11690
+351950,Ibirarema - SP,2022,93,População residente,Pessoas,6385
+351960,Ibitinga - SP,2022,93,População residente,Pessoas,60033
+351970,Ibiúna - SP,2022,93,População residente,Pessoas,75605
+351980,Icém - SP,2022,93,População residente,Pessoas,7819
+351990,Iepê - SP,2022,93,População residente,Pessoas,7619
+352000,Igaraçu do Tietê - SP,2022,93,População residente,Pessoas,23106
+352010,Igarapava - SP,2022,93,População residente,Pessoas,26212
+352020,Igaratá - SP,2022,93,População residente,Pessoas,10605
+352030,Iguape - SP,2022,93,População residente,Pessoas,29115
+352040,Ilhabela - SP,2022,93,População residente,Pessoas,34934
+352042,Ilha Comprida - SP,2022,93,População residente,Pessoas,13419
+352044,Ilha Solteira - SP,2022,93,População residente,Pessoas,25549
+352050,Indaiatuba - SP,2022,93,População residente,Pessoas,255748
+352060,Indiana - SP,2022,93,População residente,Pessoas,5090
+352070,Indiaporã - SP,2022,93,População residente,Pessoas,4035
+352080,Inúbia Paulista - SP,2022,93,População residente,Pessoas,3615
+352090,Ipaussu - SP,2022,93,População residente,Pessoas,13712
+352100,Iperó - SP,2022,93,População residente,Pessoas,36459
+352110,Ipeúna - SP,2022,93,População residente,Pessoas,6831
+352115,Ipiguá - SP,2022,93,População residente,Pessoas,6761
+352120,Iporanga - SP,2022,93,População residente,Pessoas,4046
+352130,Ipuã - SP,2022,93,População residente,Pessoas,14454
+352140,Iracemápolis - SP,2022,93,População residente,Pessoas,21967
+352150,Irapuã - SP,2022,93,População residente,Pessoas,6867
+352160,Irapuru - SP,2022,93,População residente,Pessoas,7085
+352170,Itaberá - SP,2022,93,População residente,Pessoas,17983
+352180,Itaí - SP,2022,93,População residente,Pessoas,25180
+352190,Itajobi - SP,2022,93,População residente,Pessoas,16989
+352200,Itaju - SP,2022,93,População residente,Pessoas,3618
+352210,Itanhaém - SP,2022,93,População residente,Pessoas,112476
+352215,Itaoca - SP,2022,93,População residente,Pessoas,3422
+352220,Itapecerica da Serra - SP,2022,93,População residente,Pessoas,158522
+352230,Itapetininga - SP,2022,93,População residente,Pessoas,157790
+352240,Itapeva - SP,2022,93,População residente,Pessoas,89728
+352250,Itapevi - SP,2022,93,População residente,Pessoas,232297
+352260,Itapira - SP,2022,93,População residente,Pessoas,72022
+352265,Itapirapuã Paulista - SP,2022,93,População residente,Pessoas,4306
+352270,Itápolis - SP,2022,93,População residente,Pessoas,39493
+352280,Itaporanga - SP,2022,93,População residente,Pessoas,14085
+352290,Itapuí - SP,2022,93,População residente,Pessoas,13659
+352300,Itapura - SP,2022,93,População residente,Pessoas,3979
+352310,Itaquaquecetuba - SP,2022,93,População residente,Pessoas,369275
+352320,Itararé - SP,2022,93,População residente,Pessoas,44438
+352330,Itariri - SP,2022,93,População residente,Pessoas,15528
+352340,Itatiba - SP,2022,93,População residente,Pessoas,121590
+352350,Itatinga - SP,2022,93,População residente,Pessoas,19070
+352360,Itirapina - SP,2022,93,População residente,Pessoas,16148
+352370,Itirapuã - SP,2022,93,População residente,Pessoas,5779
+352380,Itobi - SP,2022,93,População residente,Pessoas,8046
+352390,Itu - SP,2022,93,População residente,Pessoas,168240
+352400,Itupeva - SP,2022,93,População residente,Pessoas,70616
+352410,Ituverava - SP,2022,93,População residente,Pessoas,37571
+352420,Jaborandi - SP,2022,93,População residente,Pessoas,6221
+352430,Jaboticabal - SP,2022,93,População residente,Pessoas,71821
+352440,Jacareí - SP,2022,93,População residente,Pessoas,240275
+352450,Jaci - SP,2022,93,População residente,Pessoas,7613
+352460,Jacupiranga - SP,2022,93,População residente,Pessoas,16097
+352470,Jaguariúna - SP,2022,93,População residente,Pessoas,59347
+352480,Jales - SP,2022,93,População residente,Pessoas,48776
+352490,Jambeiro - SP,2022,93,População residente,Pessoas,6397
+352500,Jandira - SP,2022,93,População residente,Pessoas,118045
+352510,Jardinópolis - SP,2022,93,População residente,Pessoas,45282
+352520,Jarinu - SP,2022,93,População residente,Pessoas,37535
+352530,Jaú - SP,2022,93,População residente,Pessoas,133497
+352540,Jeriquara - SP,2022,93,População residente,Pessoas,3863
+352550,Joanópolis - SP,2022,93,População residente,Pessoas,12815
+352560,João Ramalho - SP,2022,93,População residente,Pessoas,4371
+352570,José Bonifácio - SP,2022,93,População residente,Pessoas,36633
+352580,Júlio Mesquita - SP,2022,93,População residente,Pessoas,4254
+352585,Jumirim - SP,2022,93,População residente,Pessoas,3056
+352590,Jundiaí - SP,2022,93,População residente,Pessoas,443221
+352600,Junqueirópolis - SP,2022,93,População residente,Pessoas,20448
+352610,Juquiá - SP,2022,93,População residente,Pessoas,17154
+352620,Juquitiba - SP,2022,93,População residente,Pessoas,27404
+352630,Lagoinha - SP,2022,93,População residente,Pessoas,5083
+352640,Laranjal Paulista - SP,2022,93,População residente,Pessoas,26261
+352650,Lavínia - SP,2022,93,População residente,Pessoas,9689
+352660,Lavrinhas - SP,2022,93,População residente,Pessoas,7171
+352670,Leme - SP,2022,93,População residente,Pessoas,98161
+352680,Lençóis Paulista - SP,2022,93,População residente,Pessoas,66505
+352690,Limeira - SP,2022,93,População residente,Pessoas,291869
+352700,Lindóia - SP,2022,93,População residente,Pessoas,7014
+352710,Lins - SP,2022,93,População residente,Pessoas,74779
+352720,Lorena - SP,2022,93,População residente,Pessoas,84855
+352725,Lourdes - SP,2022,93,População residente,Pessoas,1950
+352730,Louveira - SP,2022,93,População residente,Pessoas,51847
+352740,Lucélia - SP,2022,93,População residente,Pessoas,20061
+352750,Lucianópolis - SP,2022,93,População residente,Pessoas,2372
+352760,Luís Antônio - SP,2022,93,População residente,Pessoas,12265
+352770,Luiziânia - SP,2022,93,População residente,Pessoas,4701
+352780,Lupércio - SP,2022,93,População residente,Pessoas,3981
+352790,Lutécia - SP,2022,93,População residente,Pessoas,2661
+352800,Macatuba - SP,2022,93,População residente,Pessoas,16829
+352810,Macaubal - SP,2022,93,População residente,Pessoas,7481
+352820,Macedônia - SP,2022,93,População residente,Pessoas,3963
+352830,Magda - SP,2022,93,População residente,Pessoas,3165
+352840,Mairinque - SP,2022,93,População residente,Pessoas,50027
+352850,Mairiporã - SP,2022,93,População residente,Pessoas,93853
+352860,Manduri - SP,2022,93,População residente,Pessoas,9871
+352870,Marabá Paulista - SP,2022,93,População residente,Pessoas,4573
+352880,Maracaí - SP,2022,93,População residente,Pessoas,12673
+352885,Marapoama - SP,2022,93,População residente,Pessoas,3292
+352890,Mariápolis - SP,2022,93,População residente,Pessoas,3513
+352900,Marília - SP,2022,93,População residente,Pessoas,237627
+352910,Marinópolis - SP,2022,93,População residente,Pessoas,1860
+352920,Martinópolis - SP,2022,93,População residente,Pessoas,24881
+352930,Matão - SP,2022,93,População residente,Pessoas,79033
+352940,Mauá - SP,2022,93,População residente,Pessoas,418261
+352950,Mendonça - SP,2022,93,População residente,Pessoas,6159
+352960,Meridiano - SP,2022,93,População residente,Pessoas,4572
+352965,Mesópolis - SP,2022,93,População residente,Pessoas,1952
+352970,Miguelópolis - SP,2022,93,População residente,Pessoas,19441
+352980,Mineiros do Tietê - SP,2022,93,População residente,Pessoas,11230
+352990,Miracatu - SP,2022,93,População residente,Pessoas,18553
+353000,Mira Estrela - SP,2022,93,População residente,Pessoas,3126
+353010,Mirandópolis - SP,2022,93,População residente,Pessoas,27983
+353020,Mirante do Paranapanema - SP,2022,93,População residente,Pessoas,15917
+353030,Mirassol - SP,2022,93,População residente,Pessoas,63337
+353040,Mirassolândia - SP,2022,93,População residente,Pessoas,4669
+353050,Mococa - SP,2022,93,População residente,Pessoas,67681
+353060,Mogi das Cruzes - SP,2022,93,População residente,Pessoas,451505
+353070,Mogi Guaçu - SP,2022,93,População residente,Pessoas,153658
+353080,Mogi Mirim - SP,2022,93,População residente,Pessoas,92558
+353090,Mombuca - SP,2022,93,População residente,Pessoas,3722
+353100,Monções - SP,2022,93,População residente,Pessoas,1937
+353110,Mongaguá - SP,2022,93,População residente,Pessoas,61951
+353120,Monte Alegre do Sul - SP,2022,93,População residente,Pessoas,8627
+353130,Monte Alto - SP,2022,93,População residente,Pessoas,47574
+353140,Monte Aprazível - SP,2022,93,População residente,Pessoas,22280
+353150,Monte Azul Paulista - SP,2022,93,População residente,Pessoas,18151
+353160,Monte Castelo - SP,2022,93,População residente,Pessoas,4222
+353170,Monteiro Lobato - SP,2022,93,População residente,Pessoas,4138
+353180,Monte Mor - SP,2022,93,População residente,Pessoas,64662
+353190,Morro Agudo - SP,2022,93,População residente,Pessoas,27933
+353200,Morungaba - SP,2022,93,População residente,Pessoas,13720
+353205,Motuca - SP,2022,93,População residente,Pessoas,4034
+353210,Murutinga do Sul - SP,2022,93,População residente,Pessoas,3737
+353215,Nantes - SP,2022,93,População residente,Pessoas,2660
+353220,Narandiba - SP,2022,93,População residente,Pessoas,5713
+353230,Natividade da Serra - SP,2022,93,População residente,Pessoas,6999
+353240,Nazaré Paulista - SP,2022,93,População residente,Pessoas,18217
+353250,Neves Paulista - SP,2022,93,População residente,Pessoas,9699
+353260,Nhandeara - SP,2022,93,População residente,Pessoas,9852
+353270,Nipoã - SP,2022,93,População residente,Pessoas,4750
+353280,Nova Aliança - SP,2022,93,População residente,Pessoas,6693
+353282,Nova Campina - SP,2022,93,População residente,Pessoas,8497
+353284,Nova Canaã Paulista - SP,2022,93,População residente,Pessoas,2032
+353286,Nova Castilho - SP,2022,93,População residente,Pessoas,1062
+353290,Nova Europa - SP,2022,93,População residente,Pessoas,9311
+353300,Nova Granada - SP,2022,93,População residente,Pessoas,19419
+353310,Nova Guataporanga - SP,2022,93,População residente,Pessoas,2156
+353320,Nova Independência - SP,2022,93,População residente,Pessoas,4609
+353325,Novais - SP,2022,93,População residente,Pessoas,4412
+353330,Nova Luzitânia - SP,2022,93,População residente,Pessoas,2837
+353340,Nova Odessa - SP,2022,93,População residente,Pessoas,62019
+353350,Novo Horizonte - SP,2022,93,População residente,Pessoas,38324
+353360,Nuporanga - SP,2022,93,População residente,Pessoas,7391
+353370,Ocauçu - SP,2022,93,População residente,Pessoas,4331
+353380,Óleo - SP,2022,93,População residente,Pessoas,2512
+353390,Olímpia - SP,2022,93,População residente,Pessoas,55074
+353400,Onda Verde - SP,2022,93,População residente,Pessoas,4771
+353410,Oriente - SP,2022,93,População residente,Pessoas,6085
+353420,Orindiúva - SP,2022,93,População residente,Pessoas,6024
+353430,Orlândia - SP,2022,93,População residente,Pessoas,38319
+353440,Osasco - SP,2022,93,População residente,Pessoas,728615
+353450,Oscar Bressane - SP,2022,93,População residente,Pessoas,2470
+353460,Osvaldo Cruz - SP,2022,93,População residente,Pessoas,31272
+353470,Ourinhos - SP,2022,93,População residente,Pessoas,103970
+353475,Ouroeste - SP,2022,93,População residente,Pessoas,10294
+353480,Ouro Verde - SP,2022,93,População residente,Pessoas,7779
+353490,Pacaembu - SP,2022,93,População residente,Pessoas,14877
+353500,Palestina - SP,2022,93,População residente,Pessoas,11476
+353510,Palmares Paulista - SP,2022,93,População residente,Pessoas,9650
+353520,Palmeira d'Oeste - SP,2022,93,População residente,Pessoas,8903
+353530,Palmital - SP,2022,93,População residente,Pessoas,19594
+353540,Panorama - SP,2022,93,População residente,Pessoas,14964
+353550,Paraguaçu Paulista - SP,2022,93,População residente,Pessoas,41120
+353560,Paraibuna - SP,2022,93,População residente,Pessoas,17667
+353570,Paraíso - SP,2022,93,População residente,Pessoas,6099
+353580,Paranapanema - SP,2022,93,População residente,Pessoas,19395
+353590,Paranapuã - SP,2022,93,População residente,Pessoas,4031
+353600,Parapuã - SP,2022,93,População residente,Pessoas,10580
+353610,Pardinho - SP,2022,93,População residente,Pessoas,7153
+353620,Pariquera-Açu - SP,2022,93,População residente,Pessoas,19233
+353625,Parisi - SP,2022,93,População residente,Pessoas,2892
+353630,Patrocínio Paulista - SP,2022,93,População residente,Pessoas,14512
+353640,Paulicéia - SP,2022,93,População residente,Pessoas,7955
+353650,Paulínia - SP,2022,93,População residente,Pessoas,110537
+353657,Paulistânia - SP,2022,93,População residente,Pessoas,2090
+353660,Paulo de Faria - SP,2022,93,População residente,Pessoas,7400
+353670,Pederneiras - SP,2022,93,População residente,Pessoas,44827
+353680,Pedra Bela - SP,2022,93,População residente,Pessoas,6557
+353690,Pedranópolis - SP,2022,93,População residente,Pessoas,2787
+353700,Pedregulho - SP,2022,93,População residente,Pessoas,15525
+353710,Pedreira - SP,2022,93,População residente,Pessoas,43112
+353715,Pedrinhas Paulista - SP,2022,93,População residente,Pessoas,2804
+353720,Pedro de Toledo - SP,2022,93,População residente,Pessoas,11281
+353730,Penápolis - SP,2022,93,População residente,Pessoas,61679
+353740,Pereira Barreto - SP,2022,93,População residente,Pessoas,24095
+353750,Pereiras - SP,2022,93,População residente,Pessoas,8737
+353760,Peruíbe - SP,2022,93,População residente,Pessoas,68352
+353770,Piacatu - SP,2022,93,População residente,Pessoas,5519
+353780,Piedade - SP,2022,93,População residente,Pessoas,52970
+353790,Pilar do Sul - SP,2022,93,População residente,Pessoas,27619
+353800,Pindamonhangaba - SP,2022,93,População residente,Pessoas,165428
+353810,Pindorama - SP,2022,93,População residente,Pessoas,14542
+353820,Pinhalzinho - SP,2022,93,População residente,Pessoas,15224
+353830,Piquerobi - SP,2022,93,População residente,Pessoas,3264
+353850,Piquete - SP,2022,93,População residente,Pessoas,12490
+353860,Piracaia - SP,2022,93,População residente,Pessoas,26029
+353870,Piracicaba - SP,2022,93,População residente,Pessoas,423323
+353880,Piraju - SP,2022,93,População residente,Pessoas,29436
+353890,Pirajuí - SP,2022,93,População residente,Pessoas,22431
+353900,Pirangi - SP,2022,93,População residente,Pessoas,10885
+353910,Pirapora do Bom Jesus - SP,2022,93,População residente,Pessoas,18370
+353920,Pirapozinho - SP,2022,93,População residente,Pessoas,25348
+353930,Pirassununga - SP,2022,93,População residente,Pessoas,73545
+353940,Piratininga - SP,2022,93,População residente,Pessoas,15108
+353950,Pitangueiras - SP,2022,93,População residente,Pessoas,33674
+353960,Planalto - SP,2022,93,População residente,Pessoas,4389
+353970,Platina - SP,2022,93,População residente,Pessoas,3025
+353980,Poá - SP,2022,93,População residente,Pessoas,103765
+353990,Poloni - SP,2022,93,População residente,Pessoas,5592
+354000,Pompéia - SP,2022,93,População residente,Pessoas,20196
+354010,Pongaí - SP,2022,93,População residente,Pessoas,3395
+354020,Pontal - SP,2022,93,População residente,Pessoas,37607
+354025,Pontalinda - SP,2022,93,População residente,Pessoas,4127
+354030,Pontes Gestal - SP,2022,93,População residente,Pessoas,2387
+354040,Populina - SP,2022,93,População residente,Pessoas,4127
+354050,Porangaba - SP,2022,93,População residente,Pessoas,10451
+354060,Porto Feliz - SP,2022,93,População residente,Pessoas,56497
+354070,Porto Ferreira - SP,2022,93,População residente,Pessoas,52649
+354075,Potim - SP,2022,93,População residente,Pessoas,20392
+354080,Potirendaba - SP,2022,93,População residente,Pessoas,18496
+354085,Pracinha - SP,2022,93,População residente,Pessoas,2578
+354090,Pradópolis - SP,2022,93,População residente,Pessoas,17078
+354100,Praia Grande - SP,2022,93,População residente,Pessoas,349935
+354105,Pratânia - SP,2022,93,População residente,Pessoas,5126
+354110,Presidente Alves - SP,2022,93,População residente,Pessoas,3804
+354120,Presidente Bernardes - SP,2022,93,População residente,Pessoas,14490
+354130,Presidente Epitácio - SP,2022,93,População residente,Pessoas,39505
+354140,Presidente Prudente - SP,2022,93,População residente,Pessoas,225668
+354150,Presidente Venceslau - SP,2022,93,População residente,Pessoas,35201
+354160,Promissão - SP,2022,93,População residente,Pessoas,35131
+354165,Quadra - SP,2022,93,População residente,Pessoas,3405
+354170,Quatá - SP,2022,93,População residente,Pessoas,13163
+354180,Queiroz - SP,2022,93,População residente,Pessoas,3265
+354190,Queluz - SP,2022,93,População residente,Pessoas,9159
+354200,Quintana - SP,2022,93,População residente,Pessoas,7038
+354210,Rafard - SP,2022,93,População residente,Pessoas,8965
+354220,Rancharia - SP,2022,93,População residente,Pessoas,28588
+354230,Redenção da Serra - SP,2022,93,População residente,Pessoas,4494
+354240,Regente Feijó - SP,2022,93,População residente,Pessoas,20145
+354250,Reginópolis - SP,2022,93,População residente,Pessoas,7662
+354260,Registro - SP,2022,93,População residente,Pessoas,59947
+354270,Restinga - SP,2022,93,População residente,Pessoas,6404
+354280,Ribeira - SP,2022,93,População residente,Pessoas,3132
+354290,Ribeirão Bonito - SP,2022,93,População residente,Pessoas,10989
+354300,Ribeirão Branco - SP,2022,93,População residente,Pessoas,18627
+354310,Ribeirão Corrente - SP,2022,93,População residente,Pessoas,4608
+354320,Ribeirão do Sul - SP,2022,93,População residente,Pessoas,4677
+354323,Ribeirão dos Índios - SP,2022,93,População residente,Pessoas,2025
+354325,Ribeirão Grande - SP,2022,93,População residente,Pessoas,7450
+354330,Ribeirão Pires - SP,2022,93,População residente,Pessoas,115559
+354340,Ribeirão Preto - SP,2022,93,População residente,Pessoas,698642
+354350,Riversul - SP,2022,93,População residente,Pessoas,5599
+354360,Rifaina - SP,2022,93,População residente,Pessoas,4049
+354370,Rincão - SP,2022,93,População residente,Pessoas,9098
+354380,Rinópolis - SP,2022,93,População residente,Pessoas,9259
+354390,Rio Claro - SP,2022,93,População residente,Pessoas,201418
+354400,Rio das Pedras - SP,2022,93,População residente,Pessoas,31328
+354410,Rio Grande da Serra - SP,2022,93,População residente,Pessoas,44170
+354420,Riolândia - SP,2022,93,População residente,Pessoas,10309
+354425,Rosana - SP,2022,93,População residente,Pessoas,17440
+354430,Roseira - SP,2022,93,População residente,Pessoas,10832
+354440,Rubiácea - SP,2022,93,População residente,Pessoas,2700
+354450,Rubinéia - SP,2022,93,População residente,Pessoas,3833
+354460,Sabino - SP,2022,93,População residente,Pessoas,5112
+354470,Sagres - SP,2022,93,População residente,Pessoas,2474
+354480,Sales - SP,2022,93,População residente,Pessoas,6437
+354490,Sales Oliveira - SP,2022,93,População residente,Pessoas,11411
+354500,Salesópolis - SP,2022,93,População residente,Pessoas,15202
+354510,Salmourão - SP,2022,93,População residente,Pessoas,4808
+354515,Saltinho - SP,2022,93,População residente,Pessoas,8161
+354520,Salto - SP,2022,93,População residente,Pessoas,134319
+354530,Salto de Pirapora - SP,2022,93,População residente,Pessoas,43748
+354540,Salto Grande - SP,2022,93,População residente,Pessoas,9050
+354550,Sandovalina - SP,2022,93,População residente,Pessoas,3645
+354560,Santa Adélia - SP,2022,93,População residente,Pessoas,14018
+354570,Santa Albertina - SP,2022,93,População residente,Pessoas,6393
+354580,Santa Bárbara d'Oeste - SP,2022,93,População residente,Pessoas,183347
+354600,Santa Branca - SP,2022,93,População residente,Pessoas,13975
+354610,Santa Clara d'Oeste - SP,2022,93,População residente,Pessoas,2598
+354620,Santa Cruz da Conceição - SP,2022,93,População residente,Pessoas,4277
+354625,Santa Cruz da Esperança - SP,2022,93,População residente,Pessoas,2116
+354630,Santa Cruz das Palmeiras - SP,2022,93,População residente,Pessoas,28864
+354640,Santa Cruz do Rio Pardo - SP,2022,93,População residente,Pessoas,46442
+354650,Santa Ernestina - SP,2022,93,População residente,Pessoas,6118
+354660,Santa Fé do Sul - SP,2022,93,População residente,Pessoas,34794
+354670,Santa Gertrudes - SP,2022,93,População residente,Pessoas,23611
+354680,Santa Isabel - SP,2022,93,População residente,Pessoas,53174
+354690,Santa Lúcia - SP,2022,93,População residente,Pessoas,7149
+354700,Santa Maria da Serra - SP,2022,93,População residente,Pessoas,5243
+354710,Santa Mercedes - SP,2022,93,População residente,Pessoas,2956
+354720,Santana da Ponte Pensa - SP,2022,93,População residente,Pessoas,1670
+354730,Santana de Parnaíba - SP,2022,93,População residente,Pessoas,154105
+354740,Santa Rita d'Oeste - SP,2022,93,População residente,Pessoas,2733
+354750,Santa Rita do Passa Quatro - SP,2022,93,População residente,Pessoas,24833
+354760,Santa Rosa de Viterbo - SP,2022,93,População residente,Pessoas,23411
+354765,Santa Salete - SP,2022,93,População residente,Pessoas,1645
+354770,Santo Anastácio - SP,2022,93,População residente,Pessoas,17963
+354780,Santo André - SP,2022,93,População residente,Pessoas,748919
+354790,Santo Antônio da Alegria - SP,2022,93,População residente,Pessoas,6775
+354800,Santo Antônio de Posse - SP,2022,93,População residente,Pessoas,23244
+354805,Santo Antônio do Aracanguá - SP,2022,93,População residente,Pessoas,8379
+354810,Santo Antônio do Jardim - SP,2022,93,População residente,Pessoas,6126
+354820,Santo Antônio do Pinhal - SP,2022,93,População residente,Pessoas,7133
+354830,Santo Expedito - SP,2022,93,População residente,Pessoas,3000
+354840,Santópolis do Aguapeí - SP,2022,93,População residente,Pessoas,3899
+354850,Santos - SP,2022,93,População residente,Pessoas,418608
+354860,São Bento do Sapucaí - SP,2022,93,População residente,Pessoas,11674
+354870,São Bernardo do Campo - SP,2022,93,População residente,Pessoas,810729
+354880,São Caetano do Sul - SP,2022,93,População residente,Pessoas,165655
+354890,São Carlos - SP,2022,93,População residente,Pessoas,254857
+354900,São Francisco - SP,2022,93,População residente,Pessoas,2602
+354910,São João da Boa Vista - SP,2022,93,População residente,Pessoas,92547
+354920,São João das Duas Pontes - SP,2022,93,População residente,Pessoas,2580
+354925,São João de Iracema - SP,2022,93,População residente,Pessoas,1846
+354930,São João do Pau d'Alho - SP,2022,93,População residente,Pessoas,2242
+354940,São Joaquim da Barra - SP,2022,93,População residente,Pessoas,48558
+354950,São José da Bela Vista - SP,2022,93,População residente,Pessoas,7626
+354960,São José do Barreiro - SP,2022,93,População residente,Pessoas,3853
+354970,São José do Rio Pardo - SP,2022,93,População residente,Pessoas,52205
+354980,São José do Rio Preto - SP,2022,93,População residente,Pessoas,480393
+354990,São José dos Campos - SP,2022,93,População residente,Pessoas,697054
+354995,São Lourenço da Serra - SP,2022,93,População residente,Pessoas,16067
+355000,São Luiz do Paraitinga - SP,2022,93,População residente,Pessoas,10337
+355010,São Manuel - SP,2022,93,População residente,Pessoas,37289
+355020,São Miguel Arcanjo - SP,2022,93,População residente,Pessoas,32039
+355030,São Paulo - SP,2022,93,População residente,Pessoas,11451999
+355040,São Pedro - SP,2022,93,População residente,Pessoas,38256
+355050,São Pedro do Turvo - SP,2022,93,População residente,Pessoas,7217
+355060,São Roque - SP,2022,93,População residente,Pessoas,79484
+355070,São Sebastião - SP,2022,93,População residente,Pessoas,81595
+355080,São Sebastião da Grama - SP,2022,93,População residente,Pessoas,10441
+355090,São Simão - SP,2022,93,População residente,Pessoas,13442
+355100,São Vicente - SP,2022,93,População residente,Pessoas,329911
+355110,Sarapuí - SP,2022,93,População residente,Pessoas,10369
+355120,Sarutaiá - SP,2022,93,População residente,Pessoas,3704
+355130,Sebastianópolis do Sul - SP,2022,93,População residente,Pessoas,3130
+355140,Serra Azul - SP,2022,93,População residente,Pessoas,12746
+355150,Serrana - SP,2022,93,População residente,Pessoas,43909
+355160,Serra Negra - SP,2022,93,População residente,Pessoas,29894
+355170,Sertãozinho - SP,2022,93,População residente,Pessoas,126887
+355180,Sete Barras - SP,2022,93,População residente,Pessoas,12730
+355190,Severínia - SP,2022,93,População residente,Pessoas,14576
+355200,Silveiras - SP,2022,93,População residente,Pessoas,6186
+355210,Socorro - SP,2022,93,População residente,Pessoas,40122
+355220,Sorocaba - SP,2022,93,População residente,Pessoas,723682
+355230,Sud Mennucci - SP,2022,93,População residente,Pessoas,7355
+355240,Sumaré - SP,2022,93,População residente,Pessoas,279545
+355250,Suzano - SP,2022,93,População residente,Pessoas,307429
+355255,Suzanápolis - SP,2022,93,População residente,Pessoas,3408
+355260,Tabapuã - SP,2022,93,População residente,Pessoas,11323
+355270,Tabatinga - SP,2022,93,População residente,Pessoas,14769
+355280,Taboão da Serra - SP,2022,93,População residente,Pessoas,273542
+355290,Taciba - SP,2022,93,População residente,Pessoas,6260
+355300,Taguaí - SP,2022,93,População residente,Pessoas,12669
+355310,Taiaçu - SP,2022,93,População residente,Pessoas,5677
+355320,Taiúva - SP,2022,93,População residente,Pessoas,6548
+355330,Tambaú - SP,2022,93,População residente,Pessoas,21435
+355340,Tanabi - SP,2022,93,População residente,Pessoas,25265
+355350,Tapiraí - SP,2022,93,População residente,Pessoas,7996
+355360,Tapiratiba - SP,2022,93,População residente,Pessoas,11816
+355365,Taquaral - SP,2022,93,População residente,Pessoas,2619
+355370,Taquaritinga - SP,2022,93,População residente,Pessoas,52260
+355380,Taquarituba - SP,2022,93,População residente,Pessoas,24350
+355385,Taquarivaí - SP,2022,93,População residente,Pessoas,6876
+355390,Tarabai - SP,2022,93,População residente,Pessoas,6536
+355395,Tarumã - SP,2022,93,População residente,Pessoas,14882
+355400,Tatuí - SP,2022,93,População residente,Pessoas,123942
+355410,Taubaté - SP,2022,93,População residente,Pessoas,310739
+355420,Tejupá - SP,2022,93,População residente,Pessoas,4127
+355430,Teodoro Sampaio - SP,2022,93,População residente,Pessoas,22173
+355440,Terra Roxa - SP,2022,93,População residente,Pessoas,7904
+355450,Tietê - SP,2022,93,População residente,Pessoas,37663
+355460,Timburi - SP,2022,93,População residente,Pessoas,2464
+355465,Torre de Pedra - SP,2022,93,População residente,Pessoas,2046
+355470,Torrinha - SP,2022,93,População residente,Pessoas,9335
+355475,Trabiju - SP,2022,93,População residente,Pessoas,1682
+355480,Tremembé - SP,2022,93,População residente,Pessoas,51173
+355490,Três Fronteiras - SP,2022,93,População residente,Pessoas,6804
+355495,Tuiuti - SP,2022,93,População residente,Pessoas,6778
+355500,Tupã - SP,2022,93,População residente,Pessoas,63928
+355510,Tupi Paulista - SP,2022,93,População residente,Pessoas,15854
+355520,Turiúba - SP,2022,93,População residente,Pessoas,1818
+355530,Turmalina - SP,2022,93,População residente,Pessoas,1669
+355535,Ubarana - SP,2022,93,População residente,Pessoas,5365
+355540,Ubatuba - SP,2022,93,População residente,Pessoas,92981
+355550,Ubirajara - SP,2022,93,População residente,Pessoas,5132
+355560,Uchoa - SP,2022,93,População residente,Pessoas,10394
+355570,União Paulista - SP,2022,93,População residente,Pessoas,1603
+355580,Urânia - SP,2022,93,População residente,Pessoas,8833
+355590,Uru - SP,2022,93,População residente,Pessoas,1387
+355600,Urupês - SP,2022,93,População residente,Pessoas,13744
+355610,Valentim Gentil - SP,2022,93,População residente,Pessoas,14098
+355620,Valinhos - SP,2022,93,População residente,Pessoas,126373
+355630,Valparaíso - SP,2022,93,População residente,Pessoas,24241
+355635,Vargem - SP,2022,93,População residente,Pessoas,10512
+355640,Vargem Grande do Sul - SP,2022,93,População residente,Pessoas,40133
+355645,Vargem Grande Paulista - SP,2022,93,População residente,Pessoas,50415
+355650,Várzea Paulista - SP,2022,93,População residente,Pessoas,115771
+355660,Vera Cruz - SP,2022,93,População residente,Pessoas,10176
+355670,Vinhedo - SP,2022,93,População residente,Pessoas,76540
+355680,Viradouro - SP,2022,93,População residente,Pessoas,17414
+355690,Vista Alegre do Alto - SP,2022,93,População residente,Pessoas,8109
+355695,Vitória Brasil - SP,2022,93,População residente,Pessoas,1794
+355700,Votorantim - SP,2022,93,População residente,Pessoas,127923
+355710,Votuporanga - SP,2022,93,População residente,Pessoas,96634
+355715,Zacarias - SP,2022,93,População residente,Pessoas,2692
+355720,Chavantes - SP,2022,93,População residente,Pessoas,12211
+355730,Estiva Gerbi - SP,2022,93,População residente,Pessoas,11295
+350010,Adamantina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,411.987
+350020,Adolfo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,211.055
+350030,Aguaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,474.554
+350040,Águas da Prata - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,142.673
+350050,Águas de Lindóia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,60.126
+350055,Águas de Santa Bárbara - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,404.463
+350060,Águas de São Pedro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,3.612
+350070,Agudos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,966.708
+350075,Alambari - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,159.600
+350080,Alfredo Marcondes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,118.915
+350090,Altair - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,313.007
+350100,Altinópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,928.956
+350110,Alto Alegre - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,318.574
+350115,Alumínio - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,83.619
+350120,Álvares Florence - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,362.411
+350130,Álvares Machado - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,347.647
+350140,Álvaro de Carvalho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,153.662
+350150,Alvinlândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,84.879
+350160,Americana - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,133.912
+350170,Américo Brasiliense - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,122.958
+350180,Américo de Campos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,252.876
+350190,Amparo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,445.323
+350200,Analândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,325.953
+350210,Andradina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,964.226
+350220,Angatuba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1027.288
+350230,Anhembi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,736.557
+350240,Anhumas - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,320.840
+350250,Aparecida - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,120.890
+350260,Aparecida d'Oeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,179.004
+350270,Apiaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,974.322
+350275,Araçariguama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,145.204
+350280,Araçatuba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1167.126
+350290,Araçoiaba da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,255.305
+350300,Aramina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,202.829
+350310,Arandu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,285.908
+350315,Arapeí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,156.903
+350320,Araraquara - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1003.625
+350330,Araras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,644.831
+350335,Arco-Íris - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,264.904
+350340,Arealva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,506.226
+350350,Areias - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,305.227
+350360,Areiópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,85.907
+350370,Ariranha - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,132.624
+350380,Artur Nogueira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,178.026
+350390,Arujá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,96.167
+350395,Aspásia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,69.373
+350400,Assis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,460.609
+350410,Atibaia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,478.521
+350420,Auriflama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,434.498
+350430,Avaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,540.689
+350440,Avanhandava - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,338.370
+350450,Avaré - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1213.055
+350460,Bady Bassitt - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,110.372
+350470,Balbinos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,91.635
+350480,Bálsamo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,149.881
+350490,Bananal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,616.429
+350500,Barão de Antonina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,153.142
+350510,Barbosa - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,205.212
+350520,Bariri - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,444.405
+350530,Barra Bonita - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,150.121
+350535,Barra do Chapéu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,405.681
+350540,Barra do Turvo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1007.684
+350550,Barretos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1566.161
+350560,Barrinha - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,146.025
+350570,Barueri - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,65.701
+350580,Bastos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,170.912
+350590,Batatais - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,849.526
+350600,Bauru - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,667.684
+350610,Bebedouro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,683.192
+350620,Bento de Abreu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,301.687
+350630,Bernardino de Campos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,244.158
+350635,Bertioga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,491.546
+350640,Bilac - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,158.025
+350650,Birigui - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,530.031
+350660,Biritiba Mirim - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,317.406
+350670,Boa Esperança do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,690.748
+350680,Bocaina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,363.926
+350690,Bofete - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,653.541
+350700,Boituva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,248.954
+350710,Bom Jesus dos Perdões - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,108.366
+350715,Bom Sucesso de Itararé - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,133.578
+350720,Borá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,118.951
+350730,Boracéia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,122.110
+350740,Borborema - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,552.256
+350745,Borebi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,347.989
+350750,Botucatu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1482.642
+350760,Bragança Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,512.584
+350770,Braúna - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,195.176
+350775,Brejo Alegre - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,105.689
+350780,Brodowski - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,278.458
+350790,Brotas - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1101.373
+350800,Buri - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1196.463
+350810,Buritama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,326.921
+350820,Buritizal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,266.420
+350830,Cabrália Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,239.974
+350840,Cabreúva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,260.234
+350850,Caçapava - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,368.990
+350860,Cachoeira Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,287.990
+350870,Caconde - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,468.214
+350880,Cafelândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,920.280
+350890,Caiabu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,253.352
+350900,Caieiras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,97.642
+350910,Caiuá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,551.159
+350920,Cajamar - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,131.386
+350925,Cajati - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,454.436
+350930,Cajobi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,176.929
+350940,Cajuru - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,660.088
+350945,Campina do Monte Alegre - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,184.479
+350950,Campinas - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,794.571
+350960,Campo Limpo Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,79.403
+350970,Campos do Jordão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,289.981
+350980,Campos Novos Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,484.199
+350990,Cananéia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1237.354
+350995,Canas - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,53.261
+351000,Cândido Mota - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,595.811
+351010,Cândido Rodrigues - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,70.892
+351015,Canitar - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,57.459
+351020,Capão Bonito - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1640.229
+351030,Capela do Alto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,169.890
+351040,Capivari - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,322.878
+351050,Caraguatatuba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,484.947
+351060,Carapicuíba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,34.546
+351070,Cardoso - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,639.248
+351080,Casa Branca - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,864.225
+351090,Cássia dos Coqueiros - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,191.683
+351100,Castilho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1065.318
+351110,Catanduva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,290.596
+351120,Catiguá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,148.393
+351130,Cedral - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,197.838
+351140,Cerqueira César - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,511.621
+351150,Cerquilho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,127.803
+351160,Cesário Lange - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,190.392
+351170,Charqueada - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,175.846
+351190,Clementina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,168.590
+351200,Colina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,422.303
+351210,Colômbia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,728.648
+351220,Conchal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,182.793
+351230,Conchas - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,466.120
+351240,Cordeirópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,137.579
+351250,Coroados - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,246.825
+351260,Coronel Macedo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,303.830
+351270,Corumbataí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,278.622
+351280,Cosmópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,154.665
+351290,Cosmorama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,441.680
+351300,Cotia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,323.994
+351310,Cravinhos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,311.423
+351320,Cristais Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,385.230
+351330,Cruzália - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,149.330
+351340,Cruzeiro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,305.699
+351350,Cubatão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,142.879
+351360,Cunha - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1407.250
+351370,Descalvado - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,753.706
+351380,Diadema - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,30.732
+351385,Dirce Reis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,88.133
+351390,Divinolândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,223.749
+351400,Dobrada - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,149.729
+351410,Dois Córregos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,632.972
+351420,Dolcinópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,77.939
+351430,Dourado - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,205.874
+351440,Dracena - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,487.688
+351450,Duartina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,264.557
+351460,Dumont - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,111.376
+351470,Echaporã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,515.258
+351480,Eldorado - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1654.256
+351490,Elias Fausto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,202.360
+351492,Elisiário - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,93.980
+351495,Embaúba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,83.129
+351500,Embu das Artes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,70.398
+351510,Embu-Guaçu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,155.641
+351512,Emilianópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,225.167
+351515,Engenheiro Coelho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,109.941
+351518,Espírito Santo do Pinhal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,389.235
+351519,Espírito Santo do Turvo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,193.666
+351520,Estrela d'Oeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,296.281
+351530,Estrela do Norte - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,264.987
+351535,Euclides da Cunha Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,573.894
+351540,Fartura - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,429.171
+351550,Fernandópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,549.797
+351560,Fernando Prestes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,169.990
+351565,Fernão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,100.504
+351570,Ferraz de Vasconcelos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,29.547
+351580,Flora Rica - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,224.711
+351590,Floreal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,204.236
+351600,Flórida Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,524.138
+351610,Florínea - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,225.886
+351620,Franca - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,605.679
+351630,Francisco Morato - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,49.001
+351640,Franco da Rocha - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,132.775
+351650,Gabriel Monteiro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,138.681
+351660,Gália - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,355.914
+351670,Garça - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,555.807
+351680,Gastão Vidigal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,180.569
+351685,Gavião Peixoto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,243.766
+351690,General Salgado - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,494.376
+351700,Getulina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,676.755
+351710,Glicério - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,272.800
+351720,Guaiçara - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,277.154
+351730,Guaimbê - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,217.811
+351740,Guaíra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1258.465
+351750,Guapiaçu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,325.126
+351760,Guapiara - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,408.292
+351770,Guará - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,362.183
+351780,Guaraçaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,569.197
+351790,Guaraci - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,641.501
+351800,Guarani d'Oeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,85.700
+351810,Guarantã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,461.746
+351820,Guararapes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,955.637
+351830,Guararema - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,270.816
+351840,Guaratinguetá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,752.636
+351850,Guareí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,567.884
+351860,Guariba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,270.289
+351870,Guarujá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,144.794
+351880,Guarulhos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,318.675
+351885,Guatapará - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,413.567
+351890,Guzolândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,252.477
+351900,Herculândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,364.252
+351905,Holambra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,65.577
+351907,Hortolândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,62.416
+351910,Iacanga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,547.393
+351920,Iacri - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,321.948
+351925,Iaras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,401.381
+351930,Ibaté - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,290.978
+351940,Ibirá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,271.912
+351950,Ibirarema - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,228.230
+351960,Ibitinga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,689.391
+351970,Ibiúna - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1058.082
+351980,Icém - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,362.355
+351990,Iepê - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,594.974
+352000,Igaraçu do Tietê - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,97.747
+352010,Igarapava - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,468.355
+352020,Igaratá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,292.953
+352030,Iguape - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1978.795
+352040,Ilhabela - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,346.389
+352042,Ilha Comprida - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,196.567
+352044,Ilha Solteira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,652.641
+352050,Indaiatuba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,311.545
+352060,Indiana - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,129.367
+352070,Indiaporã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,279.606
+352080,Inúbia Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,87.119
+352090,Ipaussu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,209.554
+352100,Iperó - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,170.289
+352110,Ipeúna - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,190.010
+352115,Ipiguá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,136.028
+352120,Iporanga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1152.059
+352130,Ipuã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,466.461
+352140,Iracemápolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,115.118
+352150,Irapuã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,257.612
+352160,Irapuru - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,214.461
+352170,Itaberá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1100.247
+352180,Itaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1092.884
+352190,Itajobi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,502.066
+352200,Itaju - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,230.355
+352210,Itanhaém - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,601.711
+352215,Itaoca - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,183.015
+352220,Itapecerica da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,150.742
+352230,Itapetininga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1789.350
+352240,Itapeva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1826.258
+352250,Itapevi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,82.658
+352260,Itapira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,518.416
+352265,Itapirapuã Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,406.478
+352270,Itápolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,996.747
+352280,Itaporanga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,507.997
+352290,Itapuí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,140.023
+352300,Itapura - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,301.653
+352310,Itaquaquecetuba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,82.622
+352320,Itararé - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1003.860
+352330,Itariri - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,273.667
+352340,Itatiba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,322.269
+352350,Itatinga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,979.817
+352360,Itirapina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,564.603
+352370,Itirapuã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,161.118
+352380,Itobi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,138.986
+352390,Itu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,640.719
+352400,Itupeva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,200.876
+352410,Ituverava - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,704.659
+352420,Jaborandi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,273.438
+352430,Jaboticabal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,706.602
+352440,Jacareí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,464.272
+352450,Jaci - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,145.133
+352460,Jacupiranga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,704.189
+352470,Jaguariúna - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,141.391
+352480,Jales - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,368.574
+352490,Jambeiro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,184.413
+352500,Jandira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,17.449
+352510,Jardinópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,501.870
+352520,Jarinu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,207.549
+352530,Jaú - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,687.103
+352540,Jeriquara - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,141.971
+352550,Joanópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,374.293
+352560,João Ramalho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,415.452
+352570,José Bonifácio - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,860.200
+352580,Júlio Mesquita - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,128.183
+352585,Jumirim - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,56.685
+352590,Jundiaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,431.204
+352600,Junqueirópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,582.565
+352610,Juquiá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,812.799
+352620,Juquitiba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,522.169
+352630,Lagoinha - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,255.472
+352640,Laranjal Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,384.274
+352650,Lavínia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,537.675
+352660,Lavrinhas - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,167.067
+352670,Leme - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,402.871
+352680,Lençóis Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,809.541
+352690,Limeira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,580.711
+352700,Lindóia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,48.756
+352710,Lins - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,570.058
+352720,Lorena - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,414.160
+352725,Lourdes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,113.940
+352730,Louveira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,55.738
+352740,Lucélia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,314.810
+352750,Lucianópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,189.536
+352760,Luís Antônio - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,598.257
+352770,Luiziânia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,166.576
+352780,Lupércio - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,155.171
+352790,Lutécia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,475.226
+352800,Macatuba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,224.514
+352810,Macaubal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,248.087
+352820,Macedônia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,327.567
+352830,Magda - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,312.282
+352840,Mairinque - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,210.149
+352850,Mairiporã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,320.697
+352860,Manduri - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,229.046
+352870,Marabá Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,919.519
+352880,Maracaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,533.498
+352885,Marapoama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,111.267
+352890,Mariápolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,186.544
+352900,Marília - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1170.515
+352910,Marinópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,77.827
+352920,Martinópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1253.564
+352930,Matão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,524.899
+352940,Mauá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,61.937
+352950,Mendonça - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,195.151
+352960,Meridiano - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,228.199
+352965,Mesópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,148.636
+352970,Miguelópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,820.849
+352980,Mineiros do Tietê - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,213.242
+352990,Miracatu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1001.484
+353000,Mira Estrela - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,216.825
+353010,Mirandópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,917.694
+353020,Mirante do Paranapanema - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1238.931
+353030,Mirassol - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,243.228
+353040,Mirassolândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,166.125
+353050,Mococa - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,855.156
+353060,Mogi das Cruzes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,712.541
+353070,Mogi Guaçu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,812.753
+353080,Mogi Mirim - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,497.708
+353090,Mombuca - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,133.698
+353100,Monções - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,104.352
+353110,Mongaguá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,142.755
+353120,Monte Alegre do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,110.308
+353130,Monte Alto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,346.950
+353140,Monte Aprazível - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,495.559
+353150,Monte Azul Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,263.462
+353160,Monte Castelo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,233.547
+353170,Monteiro Lobato - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,332.742
+353180,Monte Mor - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,240.566
+353190,Morro Agudo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1388.127
+353200,Morungaba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,146.752
+353205,Motuca - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,228.700
+353210,Murutinga do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,250.873
+353215,Nantes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,286.647
+353220,Narandiba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,357.325
+353230,Natividade da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,833.372
+353240,Nazaré Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,326.254
+353250,Neves Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,219.050
+353260,Nhandeara - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,436.159
+353270,Nipoã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,137.609
+353280,Nova Aliança - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,217.515
+353282,Nova Campina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,385.375
+353284,Nova Canaã Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,124.473
+353286,Nova Castilho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,183.396
+353290,Nova Europa - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,160.250
+353300,Nova Granada - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,531.796
+353310,Nova Guataporanga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,34.158
+353320,Nova Independência - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,265.029
+353325,Novais - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,117.772
+353330,Nova Luzitânia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,73.816
+353340,Nova Odessa - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,73.788
+353350,Novo Horizonte - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,931.743
+353360,Nuporanga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,348.265
+353370,Ocauçu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,301.036
+353380,Óleo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,198.938
+353390,Olímpia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,802.555
+353400,Onda Verde - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,242.946
+353410,Oriente - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,218.668
+353420,Orindiúva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,247.378
+353430,Orlândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,291.765
+353440,Osasco - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,64.954
+353450,Oscar Bressane - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,222.130
+353460,Osvaldo Cruz - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,248.038
+353470,Ourinhos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,295.818
+353475,Ouroeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,288.648
+353480,Ouro Verde - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,266.778
+353490,Pacaembu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,339.375
+353500,Palestina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,697.701
+353510,Palmares Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,82.125
+353520,Palmeira d'Oeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,318.740
+353530,Palmital - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,548.407
+353540,Panorama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,356.050
+353550,Paraguaçu Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1001.492
+353560,Paraibuna - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,809.576
+353570,Paraíso - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,155.186
+353580,Paranapanema - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1018.724
+353590,Paranapuã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,140.354
+353600,Parapuã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,366.664
+353610,Pardinho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,209.894
+353620,Pariquera-Açu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,359.414
+353625,Parisi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,84.737
+353630,Patrocínio Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,602.848
+353640,Paulicéia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,374.091
+353650,Paulínia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,138.777
+353657,Paulistânia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,256.178
+353660,Paulo de Faria - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,737.986
+353670,Pederneiras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,727.482
+353680,Pedra Bela - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,158.587
+353690,Pedranópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,260.101
+353700,Pedregulho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,712.604
+353710,Pedreira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,108.817
+353715,Pedrinhas Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,152.309
+353720,Pedro de Toledo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,670.440
+353730,Penápolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,711.315
+353740,Pereira Barreto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,974.247
+353750,Pereiras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,223.136
+353760,Peruíbe - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,326.216
+353770,Piacatu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,232.488
+353780,Piedade - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,746.868
+353790,Pilar do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,681.248
+353800,Pindamonhangaba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,731.355
+353810,Pindorama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,184.825
+353820,Pinhalzinho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,154.529
+353830,Piquerobi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,482.769
+353850,Piquete - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,175.996
+353860,Piracaia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,385.568
+353870,Piracicaba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1378.069
+353880,Piraju - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,504.591
+353890,Pirajuí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,823.758
+353900,Pirangi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,215.809
+353910,Pirapora do Bom Jesus - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,108.489
+353920,Pirapozinho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,477.673
+353930,Pirassununga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,727.118
+353940,Piratininga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,402.409
+353950,Pitangueiras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,430.638
+353960,Planalto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,289.825
+353970,Platina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,327.480
+353980,Poá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,17.264
+353990,Poloni - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,135.120
+354000,Pompéia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,784.674
+354010,Pongaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,183.399
+354020,Pontal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,356.371
+354025,Pontalinda - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,209.525
+354030,Pontes Gestal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,217.505
+354040,Populina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,315.938
+354050,Porangaba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,265.689
+354060,Porto Feliz - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,556.706
+354070,Porto Ferreira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,244.906
+354075,Potim - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,44.643
+354080,Potirendaba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,342.492
+354085,Pracinha - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,63.054
+354090,Pradópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,167.378
+354100,Praia Grande - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,149.652
+354105,Pratânia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,175.100
+354110,Presidente Alves - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,286.642
+354120,Presidente Bernardes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,749.233
+354130,Presidente Epitácio - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1260.281
+354140,Presidente Prudente - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,560.637
+354150,Presidente Venceslau - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,755.203
+354160,Promissão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,779.200
+354165,Quadra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,205.672
+354170,Quatá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,651.341
+354180,Queiroz - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,234.914
+354190,Queluz - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,249.399
+354200,Quintana - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,318.937
+354210,Rafard - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,121.645
+354220,Rancharia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1587.498
+354230,Redenção da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,309.441
+354240,Regente Feijó - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,263.280
+354250,Reginópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,410.406
+354260,Registro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,722.201
+354270,Restinga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,245.746
+354280,Ribeira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,335.759
+354290,Ribeirão Bonito - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,471.553
+354300,Ribeirão Branco - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,697.500
+354310,Ribeirão Corrente - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,148.332
+354320,Ribeirão do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,203.208
+354323,Ribeirão dos Índios - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,196.446
+354325,Ribeirão Grande - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,333.363
+354330,Ribeirão Pires - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,98.972
+354340,Ribeirão Preto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,650.916
+354350,Riversul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,385.878
+354360,Rifaina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,162.508
+354370,Rincão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,316.639
+354380,Rinópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,358.481
+354390,Rio Claro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,498.422
+354400,Rio das Pedras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,226.657
+354410,Rio Grande da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,36.341
+354420,Riolândia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,631.897
+354425,Rosana - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,744.011
+354430,Roseira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,129.847
+354440,Rubiácea - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,236.484
+354450,Rubinéia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,242.877
+354460,Sabino - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,305.285
+354470,Sagres - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,147.935
+354480,Sales - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,308.555
+354490,Sales Oliveira - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,305.776
+354500,Salesópolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,424.997
+354510,Salmourão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,172.934
+354515,Saltinho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,99.738
+354520,Salto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,133.057
+354530,Salto de Pirapora - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,280.412
+354540,Salto Grande - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,188.441
+354550,Sandovalina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,455.856
+354560,Santa Adélia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,330.269
+354570,Santa Albertina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,272.692
+354580,Santa Bárbara d'Oeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,271.030
+354600,Santa Branca - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,272.238
+354610,Santa Clara d'Oeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,183.458
+354620,Santa Cruz da Conceição - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,150.130
+354625,Santa Cruz da Esperança - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,148.062
+354630,Santa Cruz das Palmeiras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,295.337
+354640,Santa Cruz do Rio Pardo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1114.747
+354650,Santa Ernestina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,134.421
+354660,Santa Fé do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,206.537
+354670,Santa Gertrudes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,98.291
+354680,Santa Isabel - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,363.332
+354690,Santa Lúcia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,153.860
+354700,Santa Maria da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,252.621
+354710,Santa Mercedes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,166.753
+354720,Santana da Ponte Pensa - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,129.888
+354730,Santana de Parnaíba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,179.949
+354740,Santa Rita d'Oeste - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,209.800
+354750,Santa Rita do Passa Quatro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,754.141
+354760,Santa Rosa de Viterbo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,288.576
+354765,Santa Salete - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,79.192
+354770,Santo Anastácio - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,552.876
+354780,Santo André - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,175.782
+354790,Santo Antônio da Alegria - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,310.311
+354800,Santo Antônio de Posse - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,154.133
+354805,Santo Antônio do Aracanguá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1308.432
+354810,Santo Antônio do Jardim - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,109.956
+354820,Santo Antônio do Pinhal - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,133.008
+354830,Santo Expedito - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,94.465
+354840,Santópolis do Aguapeí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,128.026
+354850,Santos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,281.033
+354860,São Bento do Sapucaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,252.579
+354870,São Bernardo do Campo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,409.532
+354880,São Caetano do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,15.331
+354890,São Carlos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1136.907
+354900,São Francisco - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,75.579
+354910,São João da Boa Vista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,516.399
+354920,São João das Duas Pontes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,129.462
+354925,São João de Iracema - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,178.396
+354930,São João do Pau d'Alho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,117.665
+354940,São Joaquim da Barra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,410.863
+354950,São José da Bela Vista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,276.952
+354960,São José do Barreiro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,570.685
+354970,São José do Rio Pardo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,419.684
+354980,São José do Rio Preto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,431.944
+354990,São José dos Campos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1099.409
+354995,São Lourenço da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,186.456
+355000,São Luiz do Paraitinga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,617.315
+355010,São Manuel - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,650.734
+355020,São Miguel Arcanjo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,930.339
+355030,São Paulo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1521.202
+355040,São Pedro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,611.278
+355050,São Pedro do Turvo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,731.221
+355060,São Roque - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,306.908
+355070,São Sebastião - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,402.395
+355080,São Sebastião da Grama - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,252.410
+355090,São Simão - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,617.252
+355100,São Vicente - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,148.151
+355110,Sarapuí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,352.592
+355120,Sarutaiá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,141.608
+355130,Sebastianópolis do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,167.848
+355140,Serra Azul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,283.144
+355150,Serrana - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,126.046
+355160,Serra Negra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,203.734
+355170,Sertãozinho - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,403.089
+355180,Sete Barras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1062.699
+355190,Severínia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,140.460
+355200,Silveiras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,414.782
+355210,Socorro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,449.029
+355220,Sorocaba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,449.872
+355230,Sud Mennucci - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,594.744
+355240,Sumaré - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,153.465
+355250,Suzano - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,206.236
+355255,Suzanápolis - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,330.587
+355260,Tabapuã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,345.792
+355270,Tabatinga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,368.604
+355280,Taboão da Serra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,20.388
+355290,Taciba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,607.267
+355300,Taguaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,145.332
+355310,Taiaçu - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,107.059
+355320,Taiúva - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,132.459
+355330,Tambaú - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,561.788
+355340,Tanabi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,747.218
+355350,Tapiraí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,755.100
+355360,Tapiratiba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,221.891
+355365,Taquaral - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,53.892
+355370,Taquaritinga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,594.335
+355380,Taquarituba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,448.515
+355385,Taquarivaí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,231.792
+355390,Tarabai - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,201.385
+355395,Tarumã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,302.913
+355400,Tatuí - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,523.749
+355410,Taubaté - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,625.003
+355420,Tejupá - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,296.189
+355430,Teodoro Sampaio - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,1555.803
+355440,Terra Roxa - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,221.541
+355450,Tietê - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,404.396
+355460,Timburi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,196.790
+355465,Torre de Pedra - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,71.348
+355470,Torrinha - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,315.267
+355475,Trabiju - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,63.421
+355480,Tremembé - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,191.094
+355490,Três Fronteiras - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,151.594
+355495,Tuiuti - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,126.731
+355500,Tupã - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,627.986
+355510,Tupi Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,244.770
+355520,Turiúba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,153.235
+355530,Turmalina - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,147.797
+355535,Ubarana - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,209.861
+355540,Ubatuba - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,708.105
+355550,Ubirajara - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,282.179
+355560,Uchoa - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,252.434
+355570,União Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,79.056
+355580,Urânia - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,209.262
+355590,Uru - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,146.901
+355600,Urupês - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,323.916
+355610,Valentim Gentil - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,149.741
+355620,Valinhos - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,148.538
+355630,Valparaíso - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,857.661
+355635,Vargem - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,142.595
+355640,Vargem Grande do Sul - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,267.178
+355645,Vargem Grande Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,42.489
+355650,Várzea Paulista - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,35.120
+355660,Vera Cruz - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,247.716
+355670,Vinhedo - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,80.950
+355680,Viradouro - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,217.726
+355690,Vista Alegre do Alto - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,95.429
+355695,Vitória Brasil - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,49.832
+355700,Votorantim - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,184.186
+355710,Votuporanga - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,420.703
+355715,Zacarias - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,319.056
+355720,Chavantes - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,188.727
+355730,Estiva Gerbi - SP,2022,6318,Área da unidade territorial,Quilômetros quadrados,74.144
+350010,Adamantina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,84.19
+350020,Adolfo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.62
+350030,Aguaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,67.58
+350040,Águas da Prata - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,51.65
+350050,Águas de Lindóia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,298.21
+350055,Águas de Santa Bárbara - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.74
+350060,Águas de São Pedro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,769.66
+350070,Agudos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,38.98
+350075,Alambari - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,38.48
+350080,Alfredo Marcondes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,37.38
+350090,Altair - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11.03
+350100,Altinópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.10
+350110,Alto Alegre - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.06
+350115,Alumínio - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,206.90
+350120,Álvares Florence - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.80
+350130,Álvares Machado - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,78.40
+350140,Álvaro de Carvalho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.29
+350150,Alvinlândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,33.99
+350160,Americana - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1771.61
+350170,Américo Brasiliense - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,268.54
+350180,Américo de Campos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.21
+350190,Amparo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,152.72
+350200,Analândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.08
+350210,Andradina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,62.00
+350220,Angatuba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.38
+350230,Anhembi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,7.70
+350240,Anhumas - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.54
+350250,Aparecida - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,269.41
+350260,Aparecida d'Oeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.83
+350270,Apiaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.23
+350275,Araçariguama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,148.22
+350280,Araçatuba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,171.47
+350290,Araçoiaba da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,127.08
+350300,Aramina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.72
+350310,Arandu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.08
+350315,Arapeí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.85
+350320,Araraquara - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,241.35
+350330,Araras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,202.95
+350335,Arco-Íris - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,7.72
+350340,Arealva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.06
+350350,Areias - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11.72
+350360,Areiópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,117.92
+350370,Ariranha - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,57.32
+350380,Artur Nogueira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,289.04
+350390,Arujá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,901.33
+350395,Aspásia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.55
+350400,Assis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,220.16
+350410,Atibaia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,331.54
+350420,Auriflama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.51
+350430,Avaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,8.29
+350440,Avanhandava - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,33.29
+350450,Avaré - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,76.51
+350460,Bady Bassitt - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,246.98
+350470,Balbinos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.42
+350480,Bálsamo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,64.02
+350490,Bananal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.17
+350500,Barão de Antonina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.06
+350510,Barbosa - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.48
+350520,Bariri - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,71.10
+350530,Barra Bonita - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,228.79
+350535,Barra do Chapéu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.77
+350540,Barra do Turvo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6.82
+350550,Barretos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,78.21
+350560,Barrinha - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,219.77
+350570,Barueri - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,4816.87
+350580,Bastos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,125.81
+350590,Batatais - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,68.75
+350600,Bauru - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,567.85
+350610,Bebedouro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,111.79
+350620,Bento de Abreu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,8.64
+350630,Bernardino de Campos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,47.54
+350635,Bertioga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,130.58
+350640,Bilac - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,46.32
+350650,Birigui - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,224.48
+350660,Biritiba Mirim - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,93.52
+350670,Boa Esperança do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.79
+350680,Bocaina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,30.94
+350690,Bofete - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.01
+350700,Boituva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,245.35
+350710,Bom Jesus dos Perdões - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,203.07
+350715,Bom Sucesso de Itararé - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.61
+350720,Borá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,7.62
+350730,Boracéia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,38.61
+350740,Borborema - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.76
+350745,Borebi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,7.80
+350750,Botucatu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,97.90
+350760,Bragança Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,344.94
+350770,Braúna - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.44
+350775,Brejo Alegre - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.27
+350780,Brodowski - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,90.50
+350790,Brotas - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.70
+350800,Buri - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.92
+350810,Buritama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,52.64
+350820,Buritizal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.35
+350830,Cabrália Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.91
+350840,Cabreúva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,180.65
+350850,Caçapava - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,260.72
+350860,Cachoeira Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,109.60
+350870,Caconde - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,36.52
+350880,Cafelândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.10
+350890,Caiabu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.65
+350900,Caieiras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,973.27
+350910,Caiuá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.92
+350920,Cajamar - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,705.47
+350925,Cajati - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,62.75
+350930,Cajobi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,51.62
+350940,Cajuru - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,36.10
+350945,Campina do Monte Alegre - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.27
+350950,Campinas - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1433.54
+350960,Campo Limpo Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,977.70
+350970,Campos do Jordão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,161.99
+350980,Campos Novos Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.10
+350990,Cananéia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.93
+350995,Canas - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,92.58
+351000,Cândido Mota - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,49.43
+351010,Cândido Rodrigues - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,40.75
+351015,Canitar - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,109.35
+351020,Capão Bonito - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.25
+351030,Capela do Alto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,134.59
+351040,Capivari - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,155.07
+351050,Caraguatatuba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,278.12
+351060,Carapicuíba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11201.99
+351070,Cardoso - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.75
+351080,Casa Branca - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.50
+351090,Cássia dos Coqueiros - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.60
+351100,Castilho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.75
+351110,Catanduva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,398.46
+351120,Catiguá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,47.19
+351130,Cedral - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,63.78
+351140,Cerqueira César - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.96
+351150,Cerquilho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,349.72
+351160,Cesário Lange - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,100.05
+351170,Charqueada - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,88.34
+351190,Clementina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.41
+351200,Colina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,43.77
+351210,Colômbia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.10
+351220,Conchal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,153.73
+351230,Conchas - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.68
+351240,Cordeirópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,178.18
+351250,Coroados - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.88
+351260,Coronel Macedo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.09
+351270,Corumbataí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.06
+351280,Cosmópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,386.47
+351290,Cosmorama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.74
+351300,Cotia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,846.97
+351310,Cravinhos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,106.87
+351320,Cristais Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.07
+351330,Cruzália - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.12
+351340,Cruzeiro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,245.21
+351350,Cubatão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,787.21
+351360,Cunha - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.71
+351370,Descalvado - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.13
+351380,Diadema - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12795.69
+351385,Dirce Reis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.38
+351390,Divinolândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,49.87
+351400,Dobrada - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,58.50
+351410,Dois Córregos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,38.72
+351420,Dolcinópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.32
+351430,Dourado - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,39.33
+351440,Dracena - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,93.24
+351450,Duartina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,46.60
+351460,Dumont - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,85.04
+351470,Echaporã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.04
+351480,Eldorado - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,7.90
+351490,Elias Fausto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,87.46
+351492,Elisiário - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,33.39
+351495,Embaúba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.94
+351500,Embu das Artes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,3561.05
+351510,Embu-Guaçu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,430.29
+351512,Emilianópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.39
+351515,Engenheiro Coelho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,177.97
+351518,Espírito Santo do Pinhal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,102.29
+351519,Espírito Santo do Turvo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.46
+351520,Estrela d'Oeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.78
+351530,Estrela do Norte - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.20
+351535,Euclides da Cunha Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.81
+351540,Fartura - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,38.77
+351550,Fernandópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,129.48
+351560,Fernando Prestes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.95
+351565,Fernão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.48
+351570,Ferraz de Vasconcelos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6064.85
+351580,Flora Rica - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6.62
+351590,Floreal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.38
+351600,Flórida Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.72
+351610,Florínea - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.05
+351620,Franca - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,582.05
+351630,Francisco Morato - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,3370.11
+351640,Franco da Rocha - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1090.94
+351650,Gabriel Monteiro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.92
+351660,Gália - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.93
+351670,Garça - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,75.76
+351680,Gastão Vidigal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.01
+351685,Gavião Peixoto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.29
+351690,General Salgado - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.86
+351700,Getulina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.12
+351710,Glicério - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.17
+351720,Guaiçara - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,40.55
+351730,Guaimbê - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.31
+351740,Guaíra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.21
+351750,Guapiaçu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,66.78
+351760,Guapiara - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.81
+351770,Guará - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,51.37
+351780,Guaraçaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.07
+351790,Guaraci - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.13
+351800,Guarani d'Oeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.96
+351810,Guarantã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.92
+351820,Guararapes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.48
+351830,Guararema - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,115.34
+351840,Guaratinguetá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,156.84
+351850,Guareí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.44
+351860,Guariba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,138.73
+351870,Guarujá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1986.50
+351880,Guarulhos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,4053.57
+351885,Guatapará - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.70
+351890,Guzolândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.82
+351900,Herculândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.05
+351905,Holambra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,230.17
+351907,Hortolândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,3791.35
+351910,Iacanga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.07
+351920,Iacri - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.04
+351925,Iaras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.96
+351930,Ibaté - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,110.59
+351940,Ibirá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.99
+351950,Ibirarema - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.98
+351960,Ibitinga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,87.08
+351970,Ibiúna - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,71.45
+351980,Icém - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.58
+351990,Iepê - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.81
+352000,Igaraçu do Tietê - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,236.39
+352010,Igarapava - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,55.97
+352020,Igaratá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,36.20
+352030,Iguape - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.71
+352040,Ilhabela - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,100.85
+352042,Ilha Comprida - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,68.27
+352044,Ilha Solteira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,39.15
+352050,Indaiatuba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,820.90
+352060,Indiana - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,39.35
+352070,Indiaporã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.43
+352080,Inúbia Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.49
+352090,Ipaussu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,65.43
+352100,Iperó - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,214.10
+352110,Ipeúna - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,35.95
+352115,Ipiguá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,49.70
+352120,Iporanga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,3.51
+352130,Ipuã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,30.99
+352140,Iracemápolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,190.82
+352150,Irapuã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.66
+352160,Irapuru - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,33.04
+352170,Itaberá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.34
+352180,Itaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.04
+352190,Itajobi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,33.84
+352200,Itaju - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.71
+352210,Itanhaém - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,186.93
+352215,Itaoca - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.70
+352220,Itapecerica da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1051.61
+352230,Itapetininga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,88.18
+352240,Itapeva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,49.13
+352250,Itapevi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,2810.34
+352260,Itapira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,138.93
+352265,Itapirapuã Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.59
+352270,Itápolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,39.62
+352280,Itaporanga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.73
+352290,Itapuí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,97.55
+352300,Itapura - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.19
+352310,Itaquaquecetuba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,4469.45
+352320,Itararé - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,44.27
+352330,Itariri - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,56.74
+352340,Itatiba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,377.29
+352350,Itatinga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.46
+352360,Itirapina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.60
+352370,Itirapuã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,35.87
+352380,Itobi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,57.89
+352390,Itu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,262.58
+352400,Itupeva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,351.54
+352410,Ituverava - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.32
+352420,Jaborandi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.75
+352430,Jaboticabal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,101.64
+352440,Jacareí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,517.53
+352450,Jaci - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,52.46
+352460,Jacupiranga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.86
+352470,Jaguariúna - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,419.74
+352480,Jales - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,132.34
+352490,Jambeiro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.69
+352500,Jandira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6765.14
+352510,Jardinópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,90.23
+352520,Jarinu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,180.85
+352530,Jaú - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,194.29
+352540,Jeriquara - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.21
+352550,Joanópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.24
+352560,João Ramalho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.52
+352570,José Bonifácio - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.59
+352580,Júlio Mesquita - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,33.19
+352585,Jumirim - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.91
+352590,Jundiaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1027.87
+352600,Junqueirópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,35.10
+352610,Juquiá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.10
+352620,Juquitiba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,52.48
+352630,Lagoinha - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.90
+352640,Laranjal Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,68.34
+352650,Lavínia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.02
+352660,Lavrinhas - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.92
+352670,Leme - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,243.65
+352680,Lençóis Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,82.15
+352690,Limeira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,502.61
+352700,Lindóia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,143.86
+352710,Lins - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,131.18
+352720,Lorena - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,204.88
+352725,Lourdes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.11
+352730,Louveira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,930.19
+352740,Lucélia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,63.72
+352750,Lucianópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.51
+352760,Luís Antônio - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.50
+352770,Luiziânia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.22
+352780,Lupércio - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.66
+352790,Lutécia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,5.60
+352800,Macatuba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,74.96
+352810,Macaubal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,30.15
+352820,Macedônia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.10
+352830,Magda - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.14
+352840,Mairinque - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,238.05
+352850,Mairiporã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,292.65
+352860,Manduri - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,43.10
+352870,Marabá Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,4.97
+352880,Maracaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.75
+352885,Marapoama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,29.59
+352890,Mariápolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.83
+352900,Marília - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,203.01
+352910,Marinópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.90
+352920,Martinópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.85
+352930,Matão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,150.57
+352940,Mauá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6753.01
+352950,Mendonça - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.56
+352960,Meridiano - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.04
+352965,Mesópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.13
+352970,Miguelópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.68
+352980,Mineiros do Tietê - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,52.66
+352990,Miracatu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.53
+353000,Mira Estrela - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.42
+353010,Mirandópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,30.49
+353020,Mirante do Paranapanema - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.85
+353030,Mirassol - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,260.40
+353040,Mirassolândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.11
+353050,Mococa - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,79.14
+353060,Mogi das Cruzes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,633.65
+353070,Mogi Guaçu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,189.06
+353080,Mogi Mirim - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,185.97
+353090,Mombuca - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.84
+353100,Monções - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.56
+353110,Mongaguá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,433.97
+353120,Monte Alegre do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,78.21
+353130,Monte Alto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,137.12
+353140,Monte Aprazível - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,44.96
+353150,Monte Azul Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,68.89
+353160,Monte Castelo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.08
+353170,Monteiro Lobato - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.44
+353180,Monte Mor - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,268.79
+353190,Morro Agudo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.12
+353200,Morungaba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,93.49
+353205,Motuca - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.64
+353210,Murutinga do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.90
+353215,Nantes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.28
+353220,Narandiba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.99
+353230,Natividade da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,8.40
+353240,Nazaré Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,55.84
+353250,Neves Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,44.28
+353260,Nhandeara - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.59
+353270,Nipoã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.52
+353280,Nova Aliança - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,30.77
+353282,Nova Campina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.05
+353284,Nova Canaã Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.32
+353286,Nova Castilho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,5.79
+353290,Nova Europa - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,58.10
+353300,Nova Granada - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,36.52
+353310,Nova Guataporanga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,63.12
+353320,Nova Independência - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.39
+353325,Novais - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,37.46
+353330,Nova Luzitânia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,38.43
+353340,Nova Odessa - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,840.50
+353350,Novo Horizonte - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.13
+353360,Nuporanga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.22
+353370,Ocauçu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.39
+353380,Óleo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.63
+353390,Olímpia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,68.62
+353400,Onda Verde - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.64
+353410,Oriente - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.83
+353420,Orindiúva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.35
+353430,Orlândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,131.34
+353440,Osasco - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11217.40
+353450,Oscar Bressane - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11.12
+353460,Osvaldo Cruz - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,126.08
+353470,Ourinhos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,351.47
+353475,Ouroeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,35.66
+353480,Ouro Verde - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,29.16
+353490,Pacaembu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,43.84
+353500,Palestina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.45
+353510,Palmares Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,117.50
+353520,Palmeira d'Oeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.93
+353530,Palmital - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,35.73
+353540,Panorama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.03
+353550,Paraguaçu Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.06
+353560,Paraibuna - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.82
+353570,Paraíso - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,39.30
+353580,Paranapanema - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.04
+353590,Paranapuã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.72
+353600,Parapuã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.85
+353610,Pardinho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.08
+353620,Pariquera-Açu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.51
+353625,Parisi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.13
+353630,Patrocínio Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.07
+353640,Paulicéia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.26
+353650,Paulínia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,796.51
+353657,Paulistânia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,8.16
+353660,Paulo de Faria - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.03
+353670,Pederneiras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,61.62
+353680,Pedra Bela - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.35
+353690,Pedranópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.72
+353700,Pedregulho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.79
+353710,Pedreira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,396.19
+353715,Pedrinhas Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.41
+353720,Pedro de Toledo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.83
+353730,Penápolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,86.71
+353740,Pereira Barreto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.73
+353750,Pereiras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,39.16
+353760,Peruíbe - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,209.53
+353770,Piacatu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.74
+353780,Piedade - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,70.92
+353790,Pilar do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,40.54
+353800,Pindamonhangaba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,226.19
+353810,Pindorama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,78.68
+353820,Pinhalzinho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,98.52
+353830,Piquerobi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6.76
+353850,Piquete - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,70.97
+353860,Piracaia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,67.51
+353870,Piracicaba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,307.19
+353880,Piraju - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,58.34
+353890,Pirajuí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.23
+353900,Pirangi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,50.44
+353910,Pirapora do Bom Jesus - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,169.33
+353920,Pirapozinho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.07
+353930,Pirassununga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,101.15
+353940,Piratininga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,37.54
+353950,Pitangueiras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,78.20
+353960,Planalto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.14
+353970,Platina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.24
+353980,Poá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6010.48
+353990,Poloni - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.39
+354000,Pompéia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.74
+354010,Pongaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.51
+354020,Pontal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,105.53
+354025,Pontalinda - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.70
+354030,Pontes Gestal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.97
+354040,Populina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.06
+354050,Porangaba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,39.34
+354060,Porto Feliz - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,101.48
+354070,Porto Ferreira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,214.98
+354075,Potim - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,456.78
+354080,Potirendaba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,54.00
+354085,Pracinha - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,40.89
+354090,Pradópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,102.03
+354100,Praia Grande - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,2338.32
+354105,Pratânia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,29.27
+354110,Presidente Alves - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.27
+354120,Presidente Bernardes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.34
+354130,Presidente Epitácio - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.35
+354140,Presidente Prudente - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,402.52
+354150,Presidente Venceslau - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,46.61
+354160,Promissão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,45.09
+354165,Quadra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.56
+354170,Quatá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.21
+354180,Queiroz - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.90
+354190,Queluz - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,36.72
+354200,Quintana - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.07
+354210,Rafard - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,73.70
+354220,Rancharia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.01
+354230,Redenção da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.52
+354240,Regente Feijó - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,76.52
+354250,Reginópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.67
+354260,Registro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,83.01
+354270,Restinga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.06
+354280,Ribeira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.33
+354290,Ribeirão Bonito - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.30
+354300,Ribeirão Branco - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.71
+354310,Ribeirão Corrente - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.07
+354320,Ribeirão do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.02
+354323,Ribeirão dos Índios - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.31
+354325,Ribeirão Grande - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,22.35
+354330,Ribeirão Pires - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1167.59
+354340,Ribeirão Preto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1073.32
+354350,Riversul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.51
+354360,Rifaina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,24.92
+354370,Rincão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.73
+354380,Rinópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.83
+354390,Rio Claro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,404.11
+354400,Rio das Pedras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,138.22
+354410,Rio Grande da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1215.43
+354420,Riolândia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.31
+354425,Rosana - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.44
+354430,Roseira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,83.42
+354440,Rubiácea - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11.42
+354450,Rubinéia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,15.78
+354460,Sabino - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.75
+354470,Sagres - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.72
+354480,Sales - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.86
+354490,Sales Oliveira - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,37.32
+354500,Salesópolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,35.77
+354510,Salmourão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.80
+354515,Saltinho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,81.82
+354520,Salto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1009.48
+354530,Salto de Pirapora - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,156.01
+354540,Salto Grande - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,48.03
+354550,Sandovalina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,8.00
+354560,Santa Adélia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.44
+354570,Santa Albertina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,23.44
+354580,Santa Bárbara d'Oeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,676.48
+354600,Santa Branca - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,51.33
+354610,Santa Clara d'Oeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.16
+354620,Santa Cruz da Conceição - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.49
+354625,Santa Cruz da Esperança - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.29
+354630,Santa Cruz das Palmeiras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,97.73
+354640,Santa Cruz do Rio Pardo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.66
+354650,Santa Ernestina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,45.51
+354660,Santa Fé do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,168.46
+354670,Santa Gertrudes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,240.22
+354680,Santa Isabel - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,146.35
+354690,Santa Lúcia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,46.46
+354700,Santa Maria da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.75
+354710,Santa Mercedes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,17.73
+354720,Santana da Ponte Pensa - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.86
+354730,Santana de Parnaíba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,856.38
+354740,Santa Rita d'Oeste - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.03
+354750,Santa Rita do Passa Quatro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.93
+354760,Santa Rosa de Viterbo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,81.13
+354765,Santa Salete - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.77
+354770,Santo Anastácio - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.49
+354780,Santo André - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,4260.50
+354790,Santo Antônio da Alegria - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.83
+354800,Santo Antônio de Posse - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,150.80
+354805,Santo Antônio do Aracanguá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6.40
+354810,Santo Antônio do Jardim - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,55.71
+354820,Santo Antônio do Pinhal - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.63
+354830,Santo Expedito - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,31.76
+354840,Santópolis do Aguapeí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,30.45
+354850,Santos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1489.53
+354860,São Bento do Sapucaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,46.22
+354870,São Bernardo do Campo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1979.65
+354880,São Caetano do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10805.23
+354890,São Carlos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,224.17
+354900,São Francisco - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.43
+354910,São João da Boa Vista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,179.22
+354920,São João das Duas Pontes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.93
+354925,São João de Iracema - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.35
+354930,São João do Pau d'Alho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,19.05
+354940,São Joaquim da Barra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,118.19
+354950,São José da Bela Vista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,27.54
+354960,São José do Barreiro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,6.75
+354970,São José do Rio Pardo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,124.39
+354980,São José do Rio Preto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1112.17
+354990,São José dos Campos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,634.03
+354995,São Lourenço da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,86.17
+355000,São Luiz do Paraitinga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,16.75
+355010,São Manuel - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,57.30
+355020,São Miguel Arcanjo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,34.44
+355030,São Paulo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,7528.26
+355040,São Pedro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,62.58
+355050,São Pedro do Turvo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.87
+355060,São Roque - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,258.98
+355070,São Sebastião - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,202.77
+355080,São Sebastião da Grama - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.37
+355090,São Simão - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,21.78
+355100,São Vicente - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,2226.86
+355110,Sarapuí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,29.41
+355120,Sarutaiá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.16
+355130,Sebastianópolis do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.65
+355140,Serra Azul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,45.02
+355150,Serrana - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,348.36
+355160,Serra Negra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,146.73
+355170,Sertãozinho - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,314.79
+355180,Sete Barras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11.98
+355190,Severínia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,103.77
+355200,Silveiras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.91
+355210,Socorro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,89.35
+355220,Sorocaba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1608.64
+355230,Sud Mennucci - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.37
+355240,Sumaré - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1821.56
+355250,Suzano - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1490.67
+355255,Suzanápolis - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.31
+355260,Tabapuã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.75
+355270,Tabatinga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,40.07
+355280,Taboão da Serra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13416.81
+355290,Taciba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.31
+355300,Taguaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,87.17
+355310,Taiaçu - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.03
+355320,Taiúva - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,49.43
+355330,Tambaú - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,38.15
+355340,Tanabi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,33.81
+355350,Tapiraí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,10.59
+355360,Tapiratiba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.25
+355365,Taquaral - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,48.60
+355370,Taquaritinga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,87.93
+355380,Taquarituba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,54.29
+355385,Taquarivaí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,29.66
+355390,Tarabai - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,32.46
+355395,Tarumã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,49.13
+355400,Tatuí - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,236.64
+355410,Taubaté - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,497.18
+355420,Tejupá - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,13.93
+355430,Teodoro Sampaio - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,14.25
+355440,Terra Roxa - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,35.68
+355450,Tietê - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,93.13
+355460,Timburi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,12.52
+355465,Torre de Pedra - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.68
+355470,Torrinha - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,29.61
+355475,Trabiju - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,26.52
+355480,Tremembé - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,267.79
+355490,Três Fronteiras - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,44.88
+355495,Tuiuti - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,53.48
+355500,Tupã - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,101.80
+355510,Tupi Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,64.77
+355520,Turiúba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11.86
+355530,Turmalina - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,11.29
+355535,Ubarana - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,25.56
+355540,Ubatuba - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,131.31
+355550,Ubirajara - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,18.19
+355560,Uchoa - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.18
+355570,União Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,20.28
+355580,Urânia - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.21
+355590,Uru - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,9.44
+355600,Urupês - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,42.43
+355610,Valentim Gentil - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,94.15
+355620,Valinhos - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,850.78
+355630,Valparaíso - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,28.26
+355635,Vargem - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,73.72
+355640,Vargem Grande do Sul - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,150.21
+355645,Vargem Grande Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,1186.54
+355650,Várzea Paulista - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,3296.44
+355660,Vera Cruz - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,41.08
+355670,Vinhedo - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,945.52
+355680,Viradouro - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,79.98
+355690,Vista Alegre do Alto - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,84.97
+355695,Vitória Brasil - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,36.00
+355700,Votorantim - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,694.53
+355710,Votuporanga - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,229.70
+355715,Zacarias - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,8.44
+355720,Chavantes - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,64.70
+355730,Estiva Gerbi - SP,2022,614,Densidade demográfica,Habitante por quilômetro quadrado,152.34

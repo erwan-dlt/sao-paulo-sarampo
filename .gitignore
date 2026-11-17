@@ -1,0 +1,8 @@
+__pycache__/
+.venv*/
+.ipynb_checkpoints/
+# DBC do SIH 1996-1998 (284 MB): baixar com scripts/coleta/sih_sarampo_1996_1998.py
+data/raw/sih_1996_1998/
+# Brutos grandes baixados pelos scripts de coleta (não versionados)
+data/raw/sih_1996_1998/
+data/raw/popsvs/
