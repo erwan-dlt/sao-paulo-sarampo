@@ -1,122 +1,112 @@
 # Fontes, proveniência e transformação dos dados
 
-PTC3567 · Sarampo em São Paulo, 2019 · Organização preparada em 11/11/2026.
+PTC3567 · Sarampo em São Paulo · base integrada em 16/11/2026.
 
-## Origem dos arquivos
+Convenção usada aqui e no notebook: **dado** é o que vem de uma base oficial; **regra do projeto** é uma escolha nossa, sempre com a alternativa testada; **interpretação** é leitura nossa dos resultados.
 
-Os DBC foram fornecidos pelo usuário em `arquivo.zip`; vacinação, PIB e documentos de proveniência vieram de `raw.zip`, reunido em trabalho anterior. As tabelas populacionais e a malha são as fontes utilizadas na análise anterior, preservadas neste projeto. Não se afirma que os DBC ou a cobertura vacinal foram baixados novamente nesta execução.
+## 1. Fontes brutas (`data/raw`)
 
-`data/raw` significa **entrada preservada do projeto**. Nem todos os arquivos dessa pasta são microdados originais: os CSV de vacinação e PIB já eram extrações normalizadas recebidas. A etapa anterior de normalização é documentada, mas não inteiramente reconstruída pelo script deste projeto.
+| Arquivo | Fonte | Recorte | Coletado por | Uso |
+|---|---|---|---|---|
+| `sinan/EXANBR07.dbc` … `EXANBR26.dbc` | SINAN, doenças exantemáticas, FTP DATASUS `dissemin/publicos/SINAN/DADOS` (pastas `FINAIS` e `PRELIM`; os anos mais recentes são preliminares) | Notificações do Brasil, 2007–2026 | download manual do FTP | Casos confirmados, idade, datas, vacinação, gravidade |
+| `pop_ms_sp.csv.gz` | Ministério da Saúde, série revisada de população residente (POPSVS), FTP DATASUS `dissemin/publicos/IBGE/POPSVS/POPSBRaa.zip` | SP, 2000–2025, município × sexo × idade (0–80; 80 = 80 e mais) | `scripts/coleta/popsvs.py` | Denominador principal; população por idade |
+| `sidra_pop_estim.csv` | IBGE, SIDRA 6579 (variável 9324) | SP, 2012–2021, 2024–2025 | `scripts/coleta/sidra.py` | Sensibilidade do denominador |
+| `sidra_censo2022.csv` | IBGE, Censo 2022 (variáveis 93, 614, 6318) | SP, 2022 | `scripts/coleta/sidra.py` | Área territorial; população do Censo (sensibilidade) |
+| `sidra_pib.csv` | IBGE, SIDRA 5938 (variável 37) | SP, 2012–2023 | `scripts/coleta/sidra.py` | PIB municipal |
+| `cobertura_scr_2012_2022.csv` | PNI, TABNET `bd_pni/cpnibr.def`, cobertura tríplice viral D1 e D2 | SP por município, 2012–2022 | `scripts/coleta/tabnet_pni.py` + `parse_tabnet.py` | Cobertura municipal |
+| `cobertura_hist_1995_2011.csv` | PNI, TABNET `cpnibr.def`: vacina sarampo (monovalente) e tríplice D1 | SP por município, 1995–2011 | `scripts/coleta/tabnet_pni_anos.py` + `parse_tabnet.py` | Cobertura das coortes antigas (seção 15) |
+| `cobertura_uf_sp_1995_2022.csv` | PNI, TABNET `cpnibr.def`, linha = UF | Estado de SP, 1995–2022 | idem | Cobertura estadual histórica |
+| `cobertura_infoms_2023.xlsx` … `2026_parcial.xlsx` | Painel InfoMS de cobertura vacinal, exportado manualmente | Brasil, todas as vacinas, 2023–2026 (2026 parcial) | exportação manual | Cobertura municipal com doses e população-alvo |
+| `REGIC2018_Municipios_Hierarquia_e_regiao.xlsx` | IBGE, REGIC 2018 | Brasil | download manual (geoftp IBGE) | Hierarquia urbana e arranjos populacionais |
+| `malha_sp.json` | IBGE, API de malhas v3, qualidade intermediária | Municípios de SP | download | Centroides, distância à capital, vizinhança, mapas |
+| `ripsa008mb.csv.zip` | RIPSA, indicador MRB.1.01 (casos de sarampo) | Brasil, 2012–2024 | download manual | Região de saúde e RRAS de cada município; conferência dos totais de casos |
+| `sih_sarampo.csv` | SIH/SUS, TABNET `sih/cnv/nrsp.def`, lista de morbidade CID-10 "sarampo", por residência e ano de atendimento | SP por município, 2012–2024 | `scripts/coleta/tabnet_sih.py` | Internações SUS (estimativa, não caso confirmado) |
+| `sih_sarampo_1996_1998_municipio.csv`, `..._mes.csv` | SIH/SUS, arquivos RD do FTP DATASUS 1996–1998 (CID-9 055 até 1997, CID-10 B05 em 1998) | SP | `scripts/coleta/sih_sarampo_1996_1998.py` | Epidemia de 1997 (seção 17) |
+| `cve_sarampo_serie_1980_2026.pdf` | Centro de Vigilância Epidemiológica (CVE-SP), série histórica de casos | Estado de SP, 1980–2026 | download manual | Referência para o contexto histórico |
 
-| Arquivo em `data/raw` | Fonte e referência | Papel no projeto |
+Arquivos grandes baixados pelos scripts de coleta ficam fora do git (`.gitignore`): `data/raw/popsvs/` (zips da série de população, 86 MB) e `data/raw/sih_1996_1998/` (DBC do SIH, 284 MB). Os CSV derivados deles estão versionados.
+
+A nota técnica da série de população está em `docs/NT-POPULACAO-RESIDENTE-2000-2024.pdf`.
+
+### Notas sobre as fontes
+
+- **População (POPSVS).** Segue o método da RIPSA: parte dos Censos 2000, 2010 e 2022 e é ajustada às projeções estaduais do IBGE (revisão 2024). Por isso fica cerca de 3% acima da contagem bruta do Censo 2022 e coincide com as estimativas oficiais do IBGE para 2024 e 2025. As estimativas publicadas pelo IBGE antes do Censo (`sidra_pop_estim.csv`) têm um degrau artificial entre 2021 (46,65 milhões) e 2022 (44,41 milhões, Censo); por isso ficaram só como sensibilidade.
+- **Cobertura.** O TABNET termina em 2022; de 2023 em diante só existe o painel InfoMS, exportado à mão. As planilhas não trazem o ano: ele foi identificado pelo denominador do 2º reforço da DTP, que corresponde aos nascidos quatro anos antes. A troca de sistema cria um salto (D1 estadual de 78% em 2022 para 94% em 2023), marcado na coluna `fonte_cobertura`. A versão anterior deste projeto usava um espelho de terceiros do SI-PNI (HuggingFace). Os valores são próximos, exceto em **2017**: a mediana municipal da D1 é 90% no TABNET e era 96% no espelho. A causa da diferença não foi identificada.
+- **Internações (SIH).** Diagnóstico hospitalar no SUS, sem a confirmação da vigilância. Em 2019 há 582 internações no SIH contra 2.256 internados no SINAN, e entre 2021 e 2024 há internações em anos sem caso confirmado. Use como estimativa, nunca como "casos graves".
+- **PIB 2024.** Ainda não publicado (previsão do IBGE: dez/2026). Foi estimado como PIB 2023 × 1,034 (crescimento real de SP em 2024, Seade) × 1,0408 (deflator implícito do Brasil em 2024, SIDRA 1846/6612), supondo crescimento igual em todos os municípios. Não entra em nenhuma análise (a janela usada é 2016–2018).
+
+## 2. Processamento (`scripts/prepare_data.py`)
+
+Lê só `data/raw`, sem rede, e grava `data/processed`. Os DBC são lidos por `scripts/dbc.py`, que descomprime em Python puro, sem dependências. O script confere os totais e grava um manifesto com o SHA-256 de cada fonte e derivado; o notebook recusa rodar se algum hash mudar.
+
+**Regras do projeto aplicadas aqui:**
+
+- **Data do caso (`DT_CASO`).** Início do exantema (`DT_INICIO_`). Se ele faltar, ou estiver mais de 365 dias antes ou mais de 30 dias depois da notificação, usa-se a data dos primeiros sintomas (`DT_SIN_PRI`). Motivo: há exantemas com ano digitado errado (ex.: 10/08/2012 com sintomas em 10/08/2019 e notificação em 16/08/2019). Resultado em 2019: 18.109 casos, contra 18.113 da RIPSA. Alternativa testada: só o exantema, 18.025 casos (seção 10 do notebook).
+- **Caso:** `CLASSI_FIN = 1`, residência em SP (`SG_UF = 35`).
+- **Internações SIH:** município ausente na consulta TABNET = 0 internações, porque o TABNET omite linhas vazias. 2017 inteiro ausente = 0, coerente com zero caso confirmado no SINAN.
+
+### Dicionário dos arquivos processados
+
+**`municipio.csv`**: uma linha por município (645).
+
+| Coluna | Descrição | Fonte |
 |---|---|---|
-| `EXANBR19.dbc` | SINAN, doenças exantemáticas; notificações nacionais de 2019, arquivo recebido | 68.765 registros nacionais, 107 campos |
-| `EXANBR20.dbc` | SINAN, doenças exantemáticas; notificações nacionais de 2020, arquivo recebido | 17.937 registros nacionais, 107 campos; recupera notificações tardias |
-| `mmr_2016_2018.csv` | SI-PNI histórico, segundo `mmr_provenance.json`; 2016–2018 | 645 municípios × 3 anos × 2 doses = 3.870 observações |
-| `mmr_provenance.json` | Metadados recebidos da preparação anterior | Indicadores, espelho usado, anomalias e limitações da cobertura |
-| `gdp_per_capita_2016.csv` | Extração derivada de IBGE/SIDRA | PIB por habitante de 2016; 645 municípios |
-| `ibge_sidra_gdp_2016.json` | IBGE/SIDRA, tabela 5938, variável 37, 2016 | Evidência da extração de PIB total utilizada na etapa anterior |
-| `ibge_sidra_population_2016.json` | IBGE/SIDRA, tabela 6579, variável 9324, 2016 | Evidência do denominador do PIB por habitante |
-| `pop_idade.html` | Ministério da Saúde/TabNet, `popsvs2024br.def`, ano 2019 | População municipal por idade simples; denominador principal |
-| `pop_sexo.html` | Mesma série e ano | População municipal por sexo |
-| `pop2019.xls` | IBGE, estimativa de 2019, arquivo `POP2019_20220905.xls` | Denominador alternativo, 45.919.049 habitantes no estado |
-| `sp_municipios.zip` | IBGE, malha municipal de 2019, São Paulo | 645 municípios, coordenadas e área territorial |
-| `query_population.json` | Parâmetros preservados da consulta TabNet | Reprodução documental do recorte populacional |
-| `manifesto_consultas_original.json` | Manifesto da coleta anterior | URLs, parâmetros, data de consulta e hashes; inclui consultas históricas de casos não necessárias ao processamento atual |
+| `co_ibge` | Código IBGE de 6 dígitos (chave de todas as tabelas) | IBGE |
+| `no_municipio`, `co_regiao_saude`, `no_regiao_saude`, `rras` | Nome, região de saúde e RRAS (19 no estado) | RIPSA |
+| `area_km2` | Área territorial | Censo 2022 |
+| `regic_hierarquia`, `regic_nivel`, `regic_grupo` | Hierarquia urbana (1A = metrópole … 5 = centro local); nível 1–11 em ordem | REGIC 2018 |
+| `arranjo_populacional`, `regic_regiao_influencia` | Arranjo populacional (vazio se o município não pertence a um) e região de influência | REGIC 2018 |
+| `lat`, `lon` | Centroide (ou ponto interno, se o centroide cair fora do polígono) | malha IBGE |
+| `dist_capital_km` | Distância em linha reta até o centroide da capital (haversine) | calculada |
+| `n_vizinhos` | Municípios que fazem fronteira (Ilhabela = 0) | calculada |
 
-O total populacional principal é 45.306.139. Essa série revisada não deve ser substituída silenciosamente pela estimativa IBGE alternativa.
+**`municipio_ano.csv`**: município × ano, 2012–2026 (9.675 linhas).
 
-## Links das fontes e documentação
+| Coluna | Descrição | Fonte |
+|---|---|---|
+| `casos` | Casos confirmados com `DT_CASO` no ano | SINAN |
+| `internacoes_sih` | Internações SUS com diagnóstico de sarampo (estimativa; vazio após 2024) | SIH |
+| `cob_triplice_d1`, `cob_triplice_d2` | Cobertura administrativa da tríplice viral, % (pode passar de 100; D2 vazia em 2012) | TABNET até 2022, InfoMS depois |
+| `fonte_cobertura` | `TABNET PNI`, `InfoMS` ou `InfoMS (parcial)` | — |
+| `populacao` | População residente, série do Ministério da Saúde (vazia em 2026) | POPSVS |
+| `populacao_ibge` | População publicada pelo IBGE na época (estimativa; 2022 = Censo; 2023 vazio) | SIDRA |
+| `pib_mil_reais`, `fonte_pib` | PIB a preços correntes, mil R$ (2024 estimado; ver acima) | SIDRA 5938 |
 
-- [TabNet nacional de sarampo e rubéola](https://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/exantbr.def)
-- [Dicionário de dados de exantemáticas — Ministério da Saúde](https://goias.gov.br/saude/wp-content/uploads/sites/34/2013/08/exantematica1-b5a.pdf)
-- [População municipal por idade e sexo — TabNet](https://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def)
-- [Estimativas populacionais IBGE de 2019](https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/)
-- [Malha municipal IBGE 2019 — SP](https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/SP/)
-- [SIDRA, tabela 5938](https://sidra.ibge.gov.br/tabela/5938)
-- [SIDRA, tabela 6579](https://sidra.ibge.gov.br/tabela/6579)
-- [Espelho SI-PNI declarado na proveniência recebida](https://huggingface.co/datasets/SidneyBissoli/sipni-agregados-cobertura)
+**`notificacoes.csv`**: uma linha por notificação de residente de SP, arquivos 2007–2026 (94.429 linhas). Os 32 campos do SINAN estão no [dicionário de exantemáticas](https://goias.gov.br/saude/wp-content/uploads/sites/34/2013/08/exantematica1-b5a.pdf). Não há nomes, endereços nem texto livre. Datas em ISO; demais campos como texto. Acrescentados: `arquivo`, `DT_CASO` e `ORIGEM_DT_CASO` (`exantema` ou `primeiros sintomas`).
 
-Os arquivos de proveniência originais podem conter caminhos do computador anterior. Esses caminhos são preservados como metadados e nunca usados na execução.
+**`cobertura_estado.csv`**: cobertura estadual 1995–2026. Até 2022, TABNET (linha = UF); de 2023 em diante, InfoMS (soma das doses / soma da população-alvo dos municípios). A monovalente vai até 2003.
 
-## Preparação de `data/processed`
+**`vizinhos.json`**: lista de municípios vizinhos de cada município. **`malha.json`**: anéis dos polígonos (lon, lat) para os mapas.
 
-1. Descompactar os DBC em DBF temporários com `dbc-to-dbf` e ler os 107 campos com `dbfread` (Latin-1). Concatenar as duas safras sem acrescentar o Parquet de 2019, que duplicaria a base.
-2. Exportar 31 campos necessários, incluindo o arquivo de origem. Datas em ISO e códigos preservados. Não agregar as notificações nesse CSV.
-3. Ler a população dos 645 municípios e agregar idades simples às faixas da análise. Preservar os denominadores principal e alternativo.
-4. Ler atributos e coordenadas da malha e criar a chave SINAN de seis dígitos a partir do código IBGE de sete dígitos.
-5. Copiar sem alteração os CSV normalizados de vacinação e PIB para os nomes usados pelo notebook.
-6. Gerar o manifesto SHA-256 das fontes e derivados, com versões das dependências. O manifesto não inclui seu próprio hash.
+## 3. Variáveis das análises (`scripts/base.py`)
 
-| Arquivo processado | Conteúdo |
-|---|---|
-| `notificacoes.csv` | 86.702 notificações nacionais, 31 campos; filtros epidemiológicos aplicados no notebook |
-| `municipios.csv` | Nome, código, área e duas populações de 2019 |
-| `pop_idade.csv` | População por município e faixa etária |
-| `pop_sexo.csv` | População por município e sexo |
-| `mmr.csv` | Cobertura administrativa por município, ano e dose |
-| `pib.csv` | PIB por habitante de 2016 |
-| `malha.json` | Anéis dos polígonos municipais, coordenadas originais |
-| `fontes.json` | Identificação e hashes dos DBC e CSV recebidos |
-| `manifesto_processamento.json` | Integridade, versões e definição do recorte |
+Todas as análises leem os dados pelo mesmo módulo, que fixa as decisões comuns:
 
-## Recorte epidemiológico e limites
+- **Coorte de 2019:** 18.109 casos (`DT_CASO` em 2019).
+- **Cobertura pré-surto:** média de 2016–2018 (D1 e D2) e diferença 2018 − 2016. Os tratamentos dos valores acima de 100% (original, teto de 100 ou ausente) são sensibilidades.
+- **População de 2019** da série do Ministério da Saúde; **PIB por habitante** médio de 2016–2018; frações etárias de 2019.
+- **Validação espacial:** uma RRAS de fora por vez. Os 5 blocos k-means das coordenadas, as faixas de longitude e a divisão aleatória são sensibilidades.
 
-O notebook seleciona `SG_UF=35`, `CLASSI_FIN=1` e ano de `DT_INICIO_=2019`. Resultado: 18.025 registros, incluindo 55 notificados em 2020. Residência não é local provável de infecção. `DT_INICIO_` é exantema; `DT_NOTIFIC` é notificação. `CS_VACINA` é antecedente vacinal, enquanto `CS_VACINAL` descreve bloqueio vacinal.
+## 4. Resultados (`results/`)
 
-Não há imputação de datas nem exclusão automática de registros apenas semelhantes. Os registros com atrasos extremos são examinados em sensibilidade, sem modificar a coorte principal. Não há identificador individual suficiente para afirmar ausência absoluta de duplicação de pessoas.
+| Pasta | Script | Conteúdo |
+|---|---|---|
+| `ml` | `modelagem.py` | Modelos de contagem (seção 12): previsões externas, métricas, ajustes, permutação, hashes |
+| `clustering` | `clustering.py` | Perfis municipais (seção 13) |
+| `classificador` | `modelo_alvos.py` | Classificador "teve caso" com quatro alvos (seção 14) |
+| `geracoes` | `coortes_suscetibilidade.py`, `sinan_coortes.py`, `modelo_lugar_geracao.py` | Incidência por ano de nascimento; modelo município × geração (seções 15–16) |
+| `historico` | `historico_1997.py` | 1997 (SIH) × 2019 (seção 17) |
+| `projecao` | `projecao.py` | Cenários 2026–2027 por RRAS e estado (seção 18) |
 
-A cobertura recebida contém 1.380 valores >100%, inclusive extremos de 440%. É cobertura administrativa infantil, não proporção de pessoas imunes nem cobertura de adultos. O CSV é mantido sem truncamento; restrições a 0–100% são análises de sensibilidade. A normalização anterior mapeou 021 para D1 e 098 para D2, conforme a proveniência recebida; este projeto não repete a auditoria das partições históricas do espelho.
+## 5. Pendências de verificação
 
-O PIB por habitante recebido corresponde a PIB total dividido pela população (com conversão da unidade monetária na etapa anterior). O script atual preserva o CSV, sem recalculá-lo dos JSON. PIB não equivale à renda domiciliar ou à desigualdade.
+Estes pontos aparecem no texto como interpretação ou "a conferir" até terem fonte:
 
-As associações municipais são exploratórias e não causais. O notebook não estima efetividade vacinal, cadeias de transmissão ou efeito de campanhas. Os arquivos representam as versões recebidas; nenhuma atualização automática é feita.
+- **Calendário vacinal:** dose única na rotina para os nascidos até ~2001, segunda dose a partir de 2004 e campanha de 2008 para adultos de 20–39 anos. Falta citar o documento oficial do PNI.
+- **`TPAUTOCTO`:** usado como "autóctone do município de residência" (1 = sim, 2 = não, 3 = indeterminado); confirmar no dicionário do SINAN.
+- **`NDUPLIC_N`:** marca de duplicidade do SINAN (17 confirmados com valor 1); significado exato a confirmar antes de qualquer uso. Hoje o campo não é usado.
+- **Cobertura de 2017:** a diferença entre o TABNET e o espelho usado na versão anterior não foi explicada.
 
-## Extensão de machine learning
+## 6. Limites
 
-Nenhuma nova fonte de dados foi adicionada. `scripts/modelagem.py` deriva de `data/processed` uma linha por município: contagem de casos, exposição populacional, log de densidade e PIB, frações etárias, médias e mudanças vacinais de 2016–2018 e indicador de cobertura >100%. O município não recebe informação de desfecho de outro município como preditor. Coordenadas aproximadas são usadas exclusivamente para definir as partições espaciais.
-
-A demografia de 2019 é uma série revisada recuperada posteriormente: não é uma fotografia da informação disponível antes da epidemia. A análise é de transferência espacial retrospectiva, não de previsão temporal prospectiva.
-
-### Resultados derivados em `results/ml`
-
-| Arquivo | Conteúdo |
-|---|---|
-| `base_municipal_ml.csv` | 645 municípios, atributos, alvo, exposição e rótulos das partições |
-| `predicoes.csv` | 14.835 previsões externas: sete modelos em três partições e dois modelos na sensibilidade vacinal |
-| `metricas.csv` | Métricas agregadas calculadas das previsões externas |
-| `folds.csv` | Métricas por bloco externo, tamanhos de treino/teste e parâmetro selecionado |
-| `ajustes.csv` | Critérios de seleção dos hiperparâmetros na validação interna |
-| `permutacao.csv` | Diagnóstico por permutação de grupos no teste espacial |
-| `dispersao.csv` | Diagnóstico de Pearson no treino do Poisson completo |
-| `metricas_sem_capital.csv` | Mesmas previsões, excluindo a capital somente da avaliação |
-| `execucao.json` | Versões, grades, protocolo e hashes de entradas, script e resultados |
-
-A divisão principal usa cinco agrupamentos geográficos (semente 42), com ajuste interno nos blocos restantes. Sensibilidades: faixas de longitude, divisão aleatória e coberturas limitadas a 100%. Nenhuma variável-alvo é usada para definir as regiões. Não há faixa de exclusão nas fronteiras; independência espacial completa não é garantida.
-
-Documentação dos algoritmos: [scikit-learn: Poisson e exposição](https://scikit-learn.org/stable/auto_examples/linear_model/plot_tweedie_regression_insurance_claims.html), [gradient boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html), [statsmodels: modelos lineares generalizados](https://www.statsmodels.org/stable/glm.html). Os modelos e hiperparâmetros estão detalhados na seção 12 do notebook e no manifesto de execução.
-
-## Clustering municipal — seção 13
-
-Não foram adicionadas fontes externas. Os mesmos 645 municípios são descritos em quatro quadrantes (D2 média original versus incidência) e agrupados a partir de sete atributos: médias de D1/D2, diferenças 2018−2016, log(1+incidência), log da densidade e proporção de crianças de 0–4 anos. As coberturas anuais são limitadas a 100% na solução principal antes da agregação; a escolha é testada contra alternativas, sem alterar os arquivos raw.
-
-Padronização por variável e ponderação por bloco: quatro atributos vacinais ×0,5; intensidade ×1; dois demográficos ×1/√2. Cada município tem peso igual. K-means, semente 42, 30 inicializações, k=2–6; seleção por silhueta com mínimo de 20 municípios por grupo. A PCA é somente uma projeção visual, não a entrada do algoritmo. Os números dos grupos são rótulos arbitrários ordenados pela incidência mediana.
-
-A estabilidade usa 40 subamostras sem reposição de 80% das observações; todas as transformações são reajustadas. ARI compara partições projetadas sobre os 645 municípios; não é validação preditiva. Reescolhemos k em cada subamostra para mostrar sua incerteza. Um controle exploratório de 20 embaralhamentos independentes das colunas refaz a busca de k com a mesma restrição de tamanho; ele não equivale a teste formal de populações naturais.
-
-| Arquivo em `results/clustering` | Conteúdo |
-|---|---|
-| `municipios.csv` | Atributos, quadrante, grupo principal, solução k=2, concordância de reamostragem e coordenadas PCA |
-| `perfis.csv` | Tamanho, casos, incidências, vacinação e contexto por grupo |
-| `perfil_casos.csv` | Idade, calendário e hospitalizações dos casos; atributos não usados para formar grupos |
-| `selecao_k.csv` | Silhueta e tamanhos das soluções k=2–6 |
-| `estabilidade.csv` | ARI com k fixo e k reescolhido em cada subamostra |
-| `jaccard.csv` | Sobreposição dos grupos após correspondência ótima dos rótulos |
-| `sensibilidades.csv` | Concordância com tratamentos alternativos, Ward e agrupamentos univariados |
-| `grupos_alternativos.csv` | Rótulos por município nos cenários alternativos; IDs não alinhados entre cenários |
-| `controle_permutado.csv` | Melhor silhueta por repetição com colunas embaralhadas |
-| `grupos_quadrantes.csv` | Tabela cruzada entre perfis multivariados e os quadrantes simples |
-| `centros_padronizados.csv` | Médias no espaço padronizado e ponderado |
-| `execucao.json` | Assinaturas das fontes processadas e scripts, configuração, thresholds, PCA e hashes das saídas |
-
-Referência de métodos: [scikit-learn — clustering, silhueta e ARI](https://scikit-learn.org/stable/modules/clustering.html). A interpretação substantiva depende da qualidade administrativa das coberturas e da inclusão da incidência na definição dos grupos. Diferenças de incidência entre grupos não são evidência independente de efeito vacinal.
+As associações municipais são exploratórias e não causais. Cobertura administrativa não é imunidade, e os indicadores são infantis enquanto os casos incluem todas as idades. Incidência de casos notificados e confirmados não equivale à incidência de infecções. Residência não é local de infecção. Não há identificador individual para auditar duplicidades de pessoas. A projeção conta crianças sem dose sob cenários explícitos; não prevê casos.

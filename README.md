@@ -1,174 +1,105 @@
-# Sarampo no estado de São Paulo — 2019
+# Sarampo no estado de São Paulo — o surto de 2019 e a proteção das crianças em 2026–2027
 
-Projeto PTC3567. Caracterização e modelagem preditiva municipal de 18.025 notificações de sarampo de residentes paulistas com exantema em 2019, incluindo 55 notificadas em 2020. O relatório é exclusivamente o notebook `sarampo_sp_2019.ipynb`, na raiz.
+Projeto PTC3567 (Poli-USP). Caracterização do surto de sarampo de 2019 em São Paulo (18.109 casos confirmados), modelos municipais com validação espacial, análise por geração de nascimento e projeção para 2026–2027 de quantas crianças ficam sem vacina. O relatório é o notebook `sarampo_sp_2019.ipynb`, na raiz, já executado.
+
+**Principais resultados**
+
+- A cobertura vacinal infantil recente **não ajuda a prever** onde houve casos nem quantos: o porte do município explica quase tudo.
+- O risco seguiu a **geração**: nascidos em 1989–2001 (dose única na rotina) tiveram 93 casos por 100 mil e 44% dos casos; bebês de 2018–2019, 425 por 100 mil.
+- Lugar e geração juntos explicam 34% da deviance no nível município × geração, contra 14% só com o lugar.
+- Em 2026–2027, mantida a cobertura de 2023–2025, cerca de 40 mil crianças ficam sem a 1ª dose e 148 mil sem a 2ª. Com 95% em todas as regiões, seriam 34 mil e 47 mil.
 
 ## Organização
 
 | Caminho | Conteúdo |
 |---|---|
-| `sarampo_sp_2019.ipynb` | Análise em português, tabelas e 28 figuras já executadas |
-| `data/raw/` | Arquivos recebidos e fontes auxiliares preservados |
-| `data/processed/` | Arquivos derivados lidos pelo notebook e manifesto de hashes |
-| `scripts/prepare_data.py` | Reconstrução de todos os dados processados |
-| `scripts/modelagem.py` | Modelos, validação aninhada, previsões externas e sensibilidades |
-| `scripts/clustering.py` | Tipologia municipal, clustering e testes de estabilidade |
-| `results/clustering/` | Rótulos, perfis, comparação com quadrantes e sensibilidades |
-| `results/ml/` | Base municipal, métricas, previsões e auditoria da execução ML |
-| `scripts/leitura_fontes.py` | Leitores das tabelas TabNet e da malha IBGE |
-| `FONTES.md` | Proveniência, filtros, transformações e limitações |
-| `requirements.txt` | Dependências do processamento e da análise |
+| `sarampo_sp_2019.ipynb` | Relatório: 19 seções, tabelas e figuras já executadas |
+| `data/raw/` | Fontes brutas (ver `FONTES.md`) |
+| `data/processed/` | Tabelas derivadas lidas pelas análises e manifesto de hashes |
+| `scripts/prepare_data.py` | Gera `data/processed` a partir de `data/raw`, sem rede |
+| `scripts/base.py` | Leitura única dos dados e decisões comuns (coorte, janela de cobertura, validação por RRAS) |
+| `scripts/dbc.py` | Leitor dos arquivos `.dbc` do DATASUS em Python puro |
+| `scripts/modelagem.py`, `clustering.py` | Modelos de contagem (seção 12) e perfis municipais (seção 13) |
+| `scripts/modelo_alvos.py` | Classificador "o município teve caso?" (seção 14) |
+| `scripts/coortes_suscetibilidade.py`, `sinan_coortes.py`, `modelo_lugar_geracao.py` | Gerações e lugar × geração (seções 15–16) |
+| `scripts/historico_1997.py` | Epidemia de 1997 × surto de 2019 (seção 17) |
+| `scripts/projecao.py` | Cenários 2026–2027 (seção 18) |
+| `scripts/coleta/` | Scripts que baixaram as fontes (precisam de rede; não são necessários para reproduzir) |
+| `results/` | Saídas dos scripts, uma pasta por análise |
+| `docs/` | Nota técnica da série de população do Ministério da Saúde |
+| `FONTES.md` | Proveniência, dicionário de dados, regras do projeto, pendências e limites |
 
-## Instalar e executar com ambiente virtual (venv)
+## Instalar
 
-Use **Python 3.12 de 64 bits**, versão validada neste projeto. A indicação anterior de “3.11 ou superior” era ampla demais: versões mais novas podem não ter pacotes pré-compilados para as dependências fixadas. Descompacte o projeto inteiro e abra um terminal na pasta que contém este README e `requirements.txt`.
+Use **Python 3.10, 3.11 ou 3.12, de 64 bits**. Os resultados versionados foram gerados com Python 3.10.11 e as versões de `requirements.txt`. Abra um terminal na pasta deste README.
 
-### Windows — PowerShell
-
-Na primeira execução:
+**Windows — PowerShell**
 
 ```powershell
-# Verificar a versão do Python
 py --version
-
-# Criar e ativar o ambiente virtual
-py -3.12 -m venv .venv312
-.\.venv312\Scripts\Activate.ps1
-
-# Instalar as dependências no ambiente virtual
-python -m pip install -r requirements.txt
-
-# Iniciar o JupyterLab
-python -m jupyterlab
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Se o PowerShell bloquear a ativação, não é necessário alterar a política de execução. Use diretamente o Python do ambiente:
-
-```powershell
-.\.venv312\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv312\Scripts\python.exe -m jupyterlab
-```
-
-Se `py -3.12` não encontrar o Python, instale Python 3.12 de 64 bits e tente novamente. Use `py -0p` para listar as versões instaladas. Se já estiver em outro ambiente, execute `deactivate` antes. A pasta `.venv312` permite manter separado um ambiente anterior incompatível.
-
-### Linux / macOS
-
-Na primeira execução:
+**Linux / macOS**
 
 ```bash
-# Verificar a versão do Python
-python3 --version
-
-# Criar e ativar o ambiente virtual
-python3.12 -m venv .venv312
-source .venv312/bin/activate
-
-# Instalar as dependências e iniciar o JupyterLab
-python -m pip install -r requirements.txt
-python -m jupyterlab
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
 ```
 
-No Ubuntu/Debian, se a criação do ambiente informar que `venv` ou `ensurepip` está indisponível, instale o suporte à versão de Python utilizada. Para o Python padrão do sistema:
+No Ubuntu/Debian, se faltar o módulo `venv`: `sudo apt install python3-venv`.
+
+## Executar
+
+Os dados processados e os resultados já estão no repositório. Para só ler ou rodar o notebook:
 
 ```bash
-sudo apt install python3-venv
+.venv/bin/python -m jupyterlab            # Windows: .\.venv\Scripts\python.exe -m jupyterlab
 ```
 
-Depois, execute novamente o comando de criação do ambiente.
-
-### Abrir o notebook
-
-O JupyterLab abre no navegador. Se isso não ocorrer, copie a URL local exibida no terminal.
-
-1. Abra `sarampo_sp_2019.ipynb` na raiz do projeto.
-2. Use o kernel Python do ambiente virtual.
-3. Selecione **Run → Run All Cells** para executar a análise inteira.
-
-O notebook deve usar a raiz do projeto como diretório de trabalho. Os dados processados já estão incluídos: não é necessário prepará-los novamente para ler ou executar a análise. Não há dados Base64 incorporados ao notebook.
-
-### Nas próximas sessões
-
-Não é necessário recriar o ambiente nem reinstalar as dependências. Abra um terminal na raiz do projeto e execute:
-
-**Windows — PowerShell:**
-
-```powershell
-.\.venv312\Scripts\Activate.ps1
-python -m jupyterlab
-```
-
-Se a ativação estiver bloqueada:
-
-```powershell
-.\.venv312\Scripts\python.exe -m jupyterlab
-```
-
-**Linux / macOS:**
+Abra `sarampo_sp_2019.ipynb` na raiz e use **Run → Run All Cells**. O notebook confere os hashes de todas as fontes e derivados antes de começar. Também dá para executar sem abrir o Jupyter:
 
 ```bash
-source .venv312/bin/activate
-python -m jupyterlab
+python -m nbconvert --to notebook --execute --inplace sarampo_sp_2019.ipynb
 ```
 
-Para encerrar, salve o notebook e pressione **Ctrl+C** no terminal do Jupyter; confirme o encerramento se solicitado. Se tiver ativado o ambiente, execute `deactivate` para sair dele. Fechar apenas a aba do navegador não encerra o servidor.
+### Reconstruir tudo do zero
 
-## Reconstruir os dados processados
-
-Com o ambiente virtual ativado, execute na raiz do projeto:
+Na raiz do projeto, com o ambiente ativado:
 
 ```bash
-python scripts/prepare_data.py
+python scripts/prepare_data.py            # data/raw -> data/processed (cerca de 1 min)
+python scripts/modelagem.py               # results/ml (alguns minutos)
+python scripts/clustering.py              # results/clustering
+python scripts/modelo_alvos.py            # results/classificador
+python scripts/coortes_suscetibilidade.py # results/geracoes
+python scripts/sinan_coortes.py
+python scripts/modelo_lugar_geracao.py
+python scripts/historico_1997.py          # results/historico
+python scripts/projecao.py                # results/projecao
 ```
 
-No Windows, sem ativar o ambiente, o comando equivalente é:
+O notebook também recalcula sozinho o que estiver desatualizado: compara os hashes das entradas de `modelagem.py` e `clustering.py` com os registrados em `results/` e roda de novo se algo mudou. Para forçar, defina `RECALCULAR_ML`, `RECALCULAR_CLUSTERING` ou `RECALCULAR_NOSSOS` como `True` nas células correspondentes.
 
-```powershell
-.\.venv312\Scripts\python.exe scripts/prepare_data.py
-```
+`prepare_data.py` verifica os totais de referência (18.109 casos em 2019 pela regra do projeto; 18.025 só pelo exantema). Se uma fonte for trocada por outra versão, ele para e mostra a divergência. Não remova esses controles para forçar a execução.
 
-O script funciona também quando `data/processed` não existe. Lê somente as fontes locais de `data/raw`, cria a pasta de saída e sobrescreve os arquivos derivados conhecidos. Não modifica os arquivos raw nem precisa de rede. Os DBF descompactados são temporários e removidos automaticamente. Em seguida, reinicie o kernel e execute o notebook inteiro.
+## Decisões do projeto
 
-O manifesto registra os hashes das fontes e dos derivados; o notebook verifica esses hashes antes da análise. Se uma fonte for substituída por outra versão, execute novamente a preparação e examine as divergências: o controle de 18.025 casos impede alterações silenciosas do recorte de referência. Não remova controles apenas para forçar a execução.
+Escolhas nossas, cada uma com alternativa testada no notebook:
 
-## Executar ou recalcular o machine learning
+| Decisão | Escolha | Alternativa (sensibilidade) |
+|---|---|---|
+| Ano do caso | Início do exantema; primeiros sintomas se o exantema faltar ou for implausível (18.109 casos em 2019) | Só exantema (18.025) |
+| População | Série revisada do Ministério da Saúde (POPSVS) | Estimativas IBGE da época |
+| Cobertura pré-surto | Média 2016–2018 | Teto de 100% ou valores > 100 como ausentes |
+| Validação espacial | Uma RRAS de fora por vez (19) | 5 blocos k-means, 5 faixas de longitude, divisão aleatória |
+| Projeção | Três cenários de cobertura por RRAS (InfoMS 2023–2025) | — (cenários, não previsão) |
 
-A seção 12 do notebook compara sete modelos com validação espacial aninhada. Os resultados já estão incluídos em `results/ml`; o notebook verifica os hashes das entradas, do script e dos resultados. Se estiverem válidos, reutiliza os cálculos e refaz as tabelas e figuras. Se houver mudança, recalcula automaticamente.
+## Histórico
 
-Para forçar uma execução completa, com o venv ativo:
-
-```bash
-python scripts/modelagem.py
-```
-
-No PowerShell, sem ativação:
-
-```powershell
-.\.venv312\Scripts\python.exe scripts/modelagem.py
-```
-
-Também é possível definir `RECALCULAR_ML=True` no notebook. O treinamento usa uma única thread para limitar consumo e favorecer reprodutibilidade. A duração depende do computador. Não altera as fontes raw nem os dados processed; atualiza somente `results/ml`. Após recalcular, execute o notebook para atualizar suas saídas.
-
-O modelo com menor desvio no protocolo espacial é Poisson com demografia e PIB, mas apresenta R² de incidência de apenas 0,085 e forte subestimação da carga. O ganho com vacinação não é estável. Esses resultados negativos e suas limitações são parte da conclusão, não um erro de execução. As saídas são previsões retrospectivas fora da amostra; não são previsões futuras ou efeitos causais.
+A primeira versão (11/11/2026) caracterizava o surto e testava modelos e clustering com dados de 2019. Em 16/11/2026 ela foi integrada ao trabalho do outro subgrupo do grupo: base de dados única (SINAN 2007–2026, população do Ministério da Saúde, cobertura TABNET/InfoMS, REGIC), validação por RRAS e as seções 14 a 19. Os números da primeira versão mudaram pouco; as diferenças estão explicadas no notebook e em `FONTES.md`.
 
 ## Observações
 
-As análises são descritivas. Cobertura administrativa não é imunidade individual; associação municipal não demonstra causalidade. Dados ausentes e datas discordantes são examinados no notebook. Consulte `FONTES.md` antes de interpretar ou reutilizar os resultados.
-
-## Gráfico simples e clustering
-
-A seção 13 começa com o gráfico de D2 média de 2016–2018 versus incidência de 2019 e uma tipologia descritiva em quatro quadrantes. Os limiares são a mediana de cobertura e a incidência estadual, não metas de vacinação.
-
-Em seguida, compara k-means com 2 a 6 grupos usando vacinação, intensidade da epidemia e demografia. A solução escolhida tem três grupos (silhueta 0,323), mas dois grupos têm score quase igual (0,321). Há 40 subamostragens, reescolha de k, comparação com Ward e sensibilidades ao tratamento de valores >100%. O agrupamento descreve a epidemia passada; não prevê risco futuro nem demonstra causalidade.
-
-Para recalcular, com o venv ativo:
-
-```bash
-python scripts/clustering.py
-```
-
-No PowerShell sem ativação:
-
-```powershell
-.\.venv312\Scripts\python.exe scripts/clustering.py
-```
-
-Também é possível definir `RECALCULAR_CLUSTERING=True` no notebook. Os resultados prontos estão em `results/clustering`, com hashes verificados antes da leitura. Depois de recalcular, execute o notebook para atualizar suas saídas. Nenhuma dependência adicional foi acrescentada às já usadas na seção 12.
+As análises são descritivas e exploratórias. Cobertura administrativa não é imunidade individual; associação municipal não demonstra causalidade; a projeção conta crianças sem dose sob cenários explícitos e não prevê casos. Consulte `FONTES.md` antes de reutilizar os dados.
