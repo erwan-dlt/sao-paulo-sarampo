@@ -1,120 +1,233 @@
 {
-  "python": "3.12.14",
+  "python": "3.10.11",
   "pacotes": {
     "pandas": "2.2.3",
-    "numpy": "2.3.5",
-    "scipy": "1.17.0",
-    "dbfread": "2.0.7",
-    "dbc-to-dbf": "1.0.1",
-    "xlrd": "2.0.1"
+    "numpy": "2.2.4",
+    "openpyxl": "3.1.5",
+    "shapely": "2.1.1"
   },
-  "recorte": "SG_UF=35, CLASSI_FIN=1, ano(DT_INICIO_)=2019; arquivos 2019 e 2020",
-  "casos": 18025,
+  "recorte": "Residentes de SP (SG_UF=35), arquivos SINAN 2007-2026; caso = CLASSI_FIN=1; ano = ano de DT_CASO (exantema, ou sintomas se o exantema for implausível)",
+  "casos_2019": 18109,
   "arquivos": [
     {
-      "arquivo": "data/raw/EXANBR19.dbc",
+      "arquivo": "data/raw/cobertura_hist_1995_2011.csv",
+      "sha256": "1c03bde3c039adf79b23091f1bbc7c6d5d593fc3e0672c235f0e0b781dd869ab",
+      "bytes": 455523
+    },
+    {
+      "arquivo": "data/raw/cobertura_infoms_2023.xlsx",
+      "sha256": "0dd5d108193db5061f2e8da8a0bcac505f4206d1f8d6d92a55c6e7cc3e770ed3",
+      "bytes": 2548101
+    },
+    {
+      "arquivo": "data/raw/cobertura_infoms_2024.xlsx",
+      "sha256": "61dc8969e5b07c768ffa050d3eb7ef296ed201ee93492802507b6e22e3daeba5",
+      "bytes": 2540852
+    },
+    {
+      "arquivo": "data/raw/cobertura_infoms_2025.xlsx",
+      "sha256": "bd8e9b4b2f0d3a1ddf1117997c8834649cd86b67cc63874acc1864be1ed92291",
+      "bytes": 2402223
+    },
+    {
+      "arquivo": "data/raw/cobertura_infoms_2026_parcial.xlsx",
+      "sha256": "be50f474588eb15cccd333a84700baa7ae0de6025f52f7e62a05ed73e8808dcc",
+      "bytes": 2719609
+    },
+    {
+      "arquivo": "data/raw/cobertura_scr_2012_2022.csv",
+      "sha256": "a81ef58e29bbfb49fb54040535596fe54ad638503321856108189de8f82e5d23",
+      "bytes": 353654
+    },
+    {
+      "arquivo": "data/raw/cobertura_uf_sp_1995_2022.csv",
+      "sha256": "e128b3d9275f817d32bd05b5adb34ed59e527386b89f8ca44f886f507b3cf2e6",
+      "bytes": 521
+    },
+    {
+      "arquivo": "data/raw/cve_sarampo_serie_1980_2026.pdf",
+      "sha256": "f0a775b8a7940a97d0994efe9d31b16525621ee53f8a71f1e0ed12ea70a249e5",
+      "bytes": 127443
+    },
+    {
+      "arquivo": "data/raw/malha_sp.json",
+      "sha256": "a9296e20334db2f4c6d86e74d97dec46842ab0c849f5b93076633c5e8348668d",
+      "bytes": 1011746
+    },
+    {
+      "arquivo": "data/raw/pop_ms_sp.csv.gz",
+      "sha256": "bef3004621da021f3a88b968c194f553c162648ff414683adfa741354a3d6163",
+      "bytes": 9339329
+    },
+    {
+      "arquivo": "data/raw/REGIC2018_Municipios_Hierarquia_e_regiao.xlsx",
+      "sha256": "f1d29395964e4827d8294d27b57bcffb36fc47918f91b8ecee4efdbac1cda03e",
+      "bytes": 491476
+    },
+    {
+      "arquivo": "data/raw/ripsa008mb.csv.zip",
+      "sha256": "d2a804847cee185b96f7eede76cb0684bc66f20b9b84ad6d177ccfbd6ac1a38f",
+      "bytes": 11085994
+    },
+    {
+      "arquivo": "data/raw/sidra_censo2022.csv",
+      "sha256": "fc4aba4912a88e14eea1edbc3a882150655f3913aabe31dbd7852a579b06f6b3",
+      "bytes": 169158
+    },
+    {
+      "arquivo": "data/raw/sidra_pib.csv",
+      "sha256": "f1a46dd5bc6ebeba11ca8609e4eb71e40fea6082d7976c098069c1dc7be8b53b",
+      "bytes": 714031
+    },
+    {
+      "arquivo": "data/raw/sidra_pop_estim.csv",
+      "sha256": "8246f4d0739ca2560784ff06b4004d4271038fc01a924b135741c9d1c041fd03",
+      "bytes": 617568
+    },
+    {
+      "arquivo": "data/raw/sih_sarampo.csv",
+      "sha256": "5e88959334d74be9f7d02d3bdda4d447c0f2e6cc89d6d26eb39ea02f48e0c2f2",
+      "bytes": 19306
+    },
+    {
+      "arquivo": "data/raw/sih_sarampo_1996_1998_mes.csv",
+      "sha256": "4db32b4ab5fcbc9f0f04c5f0584253b71014d4ad96c48a8dac2cbdc29f20e327",
+      "bytes": 1249
+    },
+    {
+      "arquivo": "data/raw/sih_sarampo_1996_1998_municipio.csv",
+      "sha256": "ea2cef0819b3c18cd5a140f895d0ec56ec5d5bda6fd76696db2c1c1994f7cb49",
+      "bytes": 1561
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR07.dbc",
+      "sha256": "c27617a8a193e9d59fe1422186bf1cf168297a63141d366ebb01bc18dcc5a4ec",
+      "bytes": 2473399
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR08.dbc",
+      "sha256": "e6c5278757625aa1cd17de0f665a2e0296d811db4b38786748ab72ac27cd7982",
+      "bytes": 1647479
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR09.dbc",
+      "sha256": "23869a7d1dc70e3670371f99ca69df4e792c6aec327128b14f87e7a11e9265cb",
+      "bytes": 703585
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR10.dbc",
+      "sha256": "4b1916ecce8d6eb6a41411ee3851226b40efc5c4088a093605895c960c08a7a0",
+      "bytes": 721092
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR11.dbc",
+      "sha256": "e77fba6fcc0cfc39c28edd002b29b0db3bfdc6aa9af7be618bd0584426365bfe",
+      "bytes": 566378
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR12.dbc",
+      "sha256": "cd80654b1bfd80dd2e0be7544124f069b9dbb441cdc554252e1dd1fef96735c0",
+      "bytes": 394680
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR13.dbc",
+      "sha256": "0344fd65056a4172d283f68e0e9c63c69638989e67cde33b1812737678a799c2",
+      "bytes": 414858
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR14.dbc",
+      "sha256": "b1b30b8d42e3117cd1a2893a020d9a2c8c9acedbadc2016c96694b573e515ebb",
+      "bytes": 502264
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR15.dbc",
+      "sha256": "f7fc49c661af1a4f0f0e4191a8b719a8fefeff0dde1dbbb0fee02ac93233dea9",
+      "bytes": 428117
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR16.dbc",
+      "sha256": "5132fb6f53013111cfdf58f2ab6a05194b3d516981b6a049be749d023e61e498",
+      "bytes": 170938
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR17.dbc",
+      "sha256": "775cf883ddbff2a9129c0071681ef75177099a37007ae3d433bd27c23a01d58d",
+      "bytes": 138982
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR18.dbc",
+      "sha256": "d1e316b0953069b3c81a7d0bc4b35dbf4d3eaada4c67b145f3d87dce7fa6fff0",
+      "bytes": 916929
+    },
+    {
+      "arquivo": "data/raw/sinan/EXANBR19.dbc",
       "sha256": "4a57515ba25ddef87f587ac9bd82a7985c0e1d806e1fe3b87b814abf74daa47d",
       "bytes": 3862285
     },
     {
-      "arquivo": "data/raw/EXANBR20.dbc",
+      "arquivo": "data/raw/sinan/EXANBR20.dbc",
       "sha256": "7539124381d2ee9e5609f91025c753bf63b2b04d5dbbda2dbbfebb1455eb6552",
       "bytes": 1037349
     },
     {
-      "arquivo": "data/raw/gdp_per_capita_2016.csv",
-      "sha256": "4bfe59b6896af4d0faf6fbe93d1b5bd1fc4987d73b6d04c75ff022632b6f82d7",
-      "bytes": 17767
+      "arquivo": "data/raw/sinan/EXANBR21.dbc",
+      "sha256": "67a1e87c4dab79ad9f349e15d1c7f1fc8f25fe2c3961e175fd11f35e5209e09a",
+      "bytes": 191578
     },
     {
-      "arquivo": "data/raw/ibge_sidra_gdp_2016.json",
-      "sha256": "078edd1c74d67b78bae7c9344c6032213e3e5a3278cbb54b1c99f748118f6752",
-      "bytes": 127461
+      "arquivo": "data/raw/sinan/EXANBR22.dbc",
+      "sha256": "89be544dbf5fccccf23a03dc37ffa39158e2c52ddb07d6996f7439ac8c1ca854",
+      "bytes": 273190
     },
     {
-      "arquivo": "data/raw/ibge_sidra_population_2016.json",
-      "sha256": "a337afff9cbfbe2c5fdcdb9d8dfd7796158695117d621669f4c7c5624b73fdce",
-      "bytes": 119450
+      "arquivo": "data/raw/sinan/EXANBR23.dbc",
+      "sha256": "d86f8f649715692d394f4dd83cc2a5d64ff196726b983f07619193a5e310dab6",
+      "bytes": 171172
     },
     {
-      "arquivo": "data/raw/manifesto_consultas_original.json",
-      "sha256": "0817cf0da127473b977b8c7d4cf2574b369737845b5a077836c7d51f44f6b645",
-      "bytes": 39056
+      "arquivo": "data/raw/sinan/EXANBR24.dbc",
+      "sha256": "46ff935d59f4af85d542fd39d79c2a455530312889ca163265e741ce8498bb6a",
+      "bytes": 197322
     },
     {
-      "arquivo": "data/raw/mmr_2016_2018.csv",
-      "sha256": "794ee20ee4c6f4e082131e535b477b35739d1da55fc8f02d5f3449b9ae89f4a8",
-      "bytes": 97624
+      "arquivo": "data/raw/sinan/EXANBR25.dbc",
+      "sha256": "f2bc12b34d32b42614e372538c3c8cbbb798f04cdd8c0ac070e4254d44fcc1fb",
+      "bytes": 309950
     },
     {
-      "arquivo": "data/raw/mmr_provenance.json",
-      "sha256": "5180452cb7c843806c7b7a4cbeacfe19712452569b3fd3d0400f7985fac59666",
-      "bytes": 2503
+      "arquivo": "data/raw/sinan/EXANBR26.dbc",
+      "sha256": "04fe1ce5f5472c6fc13d0af335f2059765f3e9da780f1c3079f3075117df3b09",
+      "bytes": 325042
     },
     {
-      "arquivo": "data/raw/pop2019.xls",
-      "sha256": "e2cd7382178a11ab93941ffb3680b64efae9d9096b507b4ff3ebb99e324b9452",
-      "bytes": 696320
-    },
-    {
-      "arquivo": "data/raw/pop_idade.html",
-      "sha256": "28948f57a86714e58548a3d3a134a2c8a92d1e1d43e1327b57201cae2d49328f",
-      "bytes": 218455
-    },
-    {
-      "arquivo": "data/raw/pop_sexo.html",
-      "sha256": "a3536d270b03d53bb95091ccddaf1d1f87b61ba7d5bf98f4cb94c1ba7cec738f",
-      "bytes": 27333
-    },
-    {
-      "arquivo": "data/raw/query_population.json",
-      "sha256": "4c9466b2aea2c2cddf915b62d502af7be9aac11ebe9d0f252bb9a531bf8c08d4",
-      "bytes": 1255
-    },
-    {
-      "arquivo": "data/raw/sp_municipios.zip",
-      "sha256": "454e6f65782fc08b306c2df9e298103e117b7918274666aaeaae3027991320b0",
-      "bytes": 10146482
-    },
-    {
-      "arquivo": "data/processed/fontes.json",
-      "sha256": "83450de91594702b63174785d04b96d06d419ad029c93109a6e9228be96a49a0",
-      "bytes": 659
+      "arquivo": "data/processed/cobertura_estado.csv",
+      "sha256": "aa79c3e5d5a4a6c6a56a13fcef617a8703683b9d5aada3a05a948778a1aaa68c",
+      "bytes": 946
     },
     {
       "arquivo": "data/processed/malha.json",
-      "sha256": "74114676881478c1de9949a2ac283e8be2dce451a0098a940834db8f1b302337",
-      "bytes": 26434903
+      "sha256": "8fd9b829164d49b36d2c33276e90a981b05393648704693f5659ed84b3825579",
+      "bytes": 861947
     },
     {
-      "arquivo": "data/processed/mmr.csv",
-      "sha256": "794ee20ee4c6f4e082131e535b477b35739d1da55fc8f02d5f3449b9ae89f4a8",
-      "bytes": 97624
+      "arquivo": "data/processed/municipio.csv",
+      "sha256": "0b7a51a573b44cd58ff11ad279df10152e9e080736e6b98f75f48eda8416f1ad",
+      "bytes": 91339
     },
     {
-      "arquivo": "data/processed/municipios.csv",
-      "sha256": "25bd0d03645ff8d8fa6d4c2beed0017e7bd0e9caebb7ec16dd0501f12891008a",
-      "bytes": 26077
+      "arquivo": "data/processed/municipio_ano.csv",
+      "sha256": "211ae1b7c4f939dfe7e8c53af79fc4e5afc15dd8e50fc7be89301e75fd0c8d0f",
+      "bytes": 829110
     },
     {
       "arquivo": "data/processed/notificacoes.csv",
-      "sha256": "78eea1feb6f0e707cc943d03d21271f0a47a51fcbc236770b003ba638d1a499b",
-      "bytes": 11070611
+      "sha256": "e2c9add510215abcc6a34b013f96adcd5d3d11c55f62a493938f93d66cec9ea1",
+      "bytes": 14969981
     },
     {
-      "arquivo": "data/processed/pib.csv",
-      "sha256": "4bfe59b6896af4d0faf6fbe93d1b5bd1fc4987d73b6d04c75ff022632b6f82d7",
-      "bytes": 17767
-    },
-    {
-      "arquivo": "data/processed/pop_idade.csv",
-      "sha256": "c377720ea47a9c7cf4ec95b22715a094d2ee987d9f3fe87f96ef6013bbe8a408",
-      "bytes": 42347
-    },
-    {
-      "arquivo": "data/processed/pop_sexo.csv",
-      "sha256": "af2f6d06331c28838657b08ee04d52d6d65f0ebcbf9f2675b917994a6f328f98",
-      "bytes": 27243
+      "arquivo": "data/processed/vizinhos.json",
+      "sha256": "bc41619ddf4910d3b494d1c1e72f9ca4cf18320b0d8a1b498ff40d59ba98ec58",
+      "bytes": 44382
     }
   ]
 }

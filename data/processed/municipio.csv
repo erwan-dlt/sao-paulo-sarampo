@@ -1,0 +1,646 @@
+co_ibge,no_municipio,co_regiao_saude,no_regiao_saude,rras,area_km2,regic_hierarquia,regic_nivel,regic_grupo,arranjo_populacional,regic_regiao_influencia,lat,lon,dist_capital_km,n_vizinhos
+350010,Adamantina,35091,Adamantina,RRAS10,411.987,3B,8,3,Arranjo Populacional de Adamantina - Lucélia/SP,Arranjo Populacional de Presidente Prudente/SP,-21.57644,-51.05665,507.8,4
+350020,Adolfo,35156,José Bonifácio,RRAS12,211.055,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.28856,-49.65338,405.3,6
+350030,Aguaí,35142,Mantiqueira,RRAS15,474.554,5,11,5,,Arranjo Populacional de São João da Boa Vista/SP,-22.04994,-47.04046,182.4,8
+350040,Águas da Prata,35142,Mantiqueira,RRAS15,142.673,3A,7,3,Arranjo Populacional de São João da Boa Vista/SP,Arranjo Populacional de Campinas/SP,-21.91413,-46.6914,193.1,3
+350050,Águas de Lindóia,35074,Circuito das Águas,RRAS15,60.126,5,11,5,Arranjo Populacional de Águas de Lindóia/SP,Arranjo Populacional de São Paulo/SP,-22.47482,-46.60287,130.7,3
+350055,Águas de Santa Bárbara,35061,Vale do Jurumirim,RRAS9,404.463,5,11,5,,Avaré (SP),-22.85768,-49.26097,281.1,6
+350060,Águas de São Pedro,35103,Piracicaba,RRAS14,3.612,5,11,5,Arranjo Populacional de São Pedro/SP,Arranjo Populacional de Piracicaba/SP,-22.59811,-47.87672,171.7,1
+350070,Agudos,35062,Bauru,RRAS9,966.708,4B,10,4,,Arranjo Populacional de Bauru/SP,-22.57189,-49.10859,278.7,10
+350075,Alambari,35161,Itapetininga,RRAS8,159.6,3A,7,3,Arranjo Populacional de Itapetininga/SP,Arranjo Populacional de Sorocaba/SP,-23.54856,-47.86855,124.9,4
+350080,Alfredo Marcondes,35112,Alta Sorocabana,RRAS11,118.915,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-21.93494,-51.39553,522.7,4
+350090,Altair,35051,Norte - Barretos,RRAS13,313.007,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.53333,-49.09359,428.4,6
+350100,Altinópolis,35133,Vale das Cachoeiras,RRAS13,928.956,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.01801,-47.3863,302.3,8
+350110,Alto Alegre,35023,Consórcios do DRS II,RRAS19,318.574,5,11,5,,Penápolis (SP),-21.61248,-50.19231,428.5,6
+350115,Alumínio,35163,Sorocaba,RRAS8,83.619,2B,5,2,Arranjo Populacional de Sorocaba/SP,Arranjo Populacional de São Paulo/SP,-23.53344,-47.28112,65.8,4
+350120,Álvares Florence,35157,Votuporanga,RRAS12,362.411,3B,8,3,Arranjo Populacional de Votuporanga/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.28939,-49.92022,503.4,7
+350130,Álvares Machado,35112,Alta Sorocabana,RRAS11,347.647,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.13131,-51.51487,526.3,5
+350140,Álvaro de Carvalho,35093,Marília,RRAS10,153.662,5,11,5,,Arranjo Populacional de Marília/SP,-22.08643,-49.73378,360.8,6
+350150,Alvinlândia,35093,Marília,RRAS10,84.879,5,11,5,,Arranjo Populacional de Marília/SP,-22.45241,-49.75871,345.0,5
+350160,Americana,35072,Região Metropolitana de Campinas,RRAS15,133.912,2C,6,2,Arranjo Populacional de Americana - Santa Bárbara d´Oeste/SP,Arranjo Populacional de Campinas/SP,-22.72336,-47.28937,122.1,5
+350170,Américo Brasiliense,35031,Central do DRS III ,RRAS18,122.958,2C,6,2,Arranjo Populacional de Araraquara/SP,Arranjo Populacional de Ribeirão Preto/SP,-21.72214,-48.03185,257.1,4
+350180,Américo de Campos,35157,Votuporanga,RRAS12,252.876,5,11,5,,Arranjo Populacional de Votuporanga/SP,-20.28974,-49.76824,493.0,5
+350190,Amparo,35074,Circuito das Águas,RRAS15,445.323,3B,8,3,Arranjo Populacional de Amparo/SP,Arranjo Populacional de Campinas/SP,-22.69921,-46.79858,106.8,7
+350200,Analândia,35104,Rio Claro,RRAS14,325.953,5,11,5,,Arranjo Populacional de Rio Claro/SP,-22.12096,-47.67813,200.1,6
+350210,Andradina,35022,Lagos do DRS II,RRAS19,964.226,3B,8,3,,Araçatuba (SP),-20.83552,-51.32981,574.5,8
+350220,Angatuba,35161,Itapetininga,RRAS8,1027.288,5,11,5,,Arranjo Populacional de Itapetininga/SP,-23.43689,-48.45917,186.2,7
+350230,Anhembi,35063,Polo Cuesta,RRAS9,736.557,5,11,5,,Botucatu (SP),-22.80007,-48.17464,182.4,5
+350240,Anhumas,35112,Alta Sorocabana,RRAS11,320.84,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.36177,-51.42751,509.7,5
+350250,Aparecida,35172,Circuito da Fé e Vale Histórico,RRAS17,120.89,2C,6,2,Arranjo Populacional de Guaratinguetá/SP,Arranjo Populacional de São José dos Campos/SP,-22.91426,-45.2372,165.7,4
+350260,Aparecida D'Oeste,35153,Jales,RRAS12,179.004,5,11,5,,Arranjo Populacional de Jales/SP,-20.47887,-50.92213,564.1,7
+350270,Apiaí,35162,Itapeva,RRAS8,974.322,4B,10,4,,Itapeva (SP),-24.42159,-48.81742,236.4,8
+350275,Araçariguama,35163,Sorocaba,RRAS8,145.204,5,11,5,,Arranjo Populacional de São Roque - Mairinque/SP,-23.43467,-47.07265,49.5,6
+350280,Araçatuba,35021,Central do DRS II,RRAS19,1167.126,2C,6,2,,Arranjo Populacional de São José do Rio Preto/SP,-21.11358,-50.57472,492.5,10
+350290,Araçoiaba da Serra,35163,Sorocaba,RRAS8,255.305,2B,5,2,Arranjo Populacional de Sorocaba/SP,Arranjo Populacional de São Paulo/SP,-23.54337,-47.65081,102.9,5
+350300,Aramina,35083,Alta Mogiana,RRAS13,202.829,5,11,5,Arranjo Populacional de Igarapava/SP,Uberaba (MG),-20.14473,-47.82088,408.1,4
+350310,Arandu,35061,Vale do Jurumirim,RRAS9,285.908,5,11,5,,Avaré (SP),-23.17776,-49.06395,252.1,3
+350315,Arapeí,35172,Circuito da Fé e Vale Histórico,RRAS17,156.903,5,11,5,,Arranjo Populacional de Resende/RJ,-22.67267,-44.43805,250.7,2
+350320,Araraquara,35031,Central do DRS III ,RRAS18,1003.625,2C,6,2,Arranjo Populacional de Araraquara/SP,Arranjo Populacional de Ribeirão Preto/SP,-21.79157,-48.181,259.7,10
+350330,Araras,35101,Araras,RRAS14,644.831,3A,7,3,,Arranjo Populacional de Campinas/SP,-22.3459,-47.32351,160.6,9
+350335,Arco-Íris,35095,Tupã,RRAS10,264.904,3B,8,3,Arranjo Populacional de Tupã/SP,Arranjo Populacional de Marília/SP,-21.76663,-50.43055,440.9,6
+350340,Arealva,35062,Bauru,RRAS9,506.226,5,11,5,,Arranjo Populacional de Bauru/SP,-22.07627,-48.9819,296.3,6
+350350,Areias,35172,Circuito da Fé e Vale Histórico,RRAS17,305.227,5,11,5,,Arranjo Populacional de Cruzeiro/SP,-22.6731,-44.7123,225.7,4
+350360,Areiópolis,35063,Polo Cuesta,RRAS9,85.907,5,11,5,,Botucatu (SP),-22.63129,-48.65285,234.2,4
+350370,Ariranha,35151,Catanduva,RRAS12,132.624,3A,7,3,Arranjo Populacional de Santa Adélia - Palmares Paulista - Ariranha/SP,Arranjo Populacional de Catanduva/SP,-21.18575,-48.77894,350.8,7
+350380,Artur Nogueira,35072,Região Metropolitana de Campinas,RRAS15,178.026,5,11,5,Arranjo Populacional de Artur Nogueira/SP,Arranjo Populacional de Campinas/SP,-22.5613,-47.13244,130.8,5
+350390,Arujá,35011,Alto do Tietê,RRAS2,96.167,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.38601,-46.31882,44.6,4
+350395,Aspásia,35153,Jales,RRAS12,69.373,5,11,5,,Arranjo Populacional de Jales/SP,-20.18311,-50.72804,570.7,5
+350400,Assis,35092,Assis,RRAS10,460.609,3A,7,3,,Arranjo Populacional de Marília/SP,-22.60165,-50.42058,403.0,7
+350410,Atibaia,35071,Bragança,RRAS16,478.521,3B,8,3,Arranjo Populacional de Atibaia/SP,Arranjo Populacional de São Paulo/SP,-23.12366,-46.58683,58.8,9
+350420,Auriflama,35021,Central do DRS II,RRAS19,434.498,4B,10,4,,Araçatuba (SP),-20.64412,-50.58009,525.0,6
+350430,Avaí,35062,Bauru,RRAS9,540.689,5,11,5,,Arranjo Populacional de Bauru/SP,-22.18716,-49.31601,318.0,7
+350440,Avanhandava,35023,Consórcios do DRS II,RRAS19,338.37,5,11,5,,Penápolis (SP),-21.46089,-49.94743,417.2,4
+350450,Avaré,35061,Vale do Jurumirim,RRAS9,1213.055,3B,8,3,,Arranjo Populacional de São Paulo/SP,-23.07517,-48.89396,238.0,10
+350460,Bady Bassitt,35155,São José do Rio Preto,RRAS12,110.372,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.93147,-49.43778,416.8,5
+350470,Balbinos,35062,Bauru,RRAS9,91.635,5,11,5,Arranjo Populacional de Pirajuí/SP,Arranjo Populacional de Bauru/SP,-21.89217,-49.33319,337.6,2
+350480,Bálsamo,35155,São José do Rio Preto,RRAS12,149.881,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.7095,-49.55191,443.0,5
+350490,Bananal,35172,Circuito da Fé e Vale Histórico,RRAS17,616.429,5,11,5,,Arranjo Populacional de Volta Redonda - Barra Mansa/RJ,-22.73354,-44.33428,257.5,2
+350500,Barão de Antonina,35061,Vale do Jurumirim,RRAS9,153.142,5,11,5,,Itaporanga (SP),-23.58313,-49.57196,298.0,2
+350510,Barbosa,35023,Consórcios do DRS II,RRAS19,205.212,5,11,5,,Penápolis (SP),-21.2907,-49.92216,426.6,6
+350520,Bariri,35064,Jaú,RRAS9,444.405,4B,10,4,,Jaú (SP),-22.06688,-48.71879,275.7,8
+350530,Barra Bonita,35064,Jaú,RRAS9,150.121,5,11,5,Arranjo Populacional de Barra Bonita - Igaraçu do Tietê/SP,Jaú (SP),-22.47936,-48.54175,233.4,5
+350535,Barra do Chapéu,35162,Itapeva,RRAS8,405.681,5,11,5,,Apiaí (SP),-24.4439,-49.08525,262.8,4
+350540,Barra do Turvo,35121,Vale do Ribeira,RRAS7,1007.684,5,11,5,,Registro (SP),-24.88851,-48.42692,226.9,5
+350550,Barretos,35051,Norte - Barretos,RRAS13,1566.161,2C,6,2,,Arranjo Populacional de São José do Rio Preto/SP,-20.51406,-48.652,405.2,8
+350560,Barrinha,35131,Horizonte Verde,RRAS13,146.025,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.23247,-48.09501,307.2,5
+350570,Barueri,35014,Rota dos Bandeirantes,RRAS5,65.701,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.50567,-46.87683,28.3,6
+350580,Bastos,35095,Tupã,RRAS10,170.912,5,11,5,,Arranjo Populacional de Tupã/SP,-21.95033,-50.74388,460.4,4
+350590,Batatais,35133,Vale das Cachoeiras,RRAS13,849.526,4A,9,4,,Arranjo Populacional de Ribeirão Preto/SP,-20.86788,-47.5748,323.7,9
+350600,Bauru,35062,Bauru,RRAS9,667.684,2B,5,2,Arranjo Populacional de Bauru/SP,Arranjo Populacional de São Paulo/SP,-22.25413,-49.12592,297.4,7
+350610,Bebedouro,35052,Sul - Barretos,RRAS13,683.192,3B,8,3,,Arranjo Populacional de Ribeirão Preto/SP,-20.9404,-48.51076,357.1,9
+350620,Bento de Abreu,35021,Central do DRS II,RRAS19,301.687,5,11,5,Arranjo Populacional de Valparaíso/SP,Araçatuba (SP),-21.33147,-50.86183,503.8,4
+350630,Bernardino de Campos,35094,Ourinhos,RRAS10,244.158,5,11,5,,Arranjo Populacional de Ourinhos/SP,-23.03073,-49.49177,298.4,4
+350635,Bertioga,35041,Baixada Santista,RRAS7,491.546,5,11,5,,Arranjo Populacional da Baixada Santista/SP,-23.75961,-46.03002,64.1,6
+350640,Bilac,35021,Central do DRS II,RRAS19,158.025,5,11,5,,Araçatuba (SP),-21.42746,-50.47927,464.6,5
+350650,Birigui,35023,Consórcios do DRS II,RRAS19,530.031,3B,8,3,Arranjo Populacional de Birigui/SP,Araçatuba (SP),-21.26146,-50.35084,464.0,5
+350660,Biritiba Mirim,35011,Alto do Tietê,RRAS2,317.406,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.62399,-46.02066,64.0,4
+350670,Boa Esperança do Sul,35031,Central do DRS III ,RRAS18,690.748,5,11,5,,Arranjo Populacional de Araraquara/SP,-21.93491,-48.46352,266.5,10
+350680,Bocaina,35064,Jaú,RRAS9,363.926,5,11,5,,Jaú (SP),-22.10556,-48.52913,258.1,4
+350690,Bofete,35063,Polo Cuesta,RRAS9,653.541,5,11,5,,Botucatu (SP),-23.12888,-48.28587,176.9,9
+350700,Boituva,35163,Sorocaba,RRAS8,248.954,4A,9,4,Arranjo Populacional de Boituva - Iperó/SP,Arranjo Populacional de Sorocaba/SP,-23.2868,-47.67486,112.3,5
+350710,Bom Jesus dos Perdões,35071,Bragança,RRAS16,108.366,3B,8,3,Arranjo Populacional de Atibaia/SP,Arranjo Populacional de São Paulo/SP,-23.17294,-46.47895,55.8,3
+350715,Bom Sucesso de Itararé,35162,Itapeva,RRAS8,133.578,5,11,5,,Itapeva (SP),-24.31591,-49.16456,266.2,4
+350720,Borá,35092,Assis,RRAS10,118.951,4A,9,4,Arranjo Populacional de Paraguaçu Paulista/SP,Assis (SP),-22.24403,-50.50218,424.5,4
+350730,Boracéia,35064,Jaú,RRAS9,122.11,5,11,5,,Bariri (SP),-22.17015,-48.78858,274.1,3
+350740,Borborema,35033,Noroeste do DRS III ,RRAS18,552.256,5,11,5,,Arranjo Populacional de Bauru/SP,-21.61066,-49.07194,336.6,7
+350745,Borebi,35062,Bauru,RRAS9,347.989,5,11,5,,Agudos (SP),-22.68034,-48.99237,262.8,4
+350750,Botucatu,35063,Polo Cuesta,RRAS9,1482.642,3A,7,3,,Arranjo Populacional de São Paulo/SP,-22.86344,-48.46819,205.5,10
+350760,Bragança Paulista,35071,Bragança,RRAS16,512.584,3A,7,3,,Arranjo Populacional de São Paulo/SP,-22.93821,-46.55613,79.7,9
+350770,Braúna,35023,Consórcios do DRS II,RRAS19,195.176,3B,8,3,Arranjo Populacional de Birigui/SP,Araçatuba (SP),-21.55327,-50.3395,444.9,6
+350775,Brejo Alegre,35023,Consórcios do DRS II,RRAS19,105.689,3B,8,3,Arranjo Populacional de Birigui/SP,Araçatuba (SP),-21.1768,-50.20961,457.9,4
+350780,Brodowski,35133,Vale das Cachoeiras,RRAS13,278.458,2A,4,2,Arranjo Populacional de Ribeirão Preto/SP,Arranjo Populacional de São Paulo/SP,-21.04973,-47.62779,306.2,5
+350790,Brotas,35064,Jaú,RRAS9,1101.373,5,11,5,,Jaú (SP),-22.27335,-48.08124,212.0,7
+350800,Buri,35162,Itapeva,RRAS8,1196.463,5,11,5,,Itapeva (SP),-23.75209,-48.5753,196.6,7
+350810,Buritama,35023,Consórcios do DRS II,RRAS19,326.921,4B,10,4,,Araçatuba (SP),-21.04905,-50.20026,465.9,9
+350820,Buritizal,35083,Alta Mogiana,RRAS13,266.42,5,11,5,,Ituverava (SP),-20.20952,-47.69286,397.4,5
+350830,Cabrália Paulista,35062,Bauru,RRAS9,239.974,5,11,5,,Arranjo Populacional de Bauru/SP,-22.48936,-49.37316,307.2,5
+350840,Cabreúva,35073,Jundiaí,RRAS16,260.234,2C,6,2,Arranjo Populacional de Jundiaí/SP,Arranjo Populacional de São Paulo/SP,-23.30116,-47.08026,58.7,6
+350850,Caçapava,35171,Alto Vale do Paraíba,RRAS17,368.99,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-23.10364,-45.71333,113.1,5
+350860,Cachoeira Paulista,35172,Circuito da Fé e Vale Histórico,RRAS17,287.99,5,11,5,,Arranjo Populacional de Lorena/SP,-22.70277,-44.99145,199.4,5
+350870,Caconde,35143,Rio Pardo,RRAS15,468.214,5,11,5,,São José do Rio Pardo (SP),-21.53979,-46.61695,234.7,3
+350880,Cafelândia,35065,Lins,RRAS9,920.28,5,11,5,,Lins (SP),-21.73132,-49.5488,366.1,7
+350890,Caiabu,35112,Alta Sorocabana,RRAS11,253.352,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-21.94979,-51.22384,505.7,4
+350900,Caieiras,35012,Franco da Rocha,RRAS3,97.642,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.37598,-46.74521,32.0,4
+350910,Caiuá,35114,Extremo Oeste Paulista,RRAS11,551.159,4A,9,4,Arranjo Populacional de Presidente Venceslau/SP,Arranjo Populacional de Presidente Prudente/SP,-21.80175,-51.98665,584.8,4
+350920,Cajamar,35012,Franco da Rocha,RRAS3,131.386,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.35155,-46.8722,40.3,6
+350925,Cajati,35121,Vale do Ribeira,RRAS7,454.436,5,11,5,,Registro (SP),-24.77216,-48.19511,200.5,3
+350930,Cajobi,35051,Norte - Barretos,RRAS13,176.929,5,11,5,,Olímpia (SP),-20.87377,-48.83913,382.3,6
+350940,Cajuru,35133,Vale das Cachoeiras,RRAS13,660.088,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.27609,-47.31055,272.6,8
+350945,Campina do Monte Alegre,35161,Itapetininga,RRAS8,184.479,5,11,5,,Arranjo Populacional de Itapetininga/SP,-23.60682,-48.442,182.8,3
+350950,Campinas,35072,Região Metropolitana de Campinas,RRAS15,794.571,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-22.88386,-47.04405,94.3,11
+350960,Campo Limpo Paulista,35073,Jundiaí,RRAS16,79.403,2C,6,2,Arranjo Populacional de Jundiaí/SP,Arranjo Populacional de São Paulo/SP,-23.21783,-46.75998,49.4,6
+350970,Campos do Jordão,35174,Vale do Paraíba/Região Serrana,RRAS17,289.981,4A,9,4,,Arranjo Populacional de São José dos Campos/SP,-22.7017,-45.53315,155.2,4
+350980,Campos Novos Paulista,35093,Marília,RRAS10,484.199,5,11,5,,Arranjo Populacional de Marília/SP,-22.61084,-50.01021,362.7,7
+350990,Cananéia,35121,Vale do Ribeira,RRAS7,1237.354,5,11,5,,Registro (SP),-25.01802,-48.00846,205.3,5
+350995,Canas,35172,Circuito da Fé e Vale Histórico,RRAS17,53.261,3A,7,3,Arranjo Populacional de Lorena/SP,Arranjo Populacional de Guaratinguetá/SP,-22.73042,-45.04068,193.5,2
+351000,Cândido Mota,35092,Assis,RRAS10,595.811,5,11,5,,Assis (SP),-22.80858,-50.42173,396.8,5
+351010,Cândido Rodrigues,35033,Noroeste do DRS III ,RRAS18,70.892,5,11,5,,Taquaritinga (SP),-21.34295,-48.62875,327.4,3
+351015,Canitar,35094,Ourinhos,RRAS10,57.459,3A,7,3,Arranjo Populacional de Ourinhos/SP,Arranjo Populacional de São Paulo/SP,-23.01847,-49.7918,328.6,3
+351020,Capão Bonito,35161,Itapetininga,RRAS8,1640.229,3B,8,3,Arranjo Populacional de Capão Bonito/SP,Arranjo Populacional de São Paulo/SP,-24.03911,-48.28956,172.5,9
+351030,Capela do Alto,35163,Sorocaba,RRAS8,169.89,5,11,5,,Arranjo Populacional de Sorocaba/SP,-23.46749,-47.73084,112.2,6
+351040,Capivari,35103,Piracicaba,RRAS14,322.878,3B,8,3,Arranjo Populacional de Capivari/SP,Arranjo Populacional de Campinas/SP,-22.98085,-47.47839,112.8,7
+351050,Caraguatatuba,35173,Litoral Norte,RRAS17,484.947,3B,8,3,Arranjo Populacional de Caraguatatuba - Ubatuba - São Sebastião/SP,Arranjo Populacional de São José dos Campos/SP,-23.63966,-45.48823,118.1,5
+351060,Carapicuíba,35014,Rota dos Bandeirantes,RRAS5,34.546,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.55012,-46.8419,22.7,4
+351070,Cardoso,35157,Votuporanga,RRAS12,639.248,5,11,5,,Arranjo Populacional de Votuporanga/SP,-20.06727,-49.94788,524.0,8
+351080,Casa Branca,35143,Rio Pardo,RRAS15,864.225,5,11,5,,Arranjo Populacional de São João da Boa Vista/SP,-21.8004,-47.08807,210.6,7
+351090,Cássia dos Coqueiros,35133,Vale das Cachoeiras,RRAS13,191.683,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.26325,-47.14441,270.2,3
+351100,Castilho,35022,Lagos do DRS II,RRAS19,1065.318,5,11,5,,Andradina (SP),-20.89794,-51.57019,591.7,5
+351110,Catanduva,35151,Catanduva,RRAS12,290.596,2C,6,2,Arranjo Populacional de Catanduva/SP,Arranjo Populacional de São José do Rio Preto/SP,-21.1335,-48.96348,367.4,10
+351120,Catiguá,35151,Catanduva,RRAS12,148.393,2C,6,2,Arranjo Populacional de Catanduva/SP,Arranjo Populacional de São José do Rio Preto/SP,-21.06289,-49.0529,379.3,5
+351130,Cedral,35155,São José do Rio Preto,RRAS12,197.838,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.91392,-49.2642,406.2,6
+351140,Cerqueira César,35061,Vale do Jurumirim,RRAS9,511.621,5,11,5,,Avaré (SP),-23.05933,-49.14361,263.1,7
+351150,Cerquilho,35161,Itapetininga,RRAS8,127.803,3B,8,3,Arranjo Populacional de Cerquilho - Tietê/SP,Arranjo Populacional de Piracicaba/SP,-23.18716,-47.75734,124.4,6
+351160,Cesário Lange,35161,Itapetininga,RRAS8,190.392,5,11,5,,Tatuí (SP),-23.21679,-47.90444,136.9,5
+351170,Charqueada,35103,Piracicaba,RRAS14,175.846,2C,6,2,Arranjo Populacional de Piracicaba/SP,Arranjo Populacional de São Paulo/SP,-22.53013,-47.74611,167.7,4
+351190,Clementina,35023,Consórcios do DRS II,RRAS19,168.59,5,11,5,,Araçatuba (SP),-21.57046,-50.46016,454.5,7
+351200,Colina,35051,Norte - Barretos,RRAS13,422.303,5,11,5,,Barretos (SP),-20.74622,-48.5888,379.7,6
+351210,Colômbia,35051,Norte - Barretos,RRAS13,728.648,5,11,5,Arranjo Populacional de Planura/MG - Colômbia/SP,Barretos (SP),-20.2668,-48.72168,432.7,2
+351220,Conchal,35101,Araras,RRAS14,182.793,5,11,5,,Araras (SP),-22.36905,-47.14104,151.1,4
+351230,Conchas,35063,Polo Cuesta,RRAS9,466.12,5,11,5,,Botucatu (SP),-22.96579,-48.04699,161.9,6
+351240,Cordeirópolis,35102,Limeira,RRAS14,137.579,5,11,5,,Arranjo Populacional de Limeira/SP,-22.47927,-47.41436,152.0,4
+351250,Coroados,35023,Consórcios do DRS II,RRAS19,246.825,3B,8,3,Arranjo Populacional de Birigui/SP,Araçatuba (SP),-21.37586,-50.30335,452.7,6
+351260,Coronel Macedo,35061,Vale do Jurumirim,RRAS9,303.83,5,11,5,,Taquarituba (SP),-23.62987,-49.30676,270.9,6
+351270,Corumbataí,35104,Rio Claro,RRAS14,278.622,5,11,5,,Arranjo Populacional de Rio Claro/SP,-22.23635,-47.61084,185.5,6
+351280,Cosmópolis,35072,Região Metropolitana de Campinas,RRAS15,154.665,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-22.65198,-47.18632,123.9,5
+351290,Cosmorama,35157,Votuporanga,RRAS12,441.68,5,11,5,,Arranjo Populacional de Votuporanga/SP,-20.44268,-49.77486,480.6,6
+351300,Cotia,35013,Mananciais,RRAS4,323.994,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.67506,-46.96036,32.0,12
+351310,Cravinhos,35132,Aquífero Guarani,RRAS13,311.423,2A,4,2,Arranjo Populacional de Ribeirão Preto/SP,Arranjo Populacional de São Paulo/SP,-21.33971,-47.74454,280.5,6
+351320,Cristais Paulista,35081,Três Colinas,RRAS13,385.23,2C,6,2,Arranjo Populacional de Franca/SP,Arranjo Populacional de São Paulo/SP,-20.37142,-47.40118,372.7,4
+351330,Cruzália,35092,Assis,RRAS10,149.33,5,11,5,,Assis (SP),-22.73803,-50.76887,433.2,4
+351340,Cruzeiro,35172,Circuito da Fé e Vale Histórico,RRAS17,305.699,3B,8,3,Arranjo Populacional de Cruzeiro/SP,Arranjo Populacional de Lorena/SP,-22.55164,-45.00608,207.6,4
+351350,Cubatão,35041,Baixada Santista,RRAS7,142.879,2C,6,2,Arranjo Populacional da Baixada Santista/SP,Arranjo Populacional de São Paulo/SP,-23.86605,-46.40821,34.2,4
+351360,Cunha,35172,Circuito da Fé e Vale Histórico,RRAS17,1407.25,5,11,5,,Arranjo Populacional de Guaratinguetá/SP,-23.05308,-44.94216,186.3,8
+351370,Descalvado,35032,Coração do DRS III ,RRAS18,753.706,5,11,5,,Arranjo Populacional de São Carlos/SP,-21.8812,-47.65466,222.1,6
+351380,Diadema,35015,Grande ABC,RRAS1,30.732,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.6979,-46.61185,6.5,2
+351385,Dirce Reis,35153,Jales,RRAS12,88.133,3B,8,3,Arranjo Populacional de Jales/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.44818,-50.62789,543.1,5
+351390,Divinolândia,35143,Rio Pardo,RRAS15,223.749,5,11,5,,Poços de Caldas (MG),-21.6618,-46.69752,221.1,3
+351400,Dobrada,35033,Noroeste do DRS III ,RRAS18,149.729,3B,8,3,Arranjo Populacional de Matão/SP,Arranjo Populacional de Araraquara/SP,-21.51624,-48.35769,295.1,5
+351410,Dois Córregos,35064,Jaú,RRAS9,632.972,5,11,5,,Jaú (SP),-22.39624,-48.34054,222.3,8
+351420,Dolcinópolis,35153,Jales,RRAS12,77.939,5,11,5,,Arranjo Populacional de Jales/SP,-20.11703,-50.52848,560.9,4
+351430,Dourado,35032,Coração do DRS III ,RRAS18,205.874,5,11,5,,Arranjo Populacional de São Carlos/SP,-22.11707,-48.33406,242.7,7
+351440,Dracena,35111,Alta Paulista,RRAS11,487.688,3B,8,3,,Arranjo Populacional de Presidente Prudente/SP,-21.5565,-51.58386,557.6,6
+351450,Duartina,35062,Bauru,RRAS9,264.557,5,11,5,,Arranjo Populacional de Bauru/SP,-22.39319,-49.41314,315.6,7
+351460,Dumont,35131,Horizonte Verde,RRAS13,111.376,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.24702,-47.98027,300.2,5
+351470,Echaporã,35093,Marília,RRAS10,515.258,5,11,5,,Arranjo Populacional de Marília/SP,-22.44787,-50.20048,387.3,8
+351480,Eldorado,35121,Vale do Ribeira,RRAS7,1654.256,5,11,5,,Registro (SP),-24.49525,-48.23376,186.4,8
+351490,Elias Fausto,35103,Piracicaba,RRAS14,202.36,5,11,5,,Indaiatuba (SP),-23.07058,-47.37086,98.0,6
+351492,Elisiário,35151,Catanduva,RRAS12,93.98,2C,6,2,Arranjo Populacional de Catanduva/SP,Arranjo Populacional de São José do Rio Preto/SP,-21.16114,-49.09231,373.8,5
+351495,Embaúba,35151,Catanduva,RRAS12,83.129,2C,6,2,Arranjo Populacional de Catanduva/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.95303,-48.84735,375.7,5
+351500,Embu das Artes,35013,Mananciais,RRAS4,70.398,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.65155,-46.85116,20.7,4
+351510,Embu-Guaçu,35013,Mananciais,RRAS4,155.641,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.85458,-46.83026,29.4,4
+351512,Emilianópolis,35112,Alta Sorocabana,RRAS11,225.167,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-21.80087,-51.47237,535.8,5
+351515,Engenheiro Coelho,35102,Limeira,RRAS14,109.941,5,11,5,,Arranjo Populacional de Campinas/SP,-22.48721,-47.17482,140.1,5
+351518,Espírito Santo do Pinhal,35142,Mantiqueira,RRAS15,389.235,4A,9,4,,Arranjo Populacional de São João da Boa Vista/SP,-22.19254,-46.79339,162.7,6
+351519,Espírito Santo do Turvo,35094,Ourinhos,RRAS10,193.666,5,11,5,,Santa Cruz do Rio Pardo (SP),-22.67103,-49.43298,304.8,3
+351520,Estrela D'Oeste,35154,Fernandópolis,RRAS12,296.281,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-20.26562,-50.41162,540.6,7
+351530,Estrela do Norte,35112,Alta Sorocabana,RRAS11,264.987,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.4859,-51.66891,529.7,3
+351535,Euclides da Cunha Paulista,35115,Pontal do Paranapanema,RRAS11,573.894,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.51903,-52.5887,620.5,2
+351540,Fartura,35061,Vale do Jurumirim,RRAS9,429.171,5,11,5,,Avaré (SP),-23.39044,-49.52005,294.3,8
+351550,Fernandópolis,35154,Fernandópolis,RRAS12,549.797,3A,7,3,Arranjo Populacional de Fernandópolis/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.27201,-50.28302,530.6,7
+351560,Fernando Prestes,35151,Catanduva,RRAS12,169.99,5,11,5,,Arranjo Populacional de Catanduva/SP,-21.30998,-48.6957,334.6,6
+351565,Fernão,35093,Marília,RRAS10,100.504,5,11,5,,Arranjo Populacional de Marília/SP,-22.36574,-49.54241,328.9,3
+351570,Ferraz de Vasconcelos,35011,Alto do Tietê,RRAS2,29.547,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.56126,-46.37347,29.6,6
+351580,Flora Rica,35111,Alta Paulista,RRAS11,224.711,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-21.69847,-51.37411,531.2,7
+351590,Floreal,35157,Votuporanga,RRAS12,204.236,5,11,5,,Arranjo Populacional de Votuporanga/SP,-20.66979,-50.15485,490.1,4
+351600,Flórida Paulista,35091,Adamantina,RRAS10,524.138,5,11,5,,Arranjo Populacional de Adamantina - Lucélia/SP,-21.53978,-51.17055,520.2,7
+351610,Florínea,35092,Assis,RRAS10,225.886,5,11,5,,Assis (SP),-22.88099,-50.69478,422.1,4
+351620,Franca,35081,Três Colinas,RRAS13,605.679,2C,6,2,Arranjo Populacional de Franca/SP,Arranjo Populacional de São Paulo/SP,-20.55525,-47.38155,352.3,6
+351630,Francisco Morato,35012,Franco da Rocha,RRAS3,49.001,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.27381,-46.72401,42.5,3
+351640,Franco da Rocha,35012,Franco da Rocha,RRAS3,132.775,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.31399,-46.73609,38.4,7
+351650,Gabriel Monteiro,35023,Consórcios do DRS II,RRAS19,138.681,5,11,5,,Araçatuba (SP),-21.49948,-50.56479,467.8,5
+351660,Gália,35093,Marília,RRAS10,355.914,5,11,5,,Arranjo Populacional de Marília/SP,-22.32038,-49.57746,334.3,8
+351670,Garça,35093,Marília,RRAS10,555.807,4A,9,4,,Arranjo Populacional de Marília/SP,-22.23082,-49.68957,349.1,8
+351680,Gastão Vidigal,35157,Votuporanga,RRAS12,180.569,5,11,5,Arranjo Populacional de Gastão Vidigal - Monções/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.80403,-50.2027,483.7,7
+351685,Gavião Peixoto,35031,Central do DRS III ,RRAS18,243.766,2C,6,2,Arranjo Populacional de Araraquara/SP,Arranjo Populacional de Ribeirão Preto/SP,-21.79136,-48.44741,277.1,4
+351690,General Salgado,35157,Votuporanga,RRAS12,494.376,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.63865,-50.41582,512.5,6
+351700,Getulina,35065,Lins,RRAS9,676.755,5,11,5,,Arranjo Populacional de Marília/SP,-21.7833,-50.02753,404.0,9
+351710,Glicério,35023,Consórcios do DRS II,RRAS19,272.8,5,11,5,,Araçatuba (SP),-21.34037,-50.19876,446.1,6
+351720,Guaiçara,35065,Lins,RRAS9,277.154,5,11,5,,Lins (SP),-21.56927,-49.76258,394.6,5
+351730,Guaimbê,35093,Marília,RRAS10,217.811,5,11,5,,Arranjo Populacional de Marília/SP,-21.87856,-49.86058,383.8,5
+351740,Guaíra,35051,Norte - Barretos,RRAS13,1258.465,5,11,5,,Barretos (SP),-20.314,-48.36406,411.0,5
+351750,Guapiaçu,35155,São José do Rio Preto,RRAS12,325.126,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.7425,-49.18961,415.9,6
+351760,Guapiara,35162,Itapeva,RRAS8,408.292,5,11,5,,Arranjo Populacional de Capão Bonito/SP,-24.21258,-48.55536,203.7,6
+351770,Guará,35083,Alta Mogiana,RRAS13,362.183,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-20.4825,-47.77505,370.9,5
+351780,Guaraçaí,35022,Lagos do DRS II,RRAS19,569.197,5,11,5,,Araçatuba (SP),-21.08611,-51.27922,555.0,7
+351790,Guaraci,35051,Norte - Barretos,RRAS13,641.501,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.3746,-49.0027,437.7,4
+351800,Guarani D'Oeste,35154,Fernandópolis,RRAS12,85.7,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-20.06697,-50.34478,551.6,6
+351810,Guarantã,35093,Marília,RRAS10,461.746,5,11,5,,Lins (SP),-21.91622,-49.58858,357.8,5
+351820,Guararapes,35021,Central do DRS II,RRAS19,955.637,5,11,5,,Araçatuba (SP),-21.2768,-50.62139,486.1,8
+351830,Guararema,35011,Alto do Tietê,RRAS2,270.816,5,11,5,,Arranjo Populacional de São Paulo/SP,-23.42763,-46.05831,65.0,6
+351840,Guaratinguetá,35172,Circuito da Fé e Vale Histórico,RRAS17,752.636,2C,6,2,Arranjo Populacional de Guaratinguetá/SP,Arranjo Populacional de São José dos Campos/SP,-22.79349,-45.23257,173.2,8
+351850,Guareí,35161,Itapetininga,RRAS8,567.884,5,11,5,,Arranjo Populacional de Itapetininga/SP,-23.37036,-48.21904,163.2,7
+351860,Guariba,35131,Horizonte Verde,RRAS13,270.289,5,11,5,Arranjo Populacional de Guariba/SP,Arranjo Populacional de Ribeirão Preto/SP,-21.39613,-48.22649,298.5,6
+351870,Guarujá,35041,Baixada Santista,RRAS7,144.794,2C,6,2,Arranjo Populacional da Baixada Santista/SP,Arranjo Populacional de São Paulo/SP,-23.95119,-46.23617,53.6,2
+351880,Guarulhos,35011,Alto do Tietê,RRAS2,318.675,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.40239,-46.45469,33.8,6
+351885,Guatapará,35132,Aquífero Guarani,RRAS13,413.567,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.45302,-47.97993,280.0,8
+351890,Guzolândia,35021,Central do DRS II,RRAS19,252.477,5,11,5,,Auriflama (SP),-20.6284,-50.71369,536.8,4
+351900,Herculândia,35095,Tupã,RRAS10,364.252,5,11,5,,Arranjo Populacional de Tupã/SP,-21.96216,-50.37309,425.4,5
+351905,Holambra,35072,Região Metropolitana de Campinas,RRAS15,65.577,5,11,5,Arranjo Populacional de Artur Nogueira/SP,Arranjo Populacional de Campinas/SP,-22.63021,-47.06499,121.1,6
+351907,Hortolândia,35072,Região Metropolitana de Campinas,RRAS15,62.416,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-22.87855,-47.20743,103.1,3
+351910,Iacanga,35062,Bauru,RRAS9,547.393,5,11,5,,Arranjo Populacional de Bauru/SP,-21.89085,-49.03964,313.7,5
+351920,Iacri,35095,Tupã,RRAS10,321.948,5,11,5,,Arranjo Populacional de Tupã/SP,-21.80009,-50.61945,456.3,7
+351925,Iaras,35061,Vale do Jurumirim,RRAS9,401.381,5,11,5,,Avaré (SP),-22.81929,-49.1068,267.7,5
+351930,Ibaté,35032,Coração do DRS III ,RRAS18,290.978,2C,6,2,Arranjo Populacional de São Carlos/SP,Arranjo Populacional de São Paulo/SP,-21.9512,-48.02734,235.9,3
+351940,Ibirá,35155,São José do Rio Preto,RRAS12,271.912,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.07429,-49.22047,389.9,6
+351950,Ibirarema,35094,Ourinhos,RRAS10,228.23,5,11,5,,Arranjo Populacional de Ourinhos/SP,-22.81295,-50.07684,362.5,5
+351960,Ibitinga,35033,Noroeste do DRS III ,RRAS18,689.391,3B,8,3,,Arranjo Populacional de Araraquara/SP,-21.79295,-48.84776,305.8,7
+351970,Ibiúna,35163,Sorocaba,RRAS8,1058.082,5,11,5,,Arranjo Populacional de São Paulo/SP,-23.80281,-47.21533,60.2,10
+351980,Icém,35155,São José do Rio Preto,RRAS12,362.355,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.36742,-49.18515,449.0,4
+351990,Iepê,35113,Alto Capivari,RRAS11,594.974,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.64868,-51.05704,464.3,4
+352000,Igaraçu do Tietê,35064,Jaú,RRAS9,97.747,5,11,5,Arranjo Populacional de Barra Bonita - Igaraçu do Tietê/SP,Jaú (SP),-22.54162,-48.57453,232.4,4
+352010,Igarapava,35083,Alta Mogiana,RRAS13,468.355,5,11,5,Arranjo Populacional de Igarapava/SP,Uberaba (MG),-20.06381,-47.68244,412.8,4
+352020,Igaratá,35171,Alto Vale do Paraíba,RRAS17,292.953,5,11,5,,Arranjo Populacional de São José dos Campos/SP,-23.1349,-46.15014,76.5,6
+352030,Iguape,35121,Vale do Ribeira,RRAS7,1978.795,5,11,5,Arranjo Populacional de Iguape/SP,Registro (SP),-24.54949,-47.47439,130.6,9
+352040,Ilhabela,35173,Litoral Norte,RRAS17,346.389,3B,8,3,Arranjo Populacional de Caraguatatuba - Ubatuba - São Sebastião/SP,Arranjo Populacional de São José dos Campos/SP,-23.84823,-45.32389,136.5,0
+352042,Ilha Comprida,35121,Vale do Ribeira,RRAS7,196.567,5,11,5,Arranjo Populacional de Iguape/SP,Registro (SP),-24.85899,-47.71507,172.6,2
+352044,Ilha Solteira,35022,Lagos do DRS II,RRAS19,652.641,4B,10,4,,Arranjo Populacional de São José do Rio Preto/SP,-20.43137,-51.25887,594.8,5
+352050,Indaiatuba,35072,Região Metropolitana de Campinas,RRAS15,311.545,3A,7,3,,Arranjo Populacional de Campinas/SP,-23.10615,-47.20257,82.8,7
+352060,Indiana,35112,Alta Sorocabana,RRAS11,129.367,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.13341,-51.26269,501.9,4
+352070,Indiaporã,35154,Fernandópolis,RRAS12,279.606,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-19.94784,-50.26368,555.6,4
+352080,Inúbia Paulista,35091,Adamantina,RRAS10,87.119,3B,8,3,Arranjo Populacional de Adamantina - Lucélia/SP,Arranjo Populacional de Presidente Prudente/SP,-21.73905,-50.95746,490.5,5
+352090,Ipaussu,35094,Ourinhos,RRAS10,209.554,5,11,5,,Arranjo Populacional de Ourinhos/SP,-23.06509,-49.60798,309.1,5
+352100,Iperó,35163,Sorocaba,RRAS8,170.289,4A,9,4,Arranjo Populacional de Boituva - Iperó/SP,Arranjo Populacional de Sorocaba/SP,-23.40373,-47.62935,103.7,6
+352110,Ipeúna,35104,Rio Claro,RRAS14,190.01,3A,7,3,Arranjo Populacional de Rio Claro/SP,Arranjo Populacional de São Paulo/SP,-22.42435,-47.71589,174.7,4
+352115,Ipiguá,35155,São José do Rio Preto,RRAS12,136.028,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.64778,-49.40363,438.1,5
+352120,Iporanga,35121,Vale do Ribeira,RRAS7,1152.059,5,11,5,,Apiaí (SP),-24.51263,-48.54651,215.3,6
+352130,Ipuã,35082,Alta Anhanguera,RRAS13,466.461,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-20.41781,-48.06641,388.0,6
+352140,Iracemápolis,35102,Limeira,RRAS14,115.118,2C,6,2,Arranjo Populacional de Limeira/SP,Arranjo Populacional de São Paulo/SP,-22.59287,-47.52421,147.8,5
+352150,Irapuã,35151,Catanduva,RRAS12,257.612,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.26791,-49.39738,387.3,5
+352160,Irapuru,35111,Alta Paulista,RRAS11,214.461,5,11,5,,Dracena (SP),-21.48495,-51.3467,539.1,5
+352170,Itaberá,35162,Itapeva,RRAS8,1100.247,5,11,5,,Itapeva (SP),-23.87117,-49.14268,255.1,6
+352180,Itaí,35061,Vale do Jurumirim,RRAS9,1092.884,5,11,5,,Avaré (SP),-23.4715,-49.05423,246.1,10
+352190,Itajobi,35151,Catanduva,RRAS12,502.066,5,11,5,,Arranjo Populacional de Catanduva/SP,-21.35554,-49.05385,355.2,7
+352200,Itaju,35064,Jaú,RRAS9,230.355,5,11,5,,Jaú (SP),-21.95159,-48.79412,289.9,5
+352210,Itanhaém,35041,Baixada Santista,RRAS7,601.711,2C,6,2,Arranjo Populacional da Baixada Santista/SP,Arranjo Populacional de São Paulo/SP,-24.09193,-46.83443,52.7,6
+352215,Itaóca,35162,Itapeva,RRAS8,183.015,5,11,5,,Apiaí (SP),-24.61756,-48.83956,247.1,3
+352220,Itapecerica da Serra,35013,Mananciais,RRAS4,150.742,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.73711,-46.85871,23.6,5
+352230,Itapetininga,35161,Itapetininga,RRAS8,1789.35,3A,7,3,Arranjo Populacional de Itapetininga/SP,Arranjo Populacional de Sorocaba/SP,-23.6453,-48.12309,150.3,11
+352240,Itapeva,35162,Itapeva,RRAS8,1826.258,3A,7,3,,Arranjo Populacional de São Paulo/SP,-23.91422,-48.87159,228.2,10
+352250,Itapevi,35014,Rota dos Bandeirantes,RRAS5,82.658,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.55053,-46.96747,34.4,7
+352260,Itapira,35141,Baixa Mogiana,RRAS15,518.416,3B,8,3,,Arranjo Populacional de Mogi Guaçu - Mogi Mirim/SP,-22.43175,-46.77191,136.0,8
+352265,Itapirapuã Paulista,35162,Itapeva,RRAS8,406.478,5,11,5,,Itapeva (SP),-24.56898,-49.22297,280.6,2
+352270,Itápolis,35033,Noroeste do DRS III ,RRAS18,996.747,4A,9,4,,Arranjo Populacional de Araraquara/SP,-21.54815,-48.81549,322.7,8
+352280,Itaporanga,35061,Vale do Jurumirim,RRAS9,507.997,4B,10,4,,Avaré (SP),-23.67266,-49.45826,286.2,6
+352290,Itapuí,35064,Jaú,RRAS9,140.023,5,11,5,,Jaú (SP),-22.25088,-48.70162,261.6,4
+352300,Itapura,35022,Lagos do DRS II,RRAS19,301.653,5,11,5,,Ilha Solteira (SP),-20.59507,-51.44058,599.2,3
+352310,Itaquaquecetuba,35011,Alto do Tietê,RRAS2,82.622,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.46162,-46.33351,38.3,7
+352320,Itararé,35162,Itapeva,RRAS8,1003.86,3B,8,3,,Itapeva (SP),-24.08067,-49.30321,274.2,5
+352330,Itariri,35121,Vale do Ribeira,RRAS7,273.667,5,11,5,,Peruíbe (SP),-24.29352,-47.12869,86.7,3
+352340,Itatiba,35072,Região Metropolitana de Campinas,RRAS15,322.269,3B,8,3,,Arranjo Populacional de São Paulo/SP,-23.00671,-46.81406,73.5,8
+352350,Itatinga,35063,Polo Cuesta,RRAS9,979.817,5,11,5,,Botucatu (SP),-23.15353,-48.62955,209.6,6
+352360,Itirapina,35104,Rio Claro,RRAS14,564.603,5,11,5,,Arranjo Populacional de São Carlos/SP,-22.29437,-47.83409,193.6,8
+352370,Itirapuã,35081,Três Colinas,RRAS13,161.118,2C,6,2,Arranjo Populacional de Franca/SP,Arranjo Populacional de São Paulo/SP,-20.65768,-47.16967,337.0,1
+352380,Itobi,35143,Rio Pardo,RRAS15,138.986,5,11,5,,São José do Rio Pardo (SP),-21.7491,-46.92211,213.2,4
+352390,Itu,35163,Sorocaba,RRAS8,640.719,3A,7,3,Arranjo Populacional de Itu - Salto/SP,Arranjo Populacional de Sorocaba/SP,-23.30684,-47.28479,75.3,9
+352400,Itupeva,35073,Jundiaí,RRAS16,200.876,2C,6,2,Arranjo Populacional de Jundiaí/SP,Arranjo Populacional de São Paulo/SP,-23.14652,-47.06838,70.5,7
+352410,Ituverava,35083,Alta Mogiana,RRAS13,704.659,4A,9,4,,Arranjo Populacional de Ribeirão Preto/SP,-20.32969,-47.80961,388.1,8
+352420,Jaborandi,35051,Norte - Barretos,RRAS13,273.438,5,11,5,,Barretos (SP),-20.65015,-48.41602,380.0,4
+352430,Jaboticabal,35131,Horizonte Verde,RRAS13,706.602,3B,8,3,,Sertãozinho (SP),-21.2186,-48.28813,318.6,9
+352440,Jacareí,35171,Alto Vale do Paraíba,RRAS17,464.272,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-23.29867,-45.99052,77.6,6
+352450,Jaci,35156,José Bonifácio,RRAS12,145.133,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.94523,-49.58098,426.0,4
+352460,Jacupiranga,35121,Vale do Ribeira,RRAS7,704.189,5,11,5,,Registro (SP),-24.77757,-48.05418,189.9,6
+352470,Jaguariúna,35072,Região Metropolitana de Campinas,RRAS15,141.391,5,11,5,,Arranjo Populacional de Campinas/SP,-22.69208,-47.01258,112.8,5
+352480,Jales,35153,Jales,RRAS12,368.574,3B,8,3,Arranjo Populacional de Jales/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.28593,-50.55418,549.6,8
+352490,Jambeiro,35171,Alto Vale do Paraíba,RRAS17,184.413,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-23.27939,-45.71079,104.1,6
+352500,Jandira,35014,Rota dos Bandeirantes,RRAS5,17.449,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.54368,-46.90031,28.3,4
+352510,Jardinópolis,35132,Aquífero Guarani,RRAS13,501.87,2A,4,2,Arranjo Populacional de Ribeirão Preto/SP,Arranjo Populacional de São Paulo/SP,-20.99189,-47.82603,319.4,6
+352520,Jarinu,35073,Jundiaí,RRAS16,207.549,2C,6,2,Arranjo Populacional de Jundiaí/SP,Arranjo Populacional de São Paulo/SP,-23.11196,-46.72123,60.3,5
+352530,Jaú,35064,Jaú,RRAS9,687.103,2C,6,2,,Arranjo Populacional de Bauru/SP,-22.29594,-48.55595,246.6,9
+352540,Jeriquara,35081,Três Colinas,RRAS13,141.971,5,11,5,,Arranjo Populacional de Franca/SP,-20.34016,-47.57425,380.2,5
+352550,Joanópolis,35071,Bragança,RRAS16,374.293,5,11,5,,Arranjo Populacional de Atibaia/SP,-22.93868,-46.20904,90.9,4
+352560,João Ramalho,35113,Alto Capivari,RRAS11,415.452,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.27774,-50.79915,451.6,3
+352570,José Bonifácio,35156,José Bonifácio,RRAS12,860.2,4A,9,4,,Arranjo Populacional de São José do Rio Preto/SP,-21.08932,-49.77947,429.8,10
+352580,Júlio Mesquita,35093,Marília,RRAS10,128.183,5,11,5,,Arranjo Populacional de Marília/SP,-21.97333,-49.79346,372.4,5
+352585,Jumirim,35163,Sorocaba,RRAS8,56.685,5,11,5,,Arranjo Populacional de Cerquilho - Tietê/SP,-23.09982,-47.7875,131.4,3
+352590,Jundiaí,35073,Jundiaí,RRAS16,431.204,2C,6,2,Arranjo Populacional de Jundiaí/SP,Arranjo Populacional de São Paulo/SP,-23.19442,-46.91296,57.4,10
+352600,Junqueirópolis,35111,Alta Paulista,RRAS11,582.565,5,11,5,,Dracena (SP),-21.44893,-51.43498,549.1,10
+352610,Juquiá,35121,Vale do Ribeira,RRAS7,812.799,5,11,5,,Registro (SP),-24.21374,-47.65221,119.8,5
+352620,Juquitiba,35013,Mananciais,RRAS4,522.169,5,11,5,,Arranjo Populacional de São Paulo/SP,-23.95549,-47.02423,51.2,7
+352630,Lagoinha,35174,Vale do Paraíba/Região Serrana,RRAS17,255.472,5,11,5,,Arranjo Populacional de São José dos Campos/SP,-23.08555,-45.20667,159.9,6
+352640,Laranjal Paulista,35063,Polo Cuesta,RRAS9,384.274,4B,10,4,,Arranjo Populacional de Cerquilho - Tietê/SP,-23.01219,-47.86551,143.1,7
+352650,Lavínia,35022,Lagos do DRS II,RRAS19,537.675,5,11,5,,Araçatuba (SP),-21.15102,-51.03273,529.5,6
+352660,Lavrinhas,35172,Circuito da Fé e Vale Histórico,RRAS17,167.067,3B,8,3,Arranjo Populacional de Cruzeiro/SP,Arranjo Populacional de Lorena/SP,-22.52006,-44.88885,219.4,3
+352670,Leme,35101,Araras,RRAS14,402.871,3B,8,3,Arranjo Populacional de Leme/SP,Araras (SP),-22.17221,-47.33772,178.9,7
+352680,Lençóis Paulista,35062,Bauru,RRAS9,809.541,3B,8,3,,Arranjo Populacional de Bauru/SP,-22.67603,-48.82512,247.5,9
+352690,Limeira,35102,Limeira,RRAS14,580.711,2C,6,2,Arranjo Populacional de Limeira/SP,Arranjo Populacional de São Paulo/SP,-22.5985,-47.36391,137.9,9
+352700,Lindóia,35074,Circuito das Águas,RRAS15,48.756,5,11,5,Arranjo Populacional de Águas de Lindóia/SP,Arranjo Populacional de São Paulo/SP,-22.51317,-46.65458,126.4,4
+352710,Lins,35065,Lins,RRAS9,570.058,3B,8,3,,Arranjo Populacional de Bauru/SP,-21.64956,-49.68277,382.7,5
+352720,Lorena,35172,Circuito da Fé e Vale Histórico,RRAS17,414.16,3A,7,3,Arranjo Populacional de Lorena/SP,Arranjo Populacional de Guaratinguetá/SP,-22.79389,-45.06003,188.1,6
+352725,Lourdes,35023,Consórcios do DRS II,RRAS19,113.94,5,11,5,,Araçatuba (SP),-20.94927,-50.23389,475.6,4
+352730,Louveira,35073,Jundiaí,RRAS16,55.738,2C,6,2,Arranjo Populacional de Jundiaí/SP,Arranjo Populacional de São Paulo/SP,-23.08385,-46.93715,69.5,4
+352740,Lucélia,35091,Adamantina,RRAS10,314.81,3B,8,3,Arranjo Populacional de Adamantina - Lucélia/SP,Arranjo Populacional de Presidente Prudente/SP,-21.64421,-50.99166,498.4,9
+352750,Lucianópolis,35062,Bauru,RRAS9,189.536,5,11,5,,Arranjo Populacional de Bauru/SP,-22.47334,-49.55022,324.5,6
+352760,Luís Antônio,35132,Aquífero Guarani,RRAS13,598.257,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.55258,-47.78198,260.7,7
+352770,Luiziânia,35023,Consórcios do DRS II,RRAS19,166.576,5,11,5,,Penápolis (SP),-21.67268,-50.35112,439.0,7
+352780,Lupércio,35093,Marília,RRAS10,155.171,5,11,5,,Arranjo Populacional de Marília/SP,-22.42697,-49.81688,351.6,5
+352790,Lutécia,35092,Assis,RRAS10,475.226,5,11,5,,Arranjo Populacional de Paraguaçu Paulista/SP,-22.32541,-50.38532,409.9,7
+352800,Macatuba,35062,Bauru,RRAS9,224.514,5,11,5,,Lençóis Paulista (SP),-22.48703,-48.71937,248.3,6
+352810,Macaubal,35157,Votuporanga,RRAS12,248.087,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.83807,-49.97524,463.7,7
+352820,Macedônia,35154,Fernandópolis,RRAS12,327.567,3A,7,3,Arranjo Populacional de Fernandópolis/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.09822,-50.18188,537.5,6
+352830,Magda,35157,Votuporanga,RRAS12,312.282,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.59642,-50.22998,501.4,8
+352840,Mairinque,35163,Sorocaba,RRAS8,210.149,3B,8,3,Arranjo Populacional de São Roque - Mairinque/SP,Arranjo Populacional de São Paulo/SP,-23.50769,-47.22949,61.3,5
+352850,Mairiporã,35012,Franco da Rocha,RRAS3,320.697,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.3173,-46.5615,38.0,6
+352860,Manduri,35061,Vale do Jurumirim,RRAS9,229.046,4B,10,4,,Avaré (SP),-23.04702,-49.30366,279.3,4
+352870,Marabá Paulista,35114,Extremo Oeste Paulista,RRAS11,919.519,5,11,5,,Arranjo Populacional de Presidente Venceslau/SP,-22.12766,-52.05656,579.3,7
+352880,Maracaí,35092,Assis,RRAS10,533.498,5,11,5,,Assis (SP),-22.6522,-50.74498,433.3,7
+352885,Marapoama,35151,Catanduva,RRAS12,111.267,2C,6,2,Arranjo Populacional de Catanduva/SP,Arranjo Populacional de São José do Rio Preto/SP,-21.25551,-49.13806,369.3,5
+352890,Mariápolis,35091,Adamantina,RRAS10,186.544,3B,8,3,Arranjo Populacional de Adamantina - Lucélia/SP,Arranjo Populacional de Presidente Prudente/SP,-21.77902,-51.17184,508.5,7
+352900,Marília,35093,Marília,RRAS10,1170.515,2C,6,2,Arranjo Populacional de Marília/SP,Arranjo Populacional de São Paulo/SP,-22.17781,-49.983,378.8,10
+352910,Marinópolis,35153,Jales,RRAS12,77.827,5,11,5,,Arranjo Populacional de Jales/SP,-20.48013,-50.8327,556.9,3
+352920,Martinópolis,35112,Alta Sorocabana,RRAS11,1253.564,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.1724,-51.12346,486.9,11
+352930,Matão,35033,Noroeste do DRS III ,RRAS18,524.899,3B,8,3,Arranjo Populacional de Matão/SP,Arranjo Populacional de Araraquara/SP,-21.61008,-48.43034,291.4,8
+352940,Mauá,35015,Grande ABC,RRAS1,61.937,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.66623,-46.4466,20.6,4
+352950,Mendonça,35156,José Bonifácio,RRAS12,195.151,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.19423,-49.57016,405.9,7
+352960,Meridiano,35154,Fernandópolis,RRAS12,228.199,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-20.39844,-50.18652,513.5,5
+352965,Mesópolis,35153,Jales,RRAS12,148.636,5,11,5,,Arranjo Populacional de Jales/SP,-19.95724,-50.6155,579.9,3
+352970,Miguelópolis,35083,Alta Mogiana,RRAS13,820.849,5,11,5,,Ituverava (SP),-20.18484,-48.10525,413.6,4
+352980,Mineiros do Tietê,35064,Jaú,RRAS9,213.242,5,11,5,,Jaú (SP),-22.46328,-48.43323,225.3,4
+352990,Miracatu,35121,Vale do Ribeira,RRAS7,1001.484,5,11,5,,Registro (SP),-24.19516,-47.3949,97.2,6
+353000,Mira Estrela,35154,Fernandópolis,RRAS12,216.825,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-19.95171,-50.12429,545.8,3
+353010,Mirandópolis,35022,Lagos do DRS II,RRAS19,917.694,5,11,5,,Araçatuba (SP),-21.08134,-51.13061,542.2,8
+353020,Mirante do Paranapanema,35115,Pontal do Paranapanema,RRAS11,1238.931,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.34923,-51.99814,566.4,5
+353030,Mirassol,35155,São José do Rio Preto,RRAS12,243.228,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.82751,-49.50427,430.0,8
+353040,Mirassolândia,35155,São José do Rio Preto,RRAS12,166.125,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.59462,-49.4869,448.2,6
+353050,Mococa,35143,Rio Pardo,RRAS15,855.156,4A,9,4,,Arranjo Populacional de Ribeirão Preto/SP,-21.4494,-47.03279,247.9,6
+353060,Mogi das Cruzes,35011,Alto do Tietê,RRAS2,712.541,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.56907,-46.18592,47.9,9
+353070,Mogi Guaçu,35141,Baixa Mogiana,RRAS15,812.753,3A,7,3,Arranjo Populacional de Mogi Guaçu - Mogi Mirim/SP,Arranjo Populacional de Campinas/SP,-22.23224,-47.02834,162.4,9
+353080,Mogi Mirim,35141,Baixa Mogiana,RRAS15,497.708,3A,7,3,Arranjo Populacional de Mogi Guaçu - Mogi Mirim/SP,Arranjo Populacional de Campinas/SP,-22.45134,-46.98848,137.8,7
+353090,Mombuca,35103,Piracicaba,RRAS14,133.698,5,11,5,,Arranjo Populacional de Piracicaba/SP,-22.94274,-47.60199,125.2,4
+353100,Monções,35157,Votuporanga,RRAS12,104.352,5,11,5,Arranjo Populacional de Gastão Vidigal - Monções/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.86306,-50.07939,469.8,5
+353110,Mongaguá,35041,Baixada Santista,RRAS7,142.755,2C,6,2,Arranjo Populacional da Baixada Santista/SP,Arranjo Populacional de São Paulo/SP,-24.07016,-46.66762,46.8,3
+353120,Monte Alegre do Sul,35074,Circuito das Águas,RRAS15,110.308,3B,8,3,Arranjo Populacional de Amparo/SP,Arranjo Populacional de Campinas/SP,-22.70429,-46.66788,105.2,5
+353130,Monte Alto,35131,Horizonte Verde,RRAS13,346.95,4A,9,4,,Arranjo Populacional de Ribeirão Preto/SP,-21.25914,-48.53299,328.9,8
+353140,Monte Aprazível,35156,José Bonifácio,RRAS12,495.559,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.73768,-49.76584,455.9,9
+353150,Monte Azul Paulista,35052,Sul - Barretos,RRAS13,263.462,5,11,5,,Bebedouro (SP),-20.909,-48.68125,369.7,6
+353160,Monte Castelo,35111,Alta Paulista,RRAS11,233.547,5,11,5,,Dracena (SP),-21.25473,-51.57155,571.7,5
+353170,Monteiro Lobato,35171,Alto Vale do Paraíba,RRAS17,332.742,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-22.9368,-45.80465,117.1,6
+353180,Monte Mor,35072,Região Metropolitana de Campinas,RRAS15,240.566,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-22.95315,-47.30772,102.7,7
+353190,Morro Agudo,35082,Alta Anhanguera,RRAS13,1388.127,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-20.6888,-48.1532,363.9,11
+353200,Morungaba,35072,Região Metropolitana de Campinas,RRAS15,146.752,5,11,5,,Arranjo Populacional de Campinas/SP,-22.89403,-46.78264,85.2,6
+353205,Motuca,35031,Central do DRS III ,RRAS18,228.7,5,11,5,,Arranjo Populacional de Araraquara/SP,-21.51376,-48.17022,284.3,7
+353210,Murutinga do Sul,35022,Lagos do DRS II,RRAS19,250.873,5,11,5,,Andradina (SP),-20.99672,-51.30136,562.2,3
+353215,Nantes,35113,Alto Capivari,RRAS11,286.647,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.5971,-51.20098,480.1,4
+353220,Narandiba,35112,Alta Sorocabana,RRAS11,357.325,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.56364,-51.52161,512.9,3
+353230,Natividade da Serra,35174,Vale do Paraíba/Região Serrana,RRAS17,833.372,5,11,5,,Arranjo Populacional de São José dos Campos/SP,-23.41521,-45.38158,131.7,5
+353240,Nazaré Paulista,35071,Bragança,RRAS16,326.254,5,11,5,,Arranjo Populacional de Atibaia/SP,-23.19161,-46.36632,58.5,7
+353250,Neves Paulista,35155,São José do Rio Preto,RRAS12,219.05,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.87059,-49.64651,436.7,6
+353260,Nhandeara,35157,Votuporanga,RRAS12,436.159,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.67288,-50.04695,481.7,7
+353270,Nipoã,35156,José Bonifácio,RRAS12,137.609,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.89167,-49.77852,444.8,5
+353280,Nova Aliança,35155,São José do Rio Preto,RRAS12,217.515,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-21.06246,-49.51599,412.0,6
+353282,Nova Campina,35162,Itapeva,RRAS8,385.375,5,11,5,,Itapeva (SP),-24.19031,-48.97254,243.8,5
+353284,Nova Canaã Paulista,35152,Santa Fé do Sul,RRAS12,124.473,5,11,5,,Arranjo Populacional de Santa Fé do Sul/SP,-20.37175,-50.91061,570.9,4
+353286,Nova Castilho,35021,Central do DRS II,RRAS19,183.396,5,11,5,,Araçatuba (SP),-20.7777,-50.34551,496.8,5
+353290,Nova Europa,35033,Noroeste do DRS III ,RRAS18,160.25,5,11,5,,Arranjo Populacional de Araraquara/SP,-21.77433,-48.54966,285.6,5
+353300,Nova Granada,35155,São José do Rio Preto,RRAS12,531.796,5,11,5,Arranjo Populacional de Nova Granada/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.47582,-49.33104,448.3,7
+353310,Nova Guataporanga,35111,Alta Paulista,RRAS11,34.158,5,11,5,Arranjo Populacional de Tupi Paulista/SP,Dracena (SP),-21.32194,-51.64586,575.0,4
+353320,Nova Independência,35022,Lagos do DRS II,RRAS19,265.029,5,11,5,,Andradina (SP),-21.13556,-51.50499,572.2,7
+353325,Novais,35151,Catanduva,RRAS12,117.772,2C,6,2,Arranjo Populacional de Catanduva/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.98838,-48.91815,377.0,3
+353330,Nova Luzitânia,35021,Central do DRS II,RRAS19,73.816,5,11,5,Arranjo Populacional de Santo Antônio do Aracanguá/SP,Araçatuba (SP),-20.86837,-50.24939,482.7,6
+353340,Nova Odessa,35072,Região Metropolitana de Campinas,RRAS15,73.788,2C,6,2,Arranjo Populacional de Americana - Santa Bárbara d´Oeste/SP,Arranjo Populacional de Campinas/SP,-22.7841,-47.28508,116.2,4
+353350,Novo Horizonte,35151,Catanduva,RRAS12,931.743,4A,9,4,,Arranjo Populacional de São José do Rio Preto/SP,-21.46929,-49.28395,363.4,12
+353360,Nuporanga,35082,Alta Anhanguera,RRAS13,348.265,5,11,5,,Orlândia (SP),-20.70475,-47.7288,345.9,6
+353370,Ocauçu,35093,Marília,RRAS10,301.036,5,11,5,,Arranjo Populacional de Marília/SP,-22.43824,-49.938,362.6,6
+353380,Óleo,35094,Ourinhos,RRAS10,198.938,5,11,5,,Manduri (SP),-22.9535,-49.38307,289.9,5
+353390,Olímpia,35051,Norte - Barretos,RRAS13,802.555,3B,8,3,,Barretos (SP),-20.70526,-48.95937,404.8,8
+353400,Onda Verde,35155,São José do Rio Preto,RRAS12,242.946,5,11,5,Arranjo Populacional de Nova Granada/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.61736,-49.24376,430.3,5
+353410,Oriente,35093,Marília,RRAS10,218.668,2C,6,2,Arranjo Populacional de Marília/SP,Arranjo Populacional de São Paulo/SP,-22.14171,-50.09362,390.8,4
+353420,Orindiúva,35155,São José do Rio Preto,RRAS12,247.378,5,11,5,Arranjo Populacional de Paulo de Faria - Orindiúva/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.20156,-49.35542,474.3,4
+353430,Orlândia,35082,Alta Anhanguera,RRAS13,291.765,3B,8,3,,Arranjo Populacional de Ribeirão Preto/SP,-20.69801,-47.90574,352.9,4
+353440,Osasco,35014,Rota dos Bandeirantes,RRAS5,64.954,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.5285,-46.78917,19.7,5
+353450,Oscar Bressane,35093,Marília,RRAS10,222.13,5,11,5,,Arranjo Populacional de Marília/SP,-22.2952,-50.25728,399.0,4
+353460,Osvaldo Cruz,35091,Adamantina,RRAS10,248.038,4A,9,4,,Arranjo Populacional de Presidente Prudente/SP,-21.7323,-50.87387,483.1,7
+353470,Ourinhos,35094,Ourinhos,RRAS10,295.818,3A,7,3,Arranjo Populacional de Ourinhos/SP,Arranjo Populacional de São Paulo/SP,-22.9527,-49.85254,336.3,4
+353475,Ouroeste,35154,Fernandópolis,RRAS12,288.648,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-19.92243,-50.40197,567.4,4
+353480,Ouro Verde,35111,Alta Paulista,RRAS11,266.778,5,11,5,,Dracena (SP),-21.51104,-51.73797,574.1,5
+353490,Pacaembu,35091,Adamantina,RRAS10,339.375,5,11,5,,Arranjo Populacional de Adamantina - Lucélia/SP,-21.49573,-51.27426,531.9,5
+353500,Palestina,35155,São José do Rio Preto,RRAS12,697.701,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.32118,-49.49794,472.6,9
+353510,Palmares Paulista,35151,Catanduva,RRAS12,82.125,3A,7,3,Arranjo Populacional de Santa Adélia - Palmares Paulista - Ariranha/SP,Arranjo Populacional de Catanduva/SP,-21.10486,-48.82637,360.9,5
+353520,Palmeira D'Oeste,35153,Jales,RRAS12,318.74,5,11,5,,Arranjo Populacional de Jales/SP,-20.4388,-50.74887,553.2,11
+353530,Palmital,35092,Assis,RRAS10,548.407,5,11,5,,Assis (SP),-22.8291,-50.22101,376.3,3
+353540,Panorama,35111,Alta Paulista,RRAS11,356.05,5,11,5,,Dracena (SP),-21.46354,-51.85799,587.6,6
+353550,Paraguaçu Paulista,35092,Assis,RRAS10,1001.492,4A,9,4,Arranjo Populacional de Paraguaçu Paulista/SP,Assis (SP),-22.45919,-50.62685,428.1,7
+353560,Paraibuna,35171,Alto Vale do Paraíba,RRAS17,809.576,5,11,5,,Arranjo Populacional de São José dos Campos/SP,-23.47844,-45.64175,104.3,6
+353570,Paraíso,35151,Catanduva,RRAS12,155.186,5,11,5,,Arranjo Populacional de Catanduva/SP,-21.01956,-48.76459,364.6,6
+353580,Paranapanema,35061,Vale do Jurumirim,RRAS9,1018.724,5,11,5,,Avaré (SP),-23.43838,-48.79542,220.2,6
+353590,Paranapuã,35153,Jales,RRAS12,140.354,5,11,5,,Arranjo Populacional de Jales/SP,-20.06363,-50.59394,569.9,7
+353600,Parapuã,35095,Tupã,RRAS10,366.664,5,11,5,,Osvaldo Cruz (SP),-21.85286,-50.82202,472.3,7
+353610,Pardinho,35063,Polo Cuesta,RRAS9,209.894,5,11,5,,Botucatu (SP),-23.10238,-48.40259,189.2,3
+353620,Pariquera-Açu,35121,Vale do Ribeira,RRAS7,359.414,5,11,5,,Registro (SP),-24.67852,-47.85,167.2,4
+353625,Parisi,35157,Votuporanga,RRAS12,84.737,3B,8,3,Arranjo Populacional de Votuporanga/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.27179,-50.03741,513.1,5
+353630,Patrocínio Paulista,35081,Três Colinas,RRAS13,602.848,2C,6,2,Arranjo Populacional de Franca/SP,Arranjo Populacional de São Paulo/SP,-20.70391,-47.28924,334.2,4
+353640,Paulicéia,35111,Alta Paulista,RRAS11,374.091,5,11,5,,Dracena (SP),-21.1987,-51.7908,594.7,4
+353650,Paulínia,35072,Região Metropolitana de Campinas,RRAS15,138.777,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-22.7485,-47.14509,112.4,7
+353657,Paulistânia,35062,Bauru,RRAS9,256.178,5,11,5,,Arranjo Populacional de Bauru/SP,-22.56861,-49.30553,297.2,5
+353660,Paulo de Faria,35155,São José do Rio Preto,RRAS12,737.986,5,11,5,Arranjo Populacional de Paulo de Faria - Orindiúva/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.06653,-49.46331,493.1,3
+353670,Pederneiras,35062,Bauru,RRAS9,727.482,4A,9,4,,Arranjo Populacional de Bauru/SP,-22.30159,-48.86104,271.7,9
+353680,Pedra Bela,35071,Bragança,RRAS16,158.587,5,11,5,,Bragança Paulista (SP),-22.77589,-46.4418,99.4,4
+353690,Pedranópolis,35154,Fernandópolis,RRAS12,260.101,3A,7,3,Arranjo Populacional de Fernandópolis/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.21025,-50.10706,523.0,7
+353700,Pedregulho,35081,Três Colinas,RRAS13,712.604,5,11,5,,Arranjo Populacional de Franca/SP,-20.20645,-47.43904,391.5,5
+353710,Pedreira,35072,Região Metropolitana de Campinas,RRAS15,108.817,5,11,5,,Arranjo Populacional de Campinas/SP,-22.75362,-46.88895,102.7,5
+353715,Pedrinhas Paulista,35092,Assis,RRAS10,152.309,5,11,5,,Assis (SP),-22.81689,-50.80234,434.5,3
+353720,Pedro de Toledo,35121,Vale do Ribeira,RRAS7,670.44,5,11,5,,Peruíbe (SP),-24.16373,-47.16369,77.6,6
+353730,Penápolis,35023,Consórcios do DRS II,RRAS19,711.315,3B,8,3,,Araçatuba (SP),-21.40536,-50.09558,433.2,8
+353740,Pereira Barreto,35022,Lagos do DRS II,RRAS19,974.247,4B,10,4,,Araçatuba (SP),-20.67779,-51.10646,565.6,9
+353750,Pereiras,35063,Polo Cuesta,RRAS9,223.136,5,11,5,,Laranjal Paulista (SP),-23.12073,-47.97894,148.0,5
+353760,Peruíbe,35041,Baixada Santista,RRAS7,326.216,4A,9,4,,Arranjo Populacional da Baixada Santista/SP,-24.2794,-47.01304,79.2,4
+353770,Piacatu,35023,Consórcios do DRS II,RRAS19,232.488,5,11,5,,Araçatuba (SP),-21.57111,-50.64406,470.8,7
+353780,Piedade,35163,Sorocaba,RRAS8,746.868,4A,9,4,,Arranjo Populacional de Sorocaba/SP,-23.78707,-47.43819,81.9,5
+353790,Pilar do Sul,35163,Sorocaba,RRAS8,681.248,5,11,5,,Arranjo Populacional de Sorocaba/SP,-23.85621,-47.72802,112.3,6
+353800,Pindamonhangaba,35174,Vale do Paraíba/Região Serrana,RRAS17,731.355,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-22.88002,-45.45926,148.6,8
+353810,Pindorama,35151,Catanduva,RRAS12,184.825,2C,6,2,Arranjo Populacional de Catanduva/SP,Arranjo Populacional de São José do Rio Preto/SP,-21.20963,-48.91166,357.4,5
+353820,Pinhalzinho,35071,Bragança,RRAS16,154.529,5,11,5,,Bragança Paulista (SP),-22.77865,-46.57329,97.2,5
+353830,Piquerobi,35114,Extremo Oeste Paulista,RRAS11,482.769,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-21.85239,-51.73156,558.3,5
+353850,Piquete,35172,Circuito da Fé e Vale Histórico,RRAS17,175.996,5,11,5,,Arranjo Populacional de Lorena/SP,-22.59006,-45.17359,191.4,4
+353860,Piracaia,35071,Bragança,RRAS16,385.568,5,11,5,,Arranjo Populacional de Atibaia/SP,-23.04696,-46.30235,75.8,7
+353870,Piracicaba,35103,Piracicaba,RRAS14,1378.069,2C,6,2,Arranjo Populacional de Piracicaba/SP,Arranjo Populacional de São Paulo/SP,-22.72635,-47.78371,155.0,14
+353880,Piraju,35061,Vale do Jurumirim,RRAS9,504.591,4A,9,4,,Arranjo Populacional de Bauru/SP,-23.18707,-49.36611,282.1,10
+353890,Pirajuí,35062,Bauru,RRAS9,823.758,5,11,5,Arranjo Populacional de Pirajuí/SP,Arranjo Populacional de Bauru/SP,-21.95766,-49.41372,340.3,11
+353900,Pirangi,35151,Catanduva,RRAS12,215.809,5,11,5,,Arranjo Populacional de Catanduva/SP,-21.09381,-48.66916,352.1,7
+353910,Pirapora do Bom Jesus,35014,Rota dos Bandeirantes,RRAS5,108.489,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.3784,-46.98457,45.7,5
+353920,Pirapozinho,35112,Alta Sorocabana,RRAS11,477.673,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.4267,-51.5647,521.1,7
+353930,Pirassununga,35101,Araras,RRAS14,727.118,3B,8,3,,Arranjo Populacional de Campinas/SP,-21.99579,-47.38978,199.0,8
+353940,Piratininga,35062,Bauru,RRAS9,402.409,2B,5,2,Arranjo Populacional de Bauru/SP,Arranjo Populacional de São Paulo/SP,-22.42514,-49.19185,293.8,6
+353950,Pitangueiras,35131,Horizonte Verde,RRAS13,430.638,3B,8,3,,Sertãozinho (SP),-21.00631,-48.24932,337.0,7
+353960,Planalto,35156,José Bonifácio,RRAS12,289.825,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.00108,-49.93605,448.5,7
+353970,Platina,35092,Assis,RRAS10,327.48,5,11,5,,Assis (SP),-22.62544,-50.21253,381.9,6
+353980,Poá,35011,Alto do Tietê,RRAS2,17.264,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.53,-46.34669,33.5,4
+353990,Poloni,35156,José Bonifácio,RRAS12,135.12,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.75254,-49.81988,458.7,2
+354000,Pompéia,35093,Marília,RRAS10,784.674,5,11,5,Arranjo Populacional de Pompéia/SP,Arranjo Populacional de Marília/SP,-22.02892,-50.18773,405.0,9
+354010,Pongaí,35065,Lins,RRAS9,183.399,5,11,5,,Lins (SP),-21.73023,-49.35857,350.6,5
+354020,Pontal,35131,Horizonte Verde,RRAS13,356.371,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-20.98461,-48.06436,330.2,5
+354025,Pontalinda,35153,Jales,RRAS12,209.525,5,11,5,,Arranjo Populacional de Jales/SP,-20.45107,-50.52517,534.9,7
+354030,Pontes Gestal,35157,Votuporanga,RRAS12,217.505,5,11,5,Arranjo Populacional de Riolândia/SP,Arranjo Populacional de Votuporanga/SP,-20.17457,-49.75731,502.2,5
+354040,Populina,35154,Fernandópolis,RRAS12,315.938,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-19.90734,-50.51722,576.8,4
+354050,Porangaba,35063,Polo Cuesta,RRAS9,265.689,5,11,5,,Botucatu (SP),-23.17405,-48.11747,159.0,6
+354060,Porto Feliz,35163,Sorocaba,RRAS8,556.706,4A,9,4,,Arranjo Populacional de Sorocaba/SP,-23.2302,-47.51692,100.2,8
+354070,Porto Ferreira,35032,Coração do DRS III ,RRAS18,244.906,3B,8,3,,Arranjo Populacional de Ribeirão Preto/SP,-21.84263,-47.44723,217.0,4
+354075,Potim,35172,Circuito da Fé e Vale Histórico,RRAS17,44.643,2C,6,2,Arranjo Populacional de Guaratinguetá/SP,Arranjo Populacional de São José dos Campos/SP,-22.82463,-45.30342,165.2,4
+354080,Potirendaba,35155,São José do Rio Preto,RRAS12,342.492,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.07573,-49.3919,401.9,7
+354085,Pracinha,35091,Adamantina,RRAS10,63.054,3B,8,3,Arranjo Populacional de Adamantina - Lucélia/SP,Arranjo Populacional de Presidente Prudente/SP,-21.83715,-51.07498,496.7,5
+354090,Pradópolis,35131,Horizonte Verde,RRAS13,167.378,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.34453,-48.08613,295.9,6
+354100,Praia Grande,35041,Baixada Santista,RRAS7,149.652,2C,6,2,Arranjo Populacional da Baixada Santista/SP,Arranjo Populacional de São Paulo/SP,-24.01556,-46.52284,42.6,2
+354105,Pratânia,35063,Polo Cuesta,RRAS9,175.1,5,11,5,,São Manuel (SP),-22.81869,-48.69708,228.9,4
+354110,Presidente Alves,35062,Bauru,RRAS9,286.642,5,11,5,,Arranjo Populacional de Bauru/SP,-22.12193,-49.43157,331.9,5
+354120,Presidente Bernardes,35112,Alta Sorocabana,RRAS11,749.233,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.10693,-51.6203,537.5,9
+354130,Presidente Epitácio,35114,Extremo Oeste Paulista,RRAS11,1260.281,4A,9,4,,Arranjo Populacional de Presidente Prudente/SP,-21.9105,-52.17477,598.7,4
+354140,Presidente Prudente,35112,Alta Sorocabana,RRAS11,560.637,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-21.9929,-51.34302,515.2,11
+354150,Presidente Venceslau,35114,Extremo Oeste Paulista,RRAS11,755.203,4A,9,4,Arranjo Populacional de Presidente Venceslau/SP,Arranjo Populacional de Presidente Prudente/SP,-21.79342,-51.83839,570.9,6
+354160,Promissão,35065,Lins,RRAS9,779.2,5,11,5,,Lins (SP),-21.52444,-49.87046,406.6,9
+354165,Quadra,35161,Itapetininga,RRAS8,205.672,5,11,5,,Tatuí (SP),-23.3013,-48.0387,147.1,5
+354170,Quatá,35113,Alto Capivari,RRAS11,651.341,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.20623,-50.64534,439.7,6
+354180,Queiroz,35095,Tupã,RRAS10,234.914,3B,8,3,Arranjo Populacional de Tupã/SP,Arranjo Populacional de Marília/SP,-21.8004,-50.24484,422.3,5
+354190,Queluz,35172,Circuito da Fé e Vale Histórico,RRAS17,249.399,5,11,5,,Arranjo Populacional de Cruzeiro/SP,-22.50421,-44.78513,229.2,3
+354200,Quintana,35093,Marília,RRAS10,318.937,5,11,5,Arranjo Populacional de Pompéia/SP,Arranjo Populacional de Marília/SP,-22.10036,-50.36923,418.4,6
+354210,Rafard,35103,Piracicaba,RRAS14,121.645,3B,8,3,Arranjo Populacional de Capivari/SP,Arranjo Populacional de Campinas/SP,-23.04567,-47.58375,116.8,4
+354220,Rancharia,35113,Alto Capivari,RRAS11,1587.498,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.28272,-50.92838,463.8,10
+354230,Redenção da Serra,35174,Vale do Paraíba/Região Serrana,RRAS17,309.441,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-23.25355,-45.52647,122.6,6
+354240,Regente Feijó,35112,Alta Sorocabana,RRAS11,263.28,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.25261,-51.29394,500.4,5
+354250,Reginópolis,35062,Bauru,RRAS9,410.406,5,11,5,,Arranjo Populacional de Bauru/SP,-21.88312,-49.18058,325.6,8
+354260,Registro,35121,Vale do Ribeira,RRAS7,722.201,3B,8,3,,Arranjo Populacional de São Paulo/SP,-24.50434,-47.8211,152.4,6
+354270,Restinga,35081,Três Colinas,RRAS13,245.746,2C,6,2,Arranjo Populacional de Franca/SP,Arranjo Populacional de São Paulo/SP,-20.64823,-47.50587,345.3,3
+354280,Ribeira,35162,Itapeva,RRAS8,335.759,5,11,5,Arranjo Populacional de Adrianópolis/PR - Ribeira/SP,Arranjo Populacional de Curitiba/PR,-24.60716,-49.0373,264.8,4
+354290,Ribeirão Bonito,35032,Coração do DRS III ,RRAS18,471.553,5,11,5,,Arranjo Populacional de São Carlos/SP,-22.06032,-48.18523,236.8,7
+354300,Ribeirão Branco,35162,Itapeva,RRAS8,697.5,5,11,5,,Itapeva (SP),-24.25612,-48.77814,226.7,4
+354310,Ribeirão Corrente,35081,Três Colinas,RRAS13,148.332,2C,6,2,Arranjo Populacional de Franca/SP,Arranjo Populacional de São Paulo/SP,-20.44865,-47.57329,368.5,5
+354320,Ribeirão do Sul,35094,Ourinhos,RRAS10,203.208,5,11,5,,Arranjo Populacional de Ourinhos/SP,-22.75155,-49.9228,349.3,4
+354323,Ribeirão dos Índios,35112,Alta Sorocabana,RRAS11,196.446,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-21.78372,-51.5834,547.1,6
+354325,Ribeirão Grande,35161,Itapetininga,RRAS8,333.363,3B,8,3,Arranjo Populacional de Capão Bonito/SP,Arranjo Populacional de São Paulo/SP,-24.1886,-48.35881,183.9,4
+354330,Ribeirão Pires,35015,Grande ABC,RRAS1,98.972,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.70095,-46.40292,25.6,5
+354340,Ribeirão Preto,35132,Aquífero Guarani,RRAS13,650.916,2A,4,2,Arranjo Populacional de Ribeirão Preto/SP,Arranjo Populacional de São Paulo/SP,-21.21074,-47.82126,296.8,7
+354350,Riversul,35162,Itapeva,RRAS8,385.878,5,11,5,,Itaporanga (SP),-23.84666,-49.44788,285.8,3
+354360,Rifaina,35081,Três Colinas,RRAS13,162.508,5,11,5,,Arranjo Populacional de Franca/SP,-20.06116,-47.44133,407.4,2
+354370,Rincão,35031,Central do DRS III ,RRAS18,316.639,2C,6,2,Arranjo Populacional de Araraquara/SP,Arranjo Populacional de Ribeirão Preto/SP,-21.5942,-48.03203,269.1,7
+354380,Rinópolis,35095,Tupã,RRAS10,358.481,5,11,5,,Arranjo Populacional de Tupã/SP,-21.68132,-50.71699,471.4,4
+354390,Rio Claro,35104,Rio Claro,RRAS14,498.422,3A,7,3,Arranjo Populacional de Rio Claro/SP,Arranjo Populacional de São Paulo/SP,-22.37375,-47.57998,171.0,8
+354400,Rio das Pedras,35103,Piracicaba,RRAS14,226.657,2C,6,2,Arranjo Populacional de Piracicaba/SP,Arranjo Populacional de São Paulo/SP,-22.85039,-47.59868,131.7,6
+354410,Rio Grande da Serra,35015,Grande ABC,RRAS1,36.341,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.73818,-46.38035,29.0,3
+354420,Riolândia,35157,Votuporanga,RRAS12,631.897,5,11,5,Arranjo Populacional de Riolândia/SP,Arranjo Populacional de Votuporanga/SP,-20.02354,-49.70912,512.2,4
+354425,Rosana,35115,Pontal do Paranapanema,RRAS11,744.011,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.48912,-52.8368,646.1,2
+354430,Roseira,35172,Circuito da Fé e Vale Histórico,RRAS17,129.847,2C,6,2,Arranjo Populacional de Guaratinguetá/SP,Arranjo Populacional de São José dos Campos/SP,-22.93269,-45.30251,158.9,5
+354440,Rubiácea,35021,Central do DRS II,RRAS19,236.484,5,11,5,,Araçatuba (SP),-21.36118,-50.78578,495.4,4
+354450,Rubinéia,35152,Santa Fé do Sul,RRAS12,242.877,4A,9,4,Arranjo Populacional de Santa Fé do Sul/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.24933,-51.01818,588.2,5
+354460,Sabino,35065,Lins,RRAS9,305.285,5,11,5,,Lins (SP),-21.47092,-49.57567,386.1,7
+354470,Sagres,35091,Adamantina,RRAS10,147.935,5,11,5,,Arranjo Populacional de Adamantina - Lucélia/SP,-21.86778,-50.9905,487.3,6
+354480,Sales,35151,Catanduva,RRAS12,308.555,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.34728,-49.50275,389.3,5
+354490,Sales Oliveira,35082,Alta Anhanguera,RRAS13,305.776,5,11,5,,Orlândia (SP),-20.83133,-47.85445,337.1,6
+354500,Salesópolis,35011,Alto do Tietê,RRAS2,424.997,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.5799,-45.84262,82.4,7
+354510,Salmourão,35091,Adamantina,RRAS10,172.934,5,11,5,,Osvaldo Cruz (SP),-21.588,-50.87628,490.8,5
+354515,Saltinho,35103,Piracicaba,RRAS14,99.738,2C,6,2,Arranjo Populacional de Piracicaba/SP,Arranjo Populacional de São Paulo/SP,-22.87131,-47.73199,140.6,3
+354520,Salto,35163,Sorocaba,RRAS8,133.057,3A,7,3,Arranjo Populacional de Itu - Salto/SP,Arranjo Populacional de Sorocaba/SP,-23.18042,-47.30239,84.8,3
+354530,Salto de Pirapora,35163,Sorocaba,RRAS8,280.412,2B,5,2,Arranjo Populacional de Sorocaba/SP,Arranjo Populacional de São Paulo/SP,-23.65275,-47.58056,95.0,6
+354540,Salto Grande,35094,Ourinhos,RRAS10,188.441,5,11,5,,Arranjo Populacional de Ourinhos/SP,-22.87089,-49.9608,349.3,4
+354550,Sandovalina,35112,Alta Sorocabana,RRAS11,455.856,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.4778,-51.84212,547.1,5
+354560,Santa Adélia,35151,Catanduva,RRAS12,330.269,3A,7,3,Arranjo Populacional de Santa Adélia - Palmares Paulista - Ariranha/SP,Arranjo Populacional de Catanduva/SP,-21.31772,-48.81919,342.1,5
+354570,Santa Albertina,35153,Jales,RRAS12,272.692,5,11,5,,Arranjo Populacional de Jales/SP,-20.01397,-50.72779,583.7,5
+354580,Santa Bárbara D'Oeste,35072,Região Metropolitana de Campinas,RRAS15,271.03,2C,6,2,Arranjo Populacional de Americana - Santa Bárbara d´Oeste/SP,Arranjo Populacional de Campinas/SP,-22.80079,-47.42813,123.6,8
+354600,Santa Branca,35171,Alto Vale do Paraíba,RRAS17,272.238,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-23.42642,-45.86344,83.7,5
+354610,Santa Clara D'Oeste,35152,Santa Fé do Sul,RRAS12,183.458,4A,9,4,Arranjo Populacional de Santa Fé do Sul/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.06661,-50.90825,593.3,3
+354620,Santa Cruz da Conceição,35101,Araras,RRAS14,150.13,3B,8,3,Arranjo Populacional de Leme/SP,Araras (SP),-22.12137,-47.48543,190.4,4
+354625,Santa Cruz da Esperança,35133,Vale das Cachoeiras,RRAS13,148.062,2A,4,2,Arranjo Populacional de Ribeirão Preto/SP,Arranjo Populacional de São Paulo/SP,-21.27495,-47.44007,276.3,4
+354630,Santa Cruz das Palmeiras,35142,Mantiqueira,RRAS15,295.337,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.85486,-47.24991,208.9,6
+354640,Santa Cruz do Rio Pardo,35094,Ourinhos,RRAS10,1114.747,3B,8,3,,Arranjo Populacional de Ourinhos/SP,-22.80918,-49.5687,312.7,14
+354650,Santa Ernestina,35033,Noroeste do DRS III ,RRAS18,134.421,5,11,5,Arranjo Populacional de Guariba/SP,Arranjo Populacional de Ribeirão Preto/SP,-21.4527,-48.36659,301.4,3
+354660,Santa Fé do Sul,35152,Santa Fé do Sul,RRAS12,206.537,4A,9,4,Arranjo Populacional de Santa Fé do Sul/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.24213,-50.95028,583.4,6
+354670,Santa Gertrudes,35104,Rio Claro,RRAS14,98.291,3A,7,3,Arranjo Populacional de Rio Claro/SP,Arranjo Populacional de São Paulo/SP,-22.47501,-47.52121,158.3,4
+354680,Santa Isabel,35011,Alto do Tietê,RRAS2,363.332,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.28885,-46.24231,57.6,7
+354690,Santa Lúcia,35031,Central do DRS III ,RRAS18,153.86,2C,6,2,Arranjo Populacional de Araraquara/SP,Arranjo Populacional de Ribeirão Preto/SP,-21.67093,-48.05727,263.3,4
+354700,Santa Maria da Serra,35103,Piracicaba,RRAS14,252.621,5,11,5,,Arranjo Populacional de Piracicaba/SP,-22.56452,-48.15427,195.7,6
+354710,Santa Mercedes,35111,Alta Paulista,RRAS11,166.753,5,11,5,,Dracena (SP),-21.31703,-51.73699,583.6,6
+354720,Santana da Ponte Pensa,35153,Jales,RRAS12,129.888,4A,9,4,Arranjo Populacional de Santa Fé do Sul/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.26107,-50.79704,570.1,5
+354730,Santana de Parnaíba,35014,Rota dos Bandeirantes,RRAS5,179.949,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.44968,-46.91697,35.3,7
+354740,Santa Rita D'Oeste,35152,Santa Fé do Sul,RRAS12,209.8,4A,9,4,Arranjo Populacional de Santa Fé do Sul/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.0973,-50.8127,583.7,6
+354750,Santa Rita do Passa Quatro,35132,Aquífero Guarani,RRAS13,754.141,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.68239,-47.50791,235.9,7
+354760,Santa Rosa de Viterbo,35132,Aquífero Guarani,RRAS13,288.576,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.50358,-47.36629,249.8,4
+354765,Santa Salete,35153,Jales,RRAS12,79.192,5,11,5,,Arranjo Populacional de Jales/SP,-20.25875,-50.72003,564.3,5
+354770,Santo Anastácio,35112,Alta Sorocabana,RRAS11,552.876,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.03769,-51.72252,550.0,5
+354780,Santo André,35015,Grande ABC,RRAS1,175.782,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.7101,-46.50356,16.1,10
+354790,Santo Antônio da Alegria,35133,Vale das Cachoeiras,RRAS13,310.311,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.09261,-47.19624,289.9,3
+354800,Santo Antônio de Posse,35072,Região Metropolitana de Campinas,RRAS15,154.133,5,11,5,,Arranjo Populacional de Campinas/SP,-22.6029,-46.94962,120.4,6
+354805,Santo Antônio do Aracanguá,35021,Central do DRS II,RRAS19,1308.432,5,11,5,Arranjo Populacional de Santo Antônio do Aracanguá/SP,Araçatuba (SP),-20.87312,-50.55401,506.8,10
+354810,Santo Antônio do Jardim,35142,Mantiqueira,RRAS15,109.956,5,11,5,,Arranjo Populacional de São João da Boa Vista/SP,-22.13063,-46.6838,169.0,2
+354820,Santo Antônio do Pinhal,35174,Vale do Paraíba/Região Serrana,RRAS17,133.008,5,11,5,,Arranjo Populacional de São José dos Campos/SP,-22.83198,-45.69805,133.0,4
+354830,Santo Expedito,35112,Alta Sorocabana,RRAS11,94.465,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-21.8248,-51.37052,525.1,5
+354840,Santópolis do Aguapeí,35023,Consórcios do DRS II,RRAS19,128.026,5,11,5,,Araçatuba (SP),-21.66044,-50.51823,454.6,5
+354850,Santos,35041,Baixada Santista,RRAS7,281.033,2C,6,2,Arranjo Populacional da Baixada Santista/SP,Arranjo Populacional de São Paulo/SP,-23.86837,-46.29145,43.7,6
+354860,São Bento do Sapucaí,35174,Vale do Paraíba/Região Serrana,RRAS17,252.579,5,11,5,,Arranjo Populacional de São José dos Campos/SP,-22.68122,-45.68652,145.8,2
+354870,São Bernardo do Campo,35015,Grande ABC,RRAS1,409.532,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.81272,-46.55048,20.6,6
+354880,São Caetano do Sul,35015,Grande ABC,RRAS1,15.331,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.62627,-46.56622,8.7,3
+354890,São Carlos,35032,Coração do DRS III ,RRAS18,1136.907,2C,6,2,Arranjo Populacional de São Carlos/SP,Arranjo Populacional de São Paulo/SP,-21.91861,-47.86725,229.5,11
+354900,São Francisco,35153,Jales,RRAS12,75.579,5,11,5,,Arranjo Populacional de Jales/SP,-20.36599,-50.6758,552.9,5
+354910,São João da Boa Vista,35142,Mantiqueira,RRAS15,516.399,3A,7,3,Arranjo Populacional de São João da Boa Vista/SP,Arranjo Populacional de Campinas/SP,-21.97808,-46.80234,186.6,5
+354920,São João das Duas Pontes,35154,Fernandópolis,RRAS12,129.462,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-20.40838,-50.38355,527.4,4
+354925,São João de Iracema,35154,Fernandópolis,RRAS12,178.396,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-20.52086,-50.35606,516.7,6
+354930,São João do Pau D'Alho,35111,Alta Paulista,RRAS11,117.665,5,11,5,,Dracena (SP),-21.22357,-51.67298,582.6,6
+354940,São Joaquim da Barra,35082,Alta Anhanguera,RRAS13,410.863,3B,8,3,,Arranjo Populacional de Ribeirão Preto/SP,-20.55052,-47.93851,369.4,5
+354950,São José da Bela Vista,35081,Três Colinas,RRAS13,276.952,5,11,5,,Arranjo Populacional de Franca/SP,-20.58749,-47.62698,355.1,7
+354960,São José do Barreiro,35172,Circuito da Fé e Vale Histórico,RRAS17,570.685,5,11,5,,Arranjo Populacional de Cruzeiro/SP,-22.74904,-44.58715,233.2,4
+354970,São José do Rio Pardo,35143,Rio Pardo,RRAS15,419.684,3B,8,3,,Arranjo Populacional de Campinas/SP,-21.60394,-46.8797,228.7,7
+354980,São José do Rio Preto,35155,São José do Rio Preto,RRAS12,431.944,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.79743,-49.35807,422.4,6
+354990,São José dos Campos,35171,Alto Vale do Paraíba,RRAS17,1099.409,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-23.09058,-45.92848,96.2,6
+354995,São Lourenço da Serra,35013,Mananciais,RRAS4,186.456,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.85224,-46.93605,37.0,5
+355000,São Luís do Paraitinga,35174,Vale do Paraíba/Região Serrana,RRAS17,617.315,5,11,5,,Arranjo Populacional de São José dos Campos/SP,-23.24038,-45.25354,149.4,6
+355010,São Manuel,35063,Polo Cuesta,RRAS9,650.734,4A,9,4,,Botucatu (SP),-22.68249,-48.54041,221.4,8
+355020,São Miguel Arcanjo,35161,Itapetininga,RRAS8,930.339,5,11,5,,Arranjo Populacional de Itapetininga/SP,-23.91369,-47.99351,140.0,5
+355030,São Paulo,35016,São Paulo,RRAS6,1521.202,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.6499,-46.64784,0.0,23
+355040,São Pedro,35103,Piracicaba,RRAS14,611.278,5,11,5,Arranjo Populacional de São Pedro/SP,Arranjo Populacional de Piracicaba/SP,-22.55803,-47.92466,178.3,7
+355050,São Pedro do Turvo,35094,Ourinhos,RRAS10,731.221,5,11,5,,Arranjo Populacional de Ourinhos/SP,-22.6789,-49.77225,337.2,9
+355060,São Roque,35163,Sorocaba,RRAS8,306.908,3B,8,3,Arranjo Populacional de São Roque - Mairinque/SP,Arranjo Populacional de São Paulo/SP,-23.54884,-47.10956,48.4,8
+355070,São Sebastião,35173,Litoral Norte,RRAS17,402.395,3B,8,3,Arranjo Populacional de Caraguatatuba - Ubatuba - São Sebastião/SP,Arranjo Populacional de São José dos Campos/SP,-23.75226,-45.60563,106.7,3
+355080,São Sebastião da Grama,35143,Rio Pardo,RRAS15,252.41,5,11,5,,Arranjo Populacional de São João da Boa Vista/SP,-21.75403,-46.7533,211.1,5
+355090,São Simão,35132,Aquífero Guarani,RRAS13,617.252,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.46154,-47.56831,261.0,7
+355100,São Vicente,35041,Baixada Santista,RRAS7,148.151,2C,6,2,Arranjo Populacional da Baixada Santista/SP,Arranjo Populacional de São Paulo/SP,-23.95939,-46.48879,38.0,7
+355110,Sarapuí,35161,Itapetininga,RRAS8,352.592,5,11,5,,Arranjo Populacional de Itapetininga/SP,-23.66394,-47.78546,115.9,6
+355120,Sarutaiá,35061,Vale do Jurumirim,RRAS9,141.608,5,11,5,,Piraju (SP),-23.25785,-49.48174,292.3,3
+355130,Sebastianópolis do Sul,35157,Votuporanga,RRAS12,167.848,3B,8,3,Arranjo Populacional de Votuporanga/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.62918,-49.91579,475.5,5
+355140,Serra Azul,35132,Aquífero Guarani,RRAS13,283.144,2A,4,2,Arranjo Populacional de Ribeirão Preto/SP,Arranjo Populacional de São Paulo/SP,-21.31618,-47.54996,275.6,5
+355150,Serrana,35132,Aquífero Guarani,RRAS13,126.046,2A,4,2,Arranjo Populacional de Ribeirão Preto/SP,Arranjo Populacional de São Paulo/SP,-21.21712,-47.61268,288.1,5
+355160,Serra Negra,35074,Circuito das Águas,RRAS15,203.734,5,11,5,,Arranjo Populacional de Amparo/SP,-22.58911,-46.68716,118.0,5
+355170,Sertãozinho,35131,Horizonte Verde,RRAS13,403.089,3A,7,3,,Arranjo Populacional de Ribeirão Preto/SP,-21.12277,-48.00882,313.9,7
+355180,Sete Barras,35121,Vale do Ribeira,RRAS7,1062.699,5,11,5,,Registro (SP),-24.27401,-47.93417,148.0,6
+355190,Severínia,35051,Norte - Barretos,RRAS13,140.46,5,11,5,,Olímpia (SP),-20.79308,-48.7937,386.9,5
+355200,Silveiras,35172,Circuito da Fé e Vale Histórico,RRAS17,414.782,5,11,5,,Arranjo Populacional de Lorena/SP,-22.73475,-44.84078,210.9,7
+355210,Socorro,35071,Bragança,RRAS16,449.029,5,11,5,,Bragança Paulista (SP),-22.61122,-46.52447,116.2,6
+355220,Sorocaba,35163,Sorocaba,RRAS8,449.872,2B,5,2,Arranjo Populacional de Sorocaba/SP,Arranjo Populacional de São Paulo/SP,-23.46455,-47.44651,84.0,8
+355230,Sud Mennucci,35022,Lagos do DRS II,RRAS19,594.744,5,11,5,,Pereira Barreto (SP),-20.66775,-50.90099,549.3,7
+355240,Sumaré,35072,Região Metropolitana de Campinas,RRAS15,153.465,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-22.8418,-47.26329,109.7,6
+355250,Suzano,35011,Alto do Tietê,RRAS2,206.236,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.60884,-46.3104,34.7,7
+355255,Suzanápolis,35022,Lagos do DRS II,RRAS19,330.587,5,11,5,,Arranjo Populacional de Jales/SP,-20.47279,-51.07589,577.0,5
+355260,Tabapuã,35151,Catanduva,RRAS12,345.792,5,11,5,,Arranjo Populacional de Catanduva/SP,-20.9319,-49.02911,389.0,7
+355270,Tabatinga,35033,Noroeste do DRS III ,RRAS18,368.604,5,11,5,,Arranjo Populacional de Araraquara/SP,-21.71247,-48.62898,296.2,4
+355280,Taboão da Serra,35013,Mananciais,RRAS4,20.388,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.62089,-46.7864,14.5,4
+355290,Taciba,35112,Alta Sorocabana,RRAS11,607.267,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.50508,-51.34237,496.8,5
+355300,Taguaí,35061,Vale do Jurumirim,RRAS9,145.332,5,11,5,,Avaré (SP),-23.47442,-49.39761,280.9,5
+355310,Taiaçu,35052,Sul - Barretos,RRAS13,107.059,5,11,5,,Bebedouro (SP),-21.13218,-48.53027,340.3,5
+355320,Taiúva,35052,Sul - Barretos,RRAS13,132.459,5,11,5,,Bebedouro (SP),-21.13218,-48.4283,334.5,5
+355330,Tambaú,35142,Mantiqueira,RRAS15,561.788,5,11,5,,Arranjo Populacional de Ribeirão Preto/SP,-21.60168,-47.239,235.7,6
+355340,Tanabi,35155,São José do Rio Preto,RRAS12,747.218,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.5315,-49.64683,464.4,6
+355350,Tapiraí,35163,Sorocaba,RRAS8,755.1,5,11,5,,Arranjo Populacional de Sorocaba/SP,-24.00883,-47.62034,106.7,7
+355360,Tapiratiba,35143,Rio Pardo,RRAS15,221.891,5,11,5,,São José do Rio Pardo (SP),-21.4509,-46.74134,244.7,3
+355365,Taquaral,35052,Sul - Barretos,RRAS13,53.892,5,11,5,,Bebedouro (SP),-21.06912,-48.39932,338.8,4
+355370,Taquaritinga,35033,Noroeste do DRS III ,RRAS18,594.335,3B,8,3,,Arranjo Populacional de Ribeirão Preto/SP,-21.42557,-48.53816,314.4,9
+355380,Taquarituba,35061,Vale do Jurumirim,RRAS9,448.515,4B,10,4,,Avaré (SP),-23.53027,-49.23452,263.9,4
+355385,Taquarivaí,35162,Itapeva,RRAS8,231.792,5,11,5,,Itapeva (SP),-23.94312,-48.68751,210.1,3
+355390,Tarabai,35112,Alta Sorocabana,RRAS11,201.385,2C,6,2,Arranjo Populacional de Presidente Prudente/SP,Arranjo Populacional de São Paulo/SP,-22.35773,-51.62574,529.3,5
+355395,Tarumã,35092,Assis,RRAS10,302.913,5,11,5,,Assis (SP),-22.7635,-50.60125,415.9,5
+355400,Tatuí,35161,Itapetininga,RRAS8,523.749,3B,8,3,,Arranjo Populacional de Sorocaba/SP,-23.36205,-47.86919,128.6,9
+355410,Taubaté,35174,Vale do Paraíba/Região Serrana,RRAS17,625.003,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-23.08715,-45.50233,132.6,8
+355420,Tejupá,35061,Vale do Jurumirim,RRAS9,296.189,5,11,5,,Piraju (SP),-23.34268,-49.3067,273.3,5
+355430,Teodoro Sampaio,35115,Pontal do Paranapanema,RRAS11,1555.803,5,11,5,,Arranjo Populacional de Presidente Prudente/SP,-22.41663,-52.37407,601.7,5
+355440,Terra Roxa,35052,Sul - Barretos,RRAS13,221.541,5,11,5,,Bebedouro (SP),-20.77874,-48.34559,363.9,5
+355450,Tietê,35163,Sorocaba,RRAS8,404.396,3B,8,3,Arranjo Populacional de Cerquilho - Tietê/SP,Arranjo Populacional de Piracicaba/SP,-23.04928,-47.70765,127.1,10
+355460,Timburi,35094,Ourinhos,RRAS10,196.79,5,11,5,,Piraju (SP),-23.19603,-49.61049,306.5,5
+355465,Torre de Pedra,35063,Polo Cuesta,RRAS9,71.348,5,11,5,,Botucatu (SP),-23.25034,-48.21261,165.7,3
+355470,Torrinha,35064,Jaú,RRAS9,315.267,5,11,5,,Jaú (SP),-22.44439,-48.1644,205.1,4
+355475,Trabiju,35031,Central do DRS III ,RRAS18,63.421,5,11,5,,Arranjo Populacional de Araraquara/SP,-22.03217,-48.34473,250.2,3
+355480,Tremembé,35174,Vale do Paraíba/Região Serrana,RRAS17,191.094,2B,5,2,Arranjo Populacional de São José dos Campos/SP,Arranjo Populacional de São Paulo/SP,-22.94111,-45.60408,132.6,3
+355490,Três Fronteiras,35152,Santa Fé do Sul,RRAS12,151.594,4A,9,4,Arranjo Populacional de Santa Fé do Sul/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.27373,-50.86962,574.8,5
+355495,Tuiuti,35071,Bragança,RRAS16,126.731,5,11,5,,Bragança Paulista (SP),-22.82979,-46.68798,91.3,5
+355500,Tupã,35095,Tupã,RRAS10,627.986,3B,8,3,Arranjo Populacional de Tupã/SP,Arranjo Populacional de Marília/SP,-21.94753,-50.53482,441.1,7
+355510,Tupi Paulista,35111,Alta Paulista,RRAS11,244.77,5,11,5,Arranjo Populacional de Tupi Paulista/SP,Dracena (SP),-21.39034,-51.58729,566.1,6
+355520,Turiúba,35023,Consórcios do DRS II,RRAS19,153.235,5,11,5,,Buritama (SP),-20.94042,-50.11124,466.6,8
+355530,Turmalina,35154,Fernandópolis,RRAS12,147.797,5,11,5,,Arranjo Populacional de Fernandópolis/SP,-20.08364,-50.45674,558.3,7
+355535,Ubarana,35156,José Bonifácio,RRAS12,209.861,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.21976,-49.74839,417.8,5
+355540,Ubatuba,35173,Litoral Norte,RRAS17,708.105,3B,8,3,Arranjo Populacional de Caraguatatuba - Ubatuba - São Sebastião/SP,Arranjo Populacional de São José dos Campos/SP,-23.38049,-45.02411,168.2,4
+355550,Ubirajara,35093,Marília,RRAS10,282.179,5,11,5,,Arranjo Populacional de Marília/SP,-22.54409,-49.66581,332.3,5
+355560,Uchoa,35155,São José do Rio Preto,RRAS12,252.434,2B,5,2,Arranjo Populacional de São José do Rio Preto/SP,Arranjo Populacional de São Paulo/SP,-20.93665,-49.1577,397.1,6
+355570,União Paulista,35156,José Bonifácio,RRAS12,79.056,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-20.89054,-49.88739,453.0,4
+355580,Urânia,35153,Jales,RRAS12,209.262,5,11,5,,Arranjo Populacional de Jales/SP,-20.20854,-50.65237,563.0,6
+355590,Uru,35065,Lins,RRAS9,146.901,5,11,5,,Arranjo Populacional de Bauru/SP,-21.76615,-49.29629,343.0,4
+355600,Urupês,35151,Catanduva,RRAS12,323.916,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.20511,-49.26533,382.4,6
+355610,Valentim Gentil,35157,Votuporanga,RRAS12,149.741,5,11,5,,Arranjo Populacional de Votuporanga/SP,-20.42073,-50.1016,505.6,5
+355620,Valinhos,35072,Região Metropolitana de Campinas,RRAS15,148.538,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-22.97494,-46.98082,82.4,4
+355630,Valparaíso,35021,Central do DRS II,RRAS19,857.661,5,11,5,Arranjo Populacional de Valparaíso/SP,Araçatuba (SP),-21.20296,-50.9238,516.9,7
+355635,Vargem,35071,Bragança,RRAS16,142.595,5,11,5,,Bragança Paulista (SP),-22.89055,-46.41421,87.7,4
+355640,Vargem Grande do Sul,35142,Mantiqueira,RRAS15,267.178,5,11,5,,Arranjo Populacional de São João da Boa Vista/SP,-21.86075,-46.8988,200.6,6
+355645,Vargem Grande Paulista,35013,Mananciais,RRAS4,42.489,1A,1,1,Arranjo Populacional de São Paulo/SP,Arranjo Populacional de São Paulo/SP,-23.62103,-47.01471,37.5,3
+355650,Várzea Paulista,35073,Jundiaí,RRAS16,35.12,2C,6,2,Arranjo Populacional de Jundiaí/SP,Arranjo Populacional de São Paulo/SP,-23.21899,-46.82563,51.2,2
+355660,Vera Cruz,35093,Marília,RRAS10,247.716,2C,6,2,Arranjo Populacional de Marília/SP,Arranjo Populacional de São Paulo/SP,-22.23409,-49.82623,361.5,5
+355670,Vinhedo,35072,Região Metropolitana de Campinas,RRAS15,80.95,1C,3,1,Arranjo Populacional de Campinas/SP,Arranjo Populacional de Campinas/SP,-23.04667,-46.97921,75.1,4
+355680,Viradouro,35052,Sul - Barretos,RRAS13,217.726,5,11,5,,Bebedouro (SP),-20.88438,-48.30974,351.9,4
+355690,Vista Alegre do Alto,35052,Sul - Barretos,RRAS13,95.429,5,11,5,,Monte Alto (SP),-21.17664,-48.6497,343.5,4
+355695,Vitória Brasil,35153,Jales,RRAS12,49.832,3B,8,3,Arranjo Populacional de Jales/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.19852,-50.48567,551.3,4
+355700,Votorantim,35163,Sorocaba,RRAS8,184.186,2B,5,2,Arranjo Populacional de Sorocaba/SP,Arranjo Populacional de São Paulo/SP,-23.58007,-47.40633,77.7,5
+355710,Votuporanga,35157,Votuporanga,RRAS12,420.703,3B,8,3,Arranjo Populacional de Votuporanga/SP,Arranjo Populacional de São José do Rio Preto/SP,-20.45774,-49.98889,494.5,8
+355715,Zacarias,35156,José Bonifácio,RRAS12,319.056,5,11,5,,Arranjo Populacional de São José do Rio Preto/SP,-21.12535,-50.04957,448.4,7
+355720,Chavantes,35094,Ourinhos,RRAS10,188.727,5,11,5,,Arranjo Populacional de Ourinhos/SP,-23.04631,-49.72657,321.4,4
+355730,Estiva Gerbi,35141,Baixa Mogiana,RRAS15,74.144,3A,7,3,Arranjo Populacional de Mogi Guaçu - Mogi Mirim/SP,Arranjo Populacional de Campinas/SP,-22.23597,-46.94331,160.1,2
