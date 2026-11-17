@@ -1,4 +1,8 @@
-"""Validação municipal aninhada. Nenhum resultado do teste orienta o ajuste."""
+"""Validação municipal aninhada. Nenhum resultado do teste orienta o ajuste.
+
+Partição principal: deixar uma RRAS de fora por vez (19 regiões oficiais de saúde); ajuste interno em 5 grupos de
+RRAS do treino. Sensibilidades: 5 blocos k-means das coordenadas (partição original deste script), 5 faixas de
+longitude e divisão aleatória. Variáveis vêm de scripts/base.py (decisões comuns do projeto)."""
 from pathlib import Path
 import json
 import hashlib
@@ -6,15 +10,15 @@ import platform
 from importlib.metadata import version
 import numpy as np
 import pandas as pd
-from sklearn.cluster import KMeans
-from sklearn.model_selection import KFold, LeaveOneGroupOut
+from sklearn.model_selection import GroupKFold, KFold, LeaveOneGroupOut
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import PoissonRegressor
 from sklearn.ensemble import HistGradientBoostingRegressor
 from sklearn.metrics import mean_poisson_deviance, mean_absolute_error, r2_score
 from threadpoolctl import threadpool_limits
-import statsmodels.api as sm
+
+import base
 
 ROOT=Path(__file__).resolve().parents[1]
 DEM=['log_densidade','frac_0a4','frac_5a19','frac_20a39','frac_60mais']
@@ -29,39 +33,9 @@ MODELOS={
  'Boosting sem vacina':('boost',SOC,[3,7]),
  'Boosting com vacina':('boost',SOC+VAC,[3,7])}
 
-def carregar_base(pasta=ROOT/'data/processed',cap=False):
-    p=Path(pasta)
-    m=pd.read_csv(p/'municipios.csv',dtype={'codigo':str}).set_index('codigo')
-    n=pd.read_csv(p/'notificacoes.csv',dtype=str,keep_default_na=False)
-    mask=n.SG_UF.eq('35')&n.CLASSI_FIN.eq('1')&pd.to_datetime(n.DT_INICIO_,errors='coerce').dt.year.eq(2019)
-    m['casos']=n.loc[mask,'ID_MN_RESI'].value_counts().reindex(m.index,fill_value=0)
-    idade=pd.read_csv(p/'pop_idade.csv',dtype={'codigo':str}).set_index('codigo')
-    for nome,cols in [('frac_0a4',['<1 Ano','1-4']),('frac_5a19',['5-9','10-14','15-19']),('frac_20a39',['20-29','30-39']),('frac_60mais',['60-64','65-69','70-79','80 e +'])]:
-        m[nome]=idade[cols].sum(axis=1)/m.populacao
-    m['log_densidade']=np.log(m.populacao/m.area_km2)
-    pib=pd.read_csv(p/'pib.csv',dtype={'municipality_ibge':str});pib['codigo']=pib.municipality_ibge.str[:6]
-    m['log_pib']=np.log(pib.set_index('codigo').gdp_per_capita_brl_2016)
-    v=pd.read_csv(p/'mmr.csv',dtype={'municipality_ibge':str});v['codigo']=v.municipality_ibge.str[:6]
-    m['fracao_cob_acima100']=v.assign(flag=v.coverage_percent.gt(100)).groupby('codigo').flag.mean()
-    if cap:v['coverage_percent']=v.coverage_percent.clip(upper=100)
-    piv=v.pivot(index='codigo',columns=['year','dose'],values='coverage_percent')
-    for dose,label in [('MMR1','d1'),('MMR2','d2')]:
-        m[label+'_media']=piv.loc[:,[(y,dose) for y in [2016,2017,2018]]].mean(axis=1)
-        m[label+'_delta']=piv[(2018,dose)]-piv[(2016,dose)]
-    geom=json.loads((p/'malha.json').read_text(encoding='utf-8'))
-    # Centro da caixa envolvente: aproximação apenas para partição espacial.
-    for cod,parts in geom.items():
-        pts=np.concatenate(parts)
-        m.loc[cod,'lon']=(pts[:,0].min()+pts[:,0].max())/2
-        m.loc[cod,'lat']=(pts[:,1].min()+pts[:,1].max())/2
-    xy=np.column_stack([m.lon*np.cos(np.deg2rad(m.lat.mean())),m.lat])
-    with threadpool_limits(limits=1):labels=KMeans(n_clusters=5,n_init=20,random_state=42).fit_predict(xy)
-    order=np.argsort([m.lon[labels==i].mean() for i in range(5)])
-    m['bloco']=[dict(zip(order,range(1,6)))[i] for i in labels]
-    m['faixa_longitude']=pd.qcut(m.lon.rank(method='first'),5,labels=False).astype(int)+1
-    assert len(m)==645 and m.casos.sum()==18025 and m.index.is_unique
-    assert np.isfinite(m[DEM+['log_pib']+VAC].to_numpy()).all()
-    return m
+def carregar_base(cap=False):
+    """Base municipal comum (scripts/base.py). cap=True limita cada cobertura anual a 100% antes das médias."""
+    return base.base_municipal('limitada' if cap else 'original')
 
 class Ajuste:
     def __init__(self,tipo,cols,hiper):self.tipo=tipo;self.cols=cols;self.hiper=hiper
@@ -80,6 +54,7 @@ class Ajuste:
                 early_stopping=False,random_state=42)
             self.model.fit(X,y/e,sample_weight=e)
         else:
+            import statsmodels.api as sm
             Z=sm.add_constant(X,has_constant='add')
             glm=sm.GLM(y,Z,offset=np.log(e),family=sm.families.NegativeBinomial(alpha=self.hiper))
             # Penalização L2 fixa, intercepto sem penalidade; dispersão selecionada internamente.
@@ -89,30 +64,32 @@ class Ajuste:
         e=df.populacao.to_numpy(float)/1e5
         if self.tipo=='base':return np.full(len(df),self.taxa)*e
         X=self.scale.transform(self.imp.transform(df[self.cols]))
-        if self.tipo=='nb':pred=self.model.predict(sm.add_constant(X,has_constant='add'),offset=np.log(e))
+        if self.tipo=='nb':
+            import statsmodels.api as sm
+            pred=self.model.predict(sm.add_constant(X,has_constant='add'),offset=np.log(e))
         else:pred=self.model.predict(X)*e
         assert np.isfinite(pred).all()
         return np.maximum(pred,1e-9)
 
 def metricas(y,p,e):
     return {'desvio_Poisson':mean_poisson_deviance(y,p),'MAE_casos':mean_absolute_error(y,p),
-        'MAE_incidencia':mean_absolute_error(y/e,p/e),'R2_incidencia':r2_score(y/e,p/e),
+        'MAE_incidencia':mean_absolute_error(y/e,p/e),
+        'R2_incidencia':r2_score(y/e,p/e) if len(y)>1 else np.nan,  # RRAS6 (capital) tem um município só
         'razao_pred_obs':np.sum(p)/np.sum(y)}
 
-def executar(df,esquema='espacial',modelos=None,permutar=False):
+GRUPO={'rras':'rras','blocos':'bloco','longitude':'faixa_longitude'}
+
+def executar(df,esquema='rras',modelos=None,permutar=False):
     modelos=MODELOS if modelos is None else {k:MODELOS[k] for k in modelos}
     if esquema=='aleatorio':outer=list(KFold(5,shuffle=True,random_state=42).split(df))
-    else:
-        groups=df.bloco if esquema=='espacial' else df.faixa_longitude
-        outer=list(LeaveOneGroupOut().split(df,groups=groups))
+    else:outer=list(LeaveOneGroupOut().split(df,groups=df[GRUPO[esquema]]))
     preds=[];scores=[];tuning=[];importance=[];diagnostico=[]
     for fold,(tr,te) in enumerate(outer,1):
         treino=df.iloc[tr];teste=df.iloc[te]
         assert set(treino.index).isdisjoint(teste.index)
         if esquema=='aleatorio':inner=list(KFold(3,shuffle=True,random_state=43).split(treino))
-        else:
-            g=treino.bloco if esquema=='espacial' else treino.faixa_longitude
-            inner=list(LeaveOneGroupOut().split(treino,groups=g))
+        elif esquema=='rras':inner=list(GroupKFold(5).split(treino,groups=treino.rras))  # 18 RRAS em 5 grupos
+        else:inner=list(LeaveOneGroupOut().split(treino,groups=treino[GRUPO[esquema]]))
         for nome,(tipo,cols,grid) in modelos.items():
             candidatos=[]
             for h in grid:
@@ -139,7 +116,7 @@ def executar(df,esquema='espacial',modelos=None,permutar=False):
                         rng=np.random.default_rng(1000+100*fold+rep)
                         t=teste.copy();t.loc[:,cc]=teste[cc].to_numpy()[rng.permutation(len(t))]
                         importance.append({'esquema':esquema,'fold':fold,'modelo':nome,'grupo':grupo,'repeticao':rep,'aumento_desvio':mean_poisson_deviance(y,mod.predict(t))-base_loss})
-        print(f'{esquema}: bloco {fold}/5 concluído',flush=True)
+        print(f'{esquema}: partição {fold}/{len(outer)} concluída',flush=True)
     return {'predicoes':pd.DataFrame(preds),'folds':pd.DataFrame(scores),'ajustes':pd.DataFrame(tuning),
         'permutacao':pd.DataFrame(importance),'dispersao':pd.DataFrame(diagnostico)}
 
@@ -152,7 +129,7 @@ def resumir(df,preds):
     return pd.DataFrame(out)
 
 def assinatura_entradas():
-    paths=sorted((ROOT/'data/processed').glob('*'))+[Path(__file__)]
+    paths=sorted((ROOT/'data/processed').glob('*'))+[Path(__file__),ROOT/'scripts/base.py']
     return {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in paths if p.is_file()}
 
 def rodar_tudo(destino=ROOT/'results/ml'):
@@ -160,12 +137,13 @@ def rodar_tudo(destino=ROOT/'results/ml'):
     df=carregar_base();df.to_csv(destino/'base_municipal_ml.csv')
     results=[]
     with threadpool_limits(limits=1):
-        results.append(executar(df,'espacial',permutar=True))
+        results.append(executar(df,'rras',permutar=True))
+        results.append(executar(df,'blocos'))
         results.append(executar(df,'longitude'))
         results.append(executar(df,'aleatorio'))
-        cap=executar(carregar_base(cap=True),'espacial',modelos=['Poisson + PIB + vacina','Boosting com vacina'])
+        cap=executar(carregar_base(cap=True),'rras',modelos=['Poisson + PIB + vacina','Boosting com vacina'])
         for v in cap.values():
-            if 'esquema' in v:v['esquema']='espacial_cob_limitada'
+            if 'esquema' in v:v['esquema']='rras_cob_limitada'
         results.append(cap)
     for key in ['predicoes','folds','ajustes','permutacao','dispersao']:
         frames=[r[key] for r in results if not r[key].empty]
@@ -178,7 +156,7 @@ def rodar_tudo(destino=ROOT/'results/ml'):
           'python':platform.python_version(),
           'versoes':{p:version(p) for p in ['scikit-learn','statsmodels','pandas','numpy','scipy']},
           'semente':42,'modelos':MODELOS,
-          'protocolo':'Validação externa de cinco blocos; ajuste interno por blocos restantes. Critério: desvio Poisson médio por município.'}
+          'protocolo':'Validação externa deixando uma RRAS de fora (19); ajuste interno em 5 grupos das RRAS restantes. Sensibilidades: 5 blocos k-means, 5 faixas de longitude, 5 partes aleatórias. Critério: desvio Poisson médio por município.'}
     meta['arquivos_resultados']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(destino.glob('*.csv'))}
     (destino/'execucao.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding='utf-8')
     return df,resumo

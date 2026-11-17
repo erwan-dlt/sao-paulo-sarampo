@@ -1,281 +1,674 @@
 esquema,fold,modelo,hiper,desvio_interno
-espacial,1,Referência populacional,0.0,0.0
-espacial,1,Poisson demografia,0.1,45.08658700651615
-espacial,1,Poisson demografia,1.0,43.43236983127754
-espacial,1,Poisson demografia,10.0,55.84196194288466
-espacial,1,Poisson + PIB,0.1,46.63503204564095
-espacial,1,Poisson + PIB,1.0,43.92550425882894
-espacial,1,Poisson + PIB,10.0,56.31837949015163
-espacial,1,Poisson + PIB + vacina,0.1,44.00990934612941
-espacial,1,Poisson + PIB + vacina,1.0,44.585034683279225
-espacial,1,Poisson + PIB + vacina,10.0,57.61566506922642
-espacial,1,Binomial negativa completa,0.1,34.121753589499775
-espacial,1,Binomial negativa completa,1.0,30.80008839658763
-espacial,1,Binomial negativa completa,10.0,56.38013646739581
-espacial,1,Boosting sem vacina,3.0,79.79191291517874
-espacial,1,Boosting sem vacina,7.0,97.10858577315481
-espacial,1,Boosting com vacina,3.0,73.10510216920204
-espacial,1,Boosting com vacina,7.0,77.4457694041737
-espacial,2,Referência populacional,0.0,0.0
-espacial,2,Poisson demografia,0.1,36.47020029276385
-espacial,2,Poisson demografia,1.0,41.07977065854348
-espacial,2,Poisson demografia,10.0,63.699703286592204
-espacial,2,Poisson + PIB,0.1,36.87772031366854
-espacial,2,Poisson + PIB,1.0,41.042036049222254
-espacial,2,Poisson + PIB,10.0,63.83317721585669
-espacial,2,Poisson + PIB + vacina,0.1,32.53967619263448
-espacial,2,Poisson + PIB + vacina,1.0,40.32811863261767
-espacial,2,Poisson + PIB + vacina,10.0,65.09230408271259
-espacial,2,Binomial negativa completa,0.1,44.02921433208373
-espacial,2,Binomial negativa completa,1.0,57.18587078626212
-espacial,2,Binomial negativa completa,10.0,82.6661175614117
-espacial,2,Boosting sem vacina,3.0,101.10925803638965
-espacial,2,Boosting sem vacina,7.0,109.41535280115546
-espacial,2,Boosting com vacina,3.0,85.94995480543768
-espacial,2,Boosting com vacina,7.0,95.52898683388973
-espacial,3,Referência populacional,0.0,0.0
-espacial,3,Poisson demografia,0.1,65.21152075969644
-espacial,3,Poisson demografia,1.0,56.42724915896997
-espacial,3,Poisson demografia,10.0,62.57372224426127
-espacial,3,Poisson + PIB,0.1,64.23246439283321
-espacial,3,Poisson + PIB,1.0,56.08397387978902
-espacial,3,Poisson + PIB,10.0,62.92658130106257
-espacial,3,Poisson + PIB + vacina,0.1,67.91785898512829
-espacial,3,Poisson + PIB + vacina,1.0,59.24903615994
-espacial,3,Poisson + PIB + vacina,10.0,64.5588108323351
-espacial,3,Binomial negativa completa,0.1,47.86041507078987
-espacial,3,Binomial negativa completa,1.0,44.412076219100406
-espacial,3,Binomial negativa completa,10.0,69.09928584166468
-espacial,3,Boosting sem vacina,3.0,80.66760926025789
-espacial,3,Boosting sem vacina,7.0,79.80837422275708
-espacial,3,Boosting com vacina,3.0,83.97998669766064
-espacial,3,Boosting com vacina,7.0,81.55860276451082
-espacial,4,Referência populacional,0.0,0.0
-espacial,4,Poisson demografia,0.1,38.394415180255415
-espacial,4,Poisson demografia,1.0,33.330032878588284
-espacial,4,Poisson demografia,10.0,43.83013970416849
-espacial,4,Poisson + PIB,0.1,35.47286838996672
-espacial,4,Poisson + PIB,1.0,31.80675321478845
-espacial,4,Poisson + PIB,10.0,44.28978855385106
-espacial,4,Poisson + PIB + vacina,0.1,32.647563228333865
-espacial,4,Poisson + PIB + vacina,1.0,31.246944295148253
-espacial,4,Poisson + PIB + vacina,10.0,43.82319194898777
-espacial,4,Binomial negativa completa,0.1,23.519732349164624
-espacial,4,Binomial negativa completa,1.0,25.372869027761645
-espacial,4,Binomial negativa completa,10.0,53.749706982631736
-espacial,4,Boosting sem vacina,3.0,104.91659722869059
-espacial,4,Boosting sem vacina,7.0,115.45608781425227
-espacial,4,Boosting com vacina,3.0,83.7589636416819
-espacial,4,Boosting com vacina,7.0,88.63111576132894
-espacial,5,Referência populacional,0.0,0.0
-espacial,5,Poisson demografia,0.1,2.8811468860669707
-espacial,5,Poisson demografia,1.0,2.877598311138272
-espacial,5,Poisson demografia,10.0,2.870920598253349
-espacial,5,Poisson + PIB,0.1,2.816739901418891
-espacial,5,Poisson + PIB,1.0,2.8331983480502494
-espacial,5,Poisson + PIB,10.0,2.862693066627308
-espacial,5,Poisson + PIB + vacina,0.1,3.0659635664065488
-espacial,5,Poisson + PIB + vacina,1.0,2.988273849241888
-espacial,5,Poisson + PIB + vacina,10.0,2.897916019554772
-espacial,5,Binomial negativa completa,0.1,2.995907373476561
-espacial,5,Binomial negativa completa,1.0,2.9118733904008653
-espacial,5,Binomial negativa completa,10.0,2.880397723773154
-espacial,5,Boosting sem vacina,3.0,3.076123660493709
-espacial,5,Boosting sem vacina,7.0,3.208516735151963
-espacial,5,Boosting com vacina,3.0,2.976438530473
-espacial,5,Boosting com vacina,7.0,3.2627910333230576
+rras,1,Referência populacional,0.0,0.0
+rras,1,Poisson demografia,0.1,18.95285593449647
+rras,1,Poisson demografia,1.0,20.903471732865796
+rras,1,Poisson demografia,10.0,22.777916240252026
+rras,1,Poisson + PIB,0.1,21.284396061734352
+rras,1,Poisson + PIB,1.0,22.530476233723892
+rras,1,Poisson + PIB,10.0,24.32999959975462
+rras,1,Poisson + PIB + vacina,0.1,26.953986445383624
+rras,1,Poisson + PIB + vacina,1.0,26.62856313744904
+rras,1,Poisson + PIB + vacina,10.0,25.530254528915233
+rras,1,Binomial negativa completa,0.1,15.229176993451365
+rras,1,Binomial negativa completa,1.0,15.259666693504688
+rras,1,Binomial negativa completa,10.0,29.596718764547422
+rras,1,Boosting sem vacina,3.0,37.94226681754184
+rras,1,Boosting sem vacina,7.0,38.33308670241044
+rras,1,Boosting com vacina,3.0,42.341750663130306
+rras,1,Boosting com vacina,7.0,43.75644161137355
+rras,2,Referência populacional,0.0,0.0
+rras,2,Poisson demografia,0.1,15.566659819552818
+rras,2,Poisson demografia,1.0,16.164186717679637
+rras,2,Poisson demografia,10.0,18.22537734649332
+rras,2,Poisson + PIB,0.1,17.519875278731423
+rras,2,Poisson + PIB,1.0,17.948453723452854
+rras,2,Poisson + PIB,10.0,20.147293637534553
+rras,2,Poisson + PIB + vacina,0.1,21.494529955084108
+rras,2,Poisson + PIB + vacina,1.0,20.966969537340926
+rras,2,Poisson + PIB + vacina,10.0,21.361122930111133
+rras,2,Binomial negativa completa,0.1,15.111065366734998
+rras,2,Binomial negativa completa,1.0,14.505930714607345
+rras,2,Binomial negativa completa,10.0,29.160861424153588
+rras,2,Boosting sem vacina,3.0,22.727109957427253
+rras,2,Boosting sem vacina,7.0,22.263443626624706
+rras,2,Boosting com vacina,3.0,24.37300486205904
+rras,2,Boosting com vacina,7.0,30.824850831293944
+rras,3,Referência populacional,0.0,0.0
+rras,3,Poisson demografia,0.1,15.604842508990812
+rras,3,Poisson demografia,1.0,16.140411979002547
+rras,3,Poisson demografia,10.0,18.123981991981974
+rras,3,Poisson + PIB,0.1,17.35868056230537
+rras,3,Poisson + PIB,1.0,17.573509304055825
+rras,3,Poisson + PIB,10.0,19.609622786367442
+rras,3,Poisson + PIB + vacina,0.1,20.44565003570788
+rras,3,Poisson + PIB + vacina,1.0,20.071039223220062
+rras,3,Poisson + PIB + vacina,10.0,20.306655489931355
+rras,3,Binomial negativa completa,0.1,13.738611184164025
+rras,3,Binomial negativa completa,1.0,13.211818309245269
+rras,3,Binomial negativa completa,10.0,26.6777301305332
+rras,3,Boosting sem vacina,3.0,22.350906972153425
+rras,3,Boosting sem vacina,7.0,21.922985266027208
+rras,3,Boosting com vacina,3.0,25.645375405335997
+rras,3,Boosting com vacina,7.0,27.064380857588723
+rras,4,Referência populacional,0.0,0.0
+rras,4,Poisson demografia,0.1,13.649019609566773
+rras,4,Poisson demografia,1.0,14.88548174164188
+rras,4,Poisson demografia,10.0,18.2962661163385
+rras,4,Poisson + PIB,0.1,16.788746932574117
+rras,4,Poisson + PIB,1.0,17.917024749030436
+rras,4,Poisson + PIB,10.0,21.331137835757005
+rras,4,Poisson + PIB + vacina,0.1,19.840897671828053
+rras,4,Poisson + PIB + vacina,1.0,19.635297938606108
+rras,4,Poisson + PIB + vacina,10.0,21.478916250243852
+rras,4,Binomial negativa completa,0.1,14.750468573060138
+rras,4,Binomial negativa completa,1.0,14.999998986466172
+rras,4,Binomial negativa completa,10.0,30.94612429571015
+rras,4,Boosting sem vacina,3.0,26.072594529603982
+rras,4,Boosting sem vacina,7.0,26.100755448770563
+rras,4,Boosting com vacina,3.0,30.913359616049995
+rras,4,Boosting com vacina,7.0,30.00297743448845
+rras,5,Referência populacional,0.0,0.0
+rras,5,Poisson demografia,0.1,15.873358793819328
+rras,5,Poisson demografia,1.0,16.97228291085769
+rras,5,Poisson demografia,10.0,18.969293706338416
+rras,5,Poisson + PIB,0.1,18.08994170441773
+rras,5,Poisson + PIB,1.0,18.852246538999747
+rras,5,Poisson + PIB,10.0,20.989759181402352
+rras,5,Poisson + PIB + vacina,0.1,20.820407800995227
+rras,5,Poisson + PIB + vacina,1.0,21.303493678437643
+rras,5,Poisson + PIB + vacina,10.0,21.82394421649508
+rras,5,Binomial negativa completa,0.1,15.147304802292453
+rras,5,Binomial negativa completa,1.0,14.519579834117158
+rras,5,Binomial negativa completa,10.0,30.228270843311417
+rras,5,Boosting sem vacina,3.0,23.274747889289678
+rras,5,Boosting sem vacina,7.0,23.217818371217973
+rras,5,Boosting com vacina,3.0,23.255122433013554
+rras,5,Boosting com vacina,7.0,30.288077762857608
+rras,6,Referência populacional,0.0,0.0
+rras,6,Poisson demografia,0.1,12.9879258774247
+rras,6,Poisson demografia,1.0,13.416975260391794
+rras,6,Poisson demografia,10.0,15.572134136315633
+rras,6,Poisson + PIB,0.1,16.005354291026435
+rras,6,Poisson + PIB,1.0,16.197617667807602
+rras,6,Poisson + PIB,10.0,18.172949261437857
+rras,6,Poisson + PIB + vacina,0.1,19.029674497413335
+rras,6,Poisson + PIB + vacina,1.0,18.53662962717385
+rras,6,Poisson + PIB + vacina,10.0,18.837190413490543
+rras,6,Binomial negativa completa,0.1,12.705855639125653
+rras,6,Binomial negativa completa,1.0,12.535916303763678
+rras,6,Binomial negativa completa,10.0,26.731830094855237
+rras,6,Boosting sem vacina,3.0,23.174843285141662
+rras,6,Boosting sem vacina,7.0,22.65059509487789
+rras,6,Boosting com vacina,3.0,29.017592376257955
+rras,6,Boosting com vacina,7.0,28.279898696865803
+rras,7,Referência populacional,0.0,0.0
+rras,7,Poisson demografia,0.1,14.119152030918615
+rras,7,Poisson demografia,1.0,14.551625806719626
+rras,7,Poisson demografia,10.0,15.7870944640982
+rras,7,Poisson + PIB,0.1,15.84526762955705
+rras,7,Poisson + PIB,1.0,15.937039872565439
+rras,7,Poisson + PIB,10.0,17.176698565939944
+rras,7,Poisson + PIB + vacina,0.1,19.08049086411578
+rras,7,Poisson + PIB + vacina,1.0,18.59473822771581
+rras,7,Poisson + PIB + vacina,10.0,17.9126904966364
+rras,7,Binomial negativa completa,0.1,12.628087210711167
+rras,7,Binomial negativa completa,1.0,11.910066991072645
+rras,7,Binomial negativa completa,10.0,25.961933054192034
+rras,7,Boosting sem vacina,3.0,20.22543630536613
+rras,7,Boosting sem vacina,7.0,18.915895666544294
+rras,7,Boosting com vacina,3.0,24.54379207863102
+rras,7,Boosting com vacina,7.0,26.379280453548468
+rras,8,Referência populacional,0.0,0.0
+rras,8,Poisson demografia,0.1,13.169288159815766
+rras,8,Poisson demografia,1.0,13.498274724781606
+rras,8,Poisson demografia,10.0,15.676013560182131
+rras,8,Poisson + PIB,0.1,16.999803867746465
+rras,8,Poisson + PIB,1.0,17.075785098229648
+rras,8,Poisson + PIB,10.0,18.8790497858717
+rras,8,Poisson + PIB + vacina,0.1,20.326977724605694
+rras,8,Poisson + PIB + vacina,1.0,19.67718090495375
+rras,8,Poisson + PIB + vacina,10.0,19.733995087977938
+rras,8,Binomial negativa completa,0.1,13.665014593485383
+rras,8,Binomial negativa completa,1.0,13.128775905303591
+rras,8,Binomial negativa completa,10.0,28.116605891858462
+rras,8,Boosting sem vacina,3.0,26.873590617975225
+rras,8,Boosting sem vacina,7.0,29.695835266706702
+rras,8,Boosting com vacina,3.0,27.066245830756017
+rras,8,Boosting com vacina,7.0,32.10021723978282
+rras,9,Referência populacional,0.0,0.0
+rras,9,Poisson demografia,0.1,15.840318707334523
+rras,9,Poisson demografia,1.0,16.040325616421935
+rras,9,Poisson demografia,10.0,17.552687080721714
+rras,9,Poisson + PIB,0.1,17.69858389086608
+rras,9,Poisson + PIB,1.0,17.519792348639132
+rras,9,Poisson + PIB,10.0,19.017333182286112
+rras,9,Poisson + PIB + vacina,0.1,20.003283529523063
+rras,9,Poisson + PIB + vacina,1.0,19.563605681500757
+rras,9,Poisson + PIB + vacina,10.0,19.632355018578846
+rras,9,Binomial negativa completa,0.1,14.18556374631628
+rras,9,Binomial negativa completa,1.0,13.491887688051188
+rras,9,Binomial negativa completa,10.0,27.254715810357684
+rras,9,Boosting sem vacina,3.0,20.112961240091913
+rras,9,Boosting sem vacina,7.0,19.964430738726634
+rras,9,Boosting com vacina,3.0,22.318808496606064
+rras,9,Boosting com vacina,7.0,23.61877535416437
+rras,10,Referência populacional,0.0,0.0
+rras,10,Poisson demografia,0.1,13.288008462879805
+rras,10,Poisson demografia,1.0,13.589915505210982
+rras,10,Poisson demografia,10.0,15.807103101160195
+rras,10,Poisson + PIB,0.1,16.764248981087487
+rras,10,Poisson + PIB,1.0,16.79324936912618
+rras,10,Poisson + PIB,10.0,18.75477699051107
+rras,10,Poisson + PIB + vacina,0.1,20.072626518866105
+rras,10,Poisson + PIB + vacina,1.0,19.386810223967757
+rras,10,Poisson + PIB + vacina,10.0,19.637724513887356
+rras,10,Binomial negativa completa,0.1,13.747189356372655
+rras,10,Binomial negativa completa,1.0,13.34828386393448
+rras,10,Binomial negativa completa,10.0,27.814494184073975
+rras,10,Boosting sem vacina,3.0,26.68061788484989
+rras,10,Boosting sem vacina,7.0,27.02688117207067
+rras,10,Boosting com vacina,3.0,31.62196331422128
+rras,10,Boosting com vacina,7.0,34.526261562247974
+rras,11,Referência populacional,0.0,0.0
+rras,11,Poisson demografia,0.1,15.842899339225923
+rras,11,Poisson demografia,1.0,16.302151599918602
+rras,11,Poisson demografia,10.0,18.113112045476495
+rras,11,Poisson + PIB,0.1,17.73755007013658
+rras,11,Poisson + PIB,1.0,17.779699587887816
+rras,11,Poisson + PIB,10.0,19.530698845343526
+rras,11,Poisson + PIB + vacina,0.1,19.7312920277493
+rras,11,Poisson + PIB + vacina,1.0,19.696627141631154
+rras,11,Poisson + PIB + vacina,10.0,20.130696293805553
+rras,11,Binomial negativa completa,0.1,14.251863306988803
+rras,11,Binomial negativa completa,1.0,13.701960584493978
+rras,11,Binomial negativa completa,10.0,27.18436409438643
+rras,11,Boosting sem vacina,3.0,19.636927994488097
+rras,11,Boosting sem vacina,7.0,17.706872547012228
+rras,11,Boosting com vacina,3.0,21.57393447778741
+rras,11,Boosting com vacina,7.0,24.909666188225266
+rras,12,Referência populacional,0.0,0.0
+rras,12,Poisson demografia,0.1,14.698374542202412
+rras,12,Poisson demografia,1.0,14.808683967262807
+rras,12,Poisson demografia,10.0,16.05437289918795
+rras,12,Poisson + PIB,0.1,17.211923429348726
+rras,12,Poisson + PIB,1.0,16.95115892172571
+rras,12,Poisson + PIB,10.0,18.32723245936404
+rras,12,Poisson + PIB + vacina,0.1,22.037065487817337
+rras,12,Poisson + PIB + vacina,1.0,21.08430013462988
+rras,12,Poisson + PIB + vacina,10.0,20.4104338513868
+rras,12,Binomial negativa completa,0.1,13.067067311605513
+rras,12,Binomial negativa completa,1.0,13.280629231250575
+rras,12,Binomial negativa completa,10.0,27.4403038862174
+rras,12,Boosting sem vacina,3.0,23.421333068269877
+rras,12,Boosting sem vacina,7.0,23.90183662447024
+rras,12,Boosting com vacina,3.0,21.801146487702106
+rras,12,Boosting com vacina,7.0,26.06313983755556
+rras,13,Referência populacional,0.0,0.0
+rras,13,Poisson demografia,0.1,11.084702110200677
+rras,13,Poisson demografia,1.0,9.930100249403406
+rras,13,Poisson demografia,10.0,12.312198101226052
+rras,13,Poisson + PIB,0.1,10.679029002103857
+rras,13,Poisson + PIB,1.0,9.702225737705339
+rras,13,Poisson + PIB,10.0,12.198681044054904
+rras,13,Poisson + PIB + vacina,0.1,9.662961278213157
+rras,13,Poisson + PIB + vacina,1.0,9.700953075207678
+rras,13,Poisson + PIB + vacina,10.0,12.75684436743239
+rras,13,Binomial negativa completa,0.1,10.203991502659669
+rras,13,Binomial negativa completa,1.0,11.766240837445881
+rras,13,Binomial negativa completa,10.0,25.954951755398703
+rras,13,Boosting sem vacina,3.0,15.466948995327547
+rras,13,Boosting sem vacina,7.0,13.646811699777192
+rras,13,Boosting com vacina,3.0,17.210580578116282
+rras,13,Boosting com vacina,7.0,19.17926576260695
+rras,14,Referência populacional,0.0,0.0
+rras,14,Poisson demografia,0.1,12.972006521573899
+rras,14,Poisson demografia,1.0,12.996248684787304
+rras,14,Poisson demografia,10.0,14.813956678754222
+rras,14,Poisson + PIB,0.1,16.923643534987875
+rras,14,Poisson + PIB,1.0,16.75632545892254
+rras,14,Poisson + PIB,10.0,18.8136372479505
+rras,14,Poisson + PIB + vacina,0.1,24.26057653273082
+rras,14,Poisson + PIB + vacina,1.0,21.468944950638384
+rras,14,Poisson + PIB + vacina,10.0,20.53904204872359
+rras,14,Binomial negativa completa,0.1,13.537427509143898
+rras,14,Binomial negativa completa,1.0,13.913592506173618
+rras,14,Binomial negativa completa,10.0,29.27635702976628
+rras,14,Boosting sem vacina,3.0,27.09526883097058
+rras,14,Boosting sem vacina,7.0,26.04385621438981
+rras,14,Boosting com vacina,3.0,29.983679654995687
+rras,14,Boosting com vacina,7.0,35.780036189469556
+rras,15,Referência populacional,0.0,0.0
+rras,15,Poisson demografia,0.1,14.54346378259682
+rras,15,Poisson demografia,1.0,15.086192005421893
+rras,15,Poisson demografia,10.0,17.32152679630422
+rras,15,Poisson + PIB,0.1,17.913048857239335
+rras,15,Poisson + PIB,1.0,18.093964267057487
+rras,15,Poisson + PIB,10.0,20.241914889135778
+rras,15,Poisson + PIB + vacina,0.1,19.529290507024527
+rras,15,Poisson + PIB + vacina,1.0,19.69548364812514
+rras,15,Poisson + PIB + vacina,10.0,20.428683021059015
+rras,15,Binomial negativa completa,0.1,13.489288754176716
+rras,15,Binomial negativa completa,1.0,13.932972049571429
+rras,15,Binomial negativa completa,10.0,27.705324027134857
+rras,15,Boosting sem vacina,3.0,29.96644214548142
+rras,15,Boosting sem vacina,7.0,30.296511084265564
+rras,15,Boosting com vacina,3.0,30.796596208066465
+rras,15,Boosting com vacina,7.0,30.168890069156884
+rras,16,Referência populacional,0.0,0.0
+rras,16,Poisson demografia,0.1,12.027811634671513
+rras,16,Poisson demografia,1.0,11.25023054410923
+rras,16,Poisson demografia,10.0,10.940479040263927
+rras,16,Poisson + PIB,0.1,12.636859693017902
+rras,16,Poisson + PIB,1.0,12.086141155968242
+rras,16,Poisson + PIB,10.0,11.564382605696379
+rras,16,Poisson + PIB + vacina,0.1,13.99559941045945
+rras,16,Poisson + PIB + vacina,1.0,13.180987991407351
+rras,16,Poisson + PIB + vacina,10.0,11.793097993026912
+rras,16,Binomial negativa completa,0.1,11.797451493642532
+rras,16,Binomial negativa completa,1.0,10.943349615031874
+rras,16,Binomial negativa completa,10.0,14.613578857674446
+rras,16,Boosting sem vacina,3.0,12.33076104256076
+rras,16,Boosting sem vacina,7.0,12.782252714248415
+rras,16,Boosting com vacina,3.0,12.062962252471248
+rras,16,Boosting com vacina,7.0,12.309825153762752
+rras,17,Referência populacional,0.0,0.0
+rras,17,Poisson demografia,0.1,11.842313582886431
+rras,17,Poisson demografia,1.0,12.72726536856085
+rras,17,Poisson demografia,10.0,15.318728350227694
+rras,17,Poisson + PIB,0.1,15.353677797462545
+rras,17,Poisson + PIB,1.0,15.92428361023311
+rras,17,Poisson + PIB,10.0,18.161995340020336
+rras,17,Poisson + PIB + vacina,0.1,20.90867004407709
+rras,17,Poisson + PIB + vacina,1.0,19.824712571643488
+rras,17,Poisson + PIB + vacina,10.0,19.24588985332586
+rras,17,Binomial negativa completa,0.1,13.1117713749493
+rras,17,Binomial negativa completa,1.0,13.03046070731021
+rras,17,Binomial negativa completa,10.0,28.08938362741337
+rras,17,Boosting sem vacina,3.0,20.49877149782173
+rras,17,Boosting sem vacina,7.0,21.04005550737463
+rras,17,Boosting com vacina,3.0,24.66319741098242
+rras,17,Boosting com vacina,7.0,27.85308402893435
+rras,18,Referência populacional,0.0,0.0
+rras,18,Poisson demografia,0.1,15.28208236648254
+rras,18,Poisson demografia,1.0,15.899603190729392
+rras,18,Poisson demografia,10.0,17.851255416213775
+rras,18,Poisson + PIB,0.1,16.96881984403489
+rras,18,Poisson + PIB,1.0,17.32646081128043
+rras,18,Poisson + PIB,10.0,19.353117928665267
+rras,18,Poisson + PIB + vacina,0.1,19.026358933116814
+rras,18,Poisson + PIB + vacina,1.0,19.210623433726536
+rras,18,Poisson + PIB + vacina,10.0,19.865688409952366
+rras,18,Binomial negativa completa,0.1,13.476218502386908
+rras,18,Binomial negativa completa,1.0,13.262421960607847
+rras,18,Binomial negativa completa,10.0,27.842610883460605
+rras,18,Boosting sem vacina,3.0,25.347539924672482
+rras,18,Boosting sem vacina,7.0,22.85785613970451
+rras,18,Boosting com vacina,3.0,28.70633532947828
+rras,18,Boosting com vacina,7.0,29.952445505959847
+rras,19,Referência populacional,0.0,0.0
+rras,19,Poisson demografia,0.1,17.028761197931654
+rras,19,Poisson demografia,1.0,17.713571035096393
+rras,19,Poisson demografia,10.0,19.847683249726362
+rras,19,Poisson + PIB,0.1,19.3357580493505
+rras,19,Poisson + PIB,1.0,19.620518887292654
+rras,19,Poisson + PIB,10.0,21.86752064709989
+rras,19,Poisson + PIB + vacina,0.1,21.833360765922116
+rras,19,Poisson + PIB + vacina,1.0,22.169622218922814
+rras,19,Poisson + PIB + vacina,10.0,23.10625286556666
+rras,19,Binomial negativa completa,0.1,16.16592970391005
+rras,19,Binomial negativa completa,1.0,16.171496232169716
+rras,19,Binomial negativa completa,10.0,31.895198364588172
+rras,19,Boosting sem vacina,3.0,23.915399050756786
+rras,19,Boosting sem vacina,7.0,23.209144397301
+rras,19,Boosting com vacina,3.0,26.077211835863004
+rras,19,Boosting com vacina,7.0,30.24206338913053
+blocos,1,Referência populacional,0.0,0.0
+blocos,1,Poisson demografia,0.1,44.34882935232662
+blocos,1,Poisson demografia,1.0,43.26589093483871
+blocos,1,Poisson demografia,10.0,56.57240425111234
+blocos,1,Poisson + PIB,0.1,46.97905008598244
+blocos,1,Poisson + PIB,1.0,44.43155306942158
+blocos,1,Poisson + PIB,10.0,57.20790231153796
+blocos,1,Poisson + PIB + vacina,0.1,46.493898340565664
+blocos,1,Poisson + PIB + vacina,1.0,45.79129960237034
+blocos,1,Poisson + PIB + vacina,10.0,58.368066934389695
+blocos,1,Binomial negativa completa,0.1,34.1706538616575
+blocos,1,Binomial negativa completa,1.0,30.229737279309617
+blocos,1,Binomial negativa completa,10.0,56.979823725022904
+blocos,1,Boosting sem vacina,3.0,93.05821462211772
+blocos,1,Boosting sem vacina,7.0,100.6936228875038
+blocos,1,Boosting com vacina,3.0,74.8178820010909
+blocos,1,Boosting com vacina,7.0,81.94000864360095
+blocos,2,Referência populacional,0.0,0.0
+blocos,2,Poisson demografia,0.1,37.8333160017483
+blocos,2,Poisson demografia,1.0,41.86565989616145
+blocos,2,Poisson demografia,10.0,64.00203858394829
+blocos,2,Poisson + PIB,0.1,37.86143942052803
+blocos,2,Poisson + PIB,1.0,41.65292412046329
+blocos,2,Poisson + PIB,10.0,64.12057940606209
+blocos,2,Poisson + PIB + vacina,0.1,33.19188177529113
+blocos,2,Poisson + PIB + vacina,1.0,40.44446381590323
+blocos,2,Poisson + PIB + vacina,10.0,65.09947672946521
+blocos,2,Binomial negativa completa,0.1,43.79425494306315
+blocos,2,Binomial negativa completa,1.0,56.14972659956224
+blocos,2,Binomial negativa completa,10.0,81.71965596165661
+blocos,2,Boosting sem vacina,3.0,106.5605532223214
+blocos,2,Boosting sem vacina,7.0,111.84916010651696
+blocos,2,Boosting com vacina,3.0,82.3605368700532
+blocos,2,Boosting com vacina,7.0,84.5358742291164
+blocos,3,Referência populacional,0.0,0.0
+blocos,3,Poisson demografia,0.1,63.62592299134517
+blocos,3,Poisson demografia,1.0,55.69621704200658
+blocos,3,Poisson demografia,10.0,62.24704305975033
+blocos,3,Poisson + PIB,0.1,62.71877170799896
+blocos,3,Poisson + PIB,1.0,55.51282998076376
+blocos,3,Poisson + PIB,10.0,62.69029805389354
+blocos,3,Poisson + PIB + vacina,0.1,66.51973573571435
+blocos,3,Poisson + PIB + vacina,1.0,58.1783281268243
+blocos,3,Poisson + PIB + vacina,10.0,63.85352641087251
+blocos,3,Binomial negativa completa,0.1,47.51053658782002
+blocos,3,Binomial negativa completa,1.0,43.479241104399925
+blocos,3,Binomial negativa completa,10.0,67.91048204266865
+blocos,3,Boosting sem vacina,3.0,79.8290086388531
+blocos,3,Boosting sem vacina,7.0,78.04033130854337
+blocos,3,Boosting com vacina,3.0,76.36536119641833
+blocos,3,Boosting com vacina,7.0,76.67166202677367
+blocos,4,Referência populacional,0.0,0.0
+blocos,4,Poisson demografia,0.1,40.381398299131554
+blocos,4,Poisson demografia,1.0,34.80716461674608
+blocos,4,Poisson demografia,10.0,45.155005643004415
+blocos,4,Poisson + PIB,0.1,37.23634474553493
+blocos,4,Poisson + PIB,1.0,33.45588684742584
+blocos,4,Poisson + PIB,10.0,45.79152645485253
+blocos,4,Poisson + PIB + vacina,0.1,37.72009499724565
+blocos,4,Poisson + PIB + vacina,1.0,34.31079815107854
+blocos,4,Poisson + PIB + vacina,10.0,45.50675253696153
+blocos,4,Binomial negativa completa,0.1,25.62363035072453
+blocos,4,Binomial negativa completa,1.0,27.379323730937216
+blocos,4,Binomial negativa completa,10.0,56.40034735405294
+blocos,4,Boosting sem vacina,3.0,103.24703133157476
+blocos,4,Boosting sem vacina,7.0,113.09549502968297
+blocos,4,Boosting com vacina,3.0,85.42284692475147
+blocos,4,Boosting com vacina,7.0,92.12466525914928
+blocos,5,Referência populacional,0.0,0.0
+blocos,5,Poisson demografia,0.1,2.8416292081170074
+blocos,5,Poisson demografia,1.0,2.8443403214808787
+blocos,5,Poisson demografia,10.0,2.846243870590047
+blocos,5,Poisson + PIB,0.1,2.7752325983877597
+blocos,5,Poisson + PIB,1.0,2.7964822795988953
+blocos,5,Poisson + PIB,10.0,2.8363702955548145
+blocos,5,Poisson + PIB + vacina,0.1,3.024009490980984
+blocos,5,Poisson + PIB + vacina,1.0,2.957333885233367
+blocos,5,Poisson + PIB + vacina,10.0,2.8726963369144918
+blocos,5,Binomial negativa completa,0.1,2.958758481828701
+blocos,5,Binomial negativa completa,1.0,2.8766884300018973
+blocos,5,Binomial negativa completa,10.0,2.8509193143039684
+blocos,5,Boosting sem vacina,3.0,3.110758212176032
+blocos,5,Boosting sem vacina,7.0,3.231920571724296
+blocos,5,Boosting com vacina,3.0,2.986907614821652
+blocos,5,Boosting com vacina,7.0,3.1790713865568225
 longitude,1,Referência populacional,0.0,0.0
-longitude,1,Poisson demografia,0.1,49.299859512168524
-longitude,1,Poisson demografia,1.0,50.32829800729064
-longitude,1,Poisson demografia,10.0,61.90369340667798
-longitude,1,Poisson + PIB,0.1,50.434409454865666
-longitude,1,Poisson + PIB,1.0,51.689859059628404
-longitude,1,Poisson + PIB,10.0,62.26856030264267
-longitude,1,Poisson + PIB + vacina,0.1,47.701717683666345
-longitude,1,Poisson + PIB + vacina,1.0,49.60125870815318
-longitude,1,Poisson + PIB + vacina,10.0,60.883430712340875
-longitude,1,Binomial negativa completa,0.1,37.48185004775662
-longitude,1,Binomial negativa completa,1.0,36.80788647182067
-longitude,1,Binomial negativa completa,10.0,60.62103519569477
-longitude,1,Boosting sem vacina,3.0,72.4121822210674
-longitude,1,Boosting sem vacina,7.0,70.49955441890314
-longitude,1,Boosting com vacina,3.0,69.42225092841919
-longitude,1,Boosting com vacina,7.0,70.11417211412355
+longitude,1,Poisson demografia,0.1,51.94474031085442
+longitude,1,Poisson demografia,1.0,53.07911887191095
+longitude,1,Poisson demografia,10.0,64.34538312900837
+longitude,1,Poisson + PIB,0.1,52.29638885888893
+longitude,1,Poisson + PIB,1.0,53.5464601016329
+longitude,1,Poisson + PIB,10.0,64.55700530195136
+longitude,1,Poisson + PIB + vacina,0.1,49.299368502632085
+longitude,1,Poisson + PIB + vacina,1.0,51.51243736166661
+longitude,1,Poisson + PIB + vacina,10.0,63.316997513290396
+longitude,1,Binomial negativa completa,0.1,42.07806382583557
+longitude,1,Binomial negativa completa,1.0,42.51362812460311
+longitude,1,Binomial negativa completa,10.0,65.89435972518586
+longitude,1,Boosting sem vacina,3.0,76.64418322036374
+longitude,1,Boosting sem vacina,7.0,75.5588482902163
+longitude,1,Boosting com vacina,3.0,73.26752792093082
+longitude,1,Boosting com vacina,7.0,70.27057665763925
 longitude,2,Referência populacional,0.0,0.0
-longitude,2,Poisson demografia,0.1,45.63391657952295
-longitude,2,Poisson demografia,1.0,49.53509807237909
-longitude,2,Poisson demografia,10.0,64.69964127319408
-longitude,2,Poisson + PIB,0.1,48.77918638472642
-longitude,2,Poisson + PIB,1.0,52.935648695328766
-longitude,2,Poisson + PIB,10.0,65.42230159448384
-longitude,2,Poisson + PIB + vacina,0.1,49.74920077724513
-longitude,2,Poisson + PIB + vacina,1.0,53.20918028289663
-longitude,2,Poisson + PIB + vacina,10.0,64.9456260085566
-longitude,2,Binomial negativa completa,0.1,50.037961398335845
-longitude,2,Binomial negativa completa,1.0,56.24098647669646
-longitude,2,Binomial negativa completa,10.0,78.94310722464574
-longitude,2,Boosting sem vacina,3.0,73.0676615485935
-longitude,2,Boosting sem vacina,7.0,69.81070108206954
-longitude,2,Boosting com vacina,3.0,70.80562385998059
-longitude,2,Boosting com vacina,7.0,75.84671259526576
+longitude,2,Poisson demografia,0.1,47.77679136487324
+longitude,2,Poisson demografia,1.0,52.1200355692625
+longitude,2,Poisson demografia,10.0,67.32093319853642
+longitude,2,Poisson + PIB,0.1,50.71608764158063
+longitude,2,Poisson + PIB,1.0,55.01137318940868
+longitude,2,Poisson + PIB,10.0,67.94471192970019
+longitude,2,Poisson + PIB + vacina,0.1,52.92915953425498
+longitude,2,Poisson + PIB + vacina,1.0,55.76604567654783
+longitude,2,Poisson + PIB + vacina,10.0,67.5999405426469
+longitude,2,Binomial negativa completa,0.1,55.99540827248686
+longitude,2,Binomial negativa completa,1.0,64.33132042457024
+longitude,2,Binomial negativa completa,10.0,85.9282096127466
+longitude,2,Boosting sem vacina,3.0,72.74881276466158
+longitude,2,Boosting sem vacina,7.0,69.40967813402266
+longitude,2,Boosting com vacina,3.0,69.51015118006809
+longitude,2,Boosting com vacina,7.0,73.00426648809344
 longitude,3,Referência populacional,0.0,0.0
-longitude,3,Poisson demografia,0.1,57.987256412722765
-longitude,3,Poisson demografia,1.0,55.33216847387758
-longitude,3,Poisson demografia,10.0,63.879115777556166
-longitude,3,Poisson + PIB,0.1,60.130215108882034
-longitude,3,Poisson + PIB,1.0,57.483389359522214
-longitude,3,Poisson + PIB,10.0,64.41702350628147
-longitude,3,Poisson + PIB + vacina,0.1,59.08231675165808
-longitude,3,Poisson + PIB + vacina,1.0,56.38703319898773
-longitude,3,Poisson + PIB + vacina,10.0,63.464994545312635
-longitude,3,Binomial negativa completa,0.1,43.22860478604265
-longitude,3,Binomial negativa completa,1.0,40.968974518021625
-longitude,3,Binomial negativa completa,10.0,64.23715274698127
-longitude,3,Boosting sem vacina,3.0,76.14722535069328
-longitude,3,Boosting sem vacina,7.0,80.63670987816509
-longitude,3,Boosting com vacina,3.0,77.21836169412369
-longitude,3,Boosting com vacina,7.0,79.48704891900259
+longitude,3,Poisson demografia,0.1,60.807050244869544
+longitude,3,Poisson demografia,1.0,58.02076081692985
+longitude,3,Poisson demografia,10.0,66.42040897209709
+longitude,3,Poisson + PIB,0.1,61.85187378327076
+longitude,3,Poisson + PIB,1.0,59.03810242763864
+longitude,3,Poisson + PIB,10.0,66.74589955946945
+longitude,3,Poisson + PIB + vacina,0.1,60.120032636360996
+longitude,3,Poisson + PIB + vacina,1.0,57.69371356576138
+longitude,3,Poisson + PIB + vacina,10.0,65.83698821927446
+longitude,3,Binomial negativa completa,0.1,48.42615430849869
+longitude,3,Binomial negativa completa,1.0,47.438465546084174
+longitude,3,Binomial negativa completa,10.0,70.01399624307183
+longitude,3,Boosting sem vacina,3.0,84.61644122943369
+longitude,3,Boosting sem vacina,7.0,86.7065151670921
+longitude,3,Boosting com vacina,3.0,81.09124262619311
+longitude,3,Boosting com vacina,7.0,76.3994708916542
 longitude,4,Referência populacional,0.0,0.0
-longitude,4,Poisson demografia,0.1,29.941407803026546
-longitude,4,Poisson demografia,1.0,29.062909211250126
-longitude,4,Poisson demografia,10.0,42.29259796817165
-longitude,4,Poisson + PIB,0.1,30.556604536491424
-longitude,4,Poisson + PIB,1.0,29.48557334990978
-longitude,4,Poisson + PIB,10.0,42.57825105074805
-longitude,4,Poisson + PIB + vacina,0.1,28.043564266392174
-longitude,4,Poisson + PIB + vacina,1.0,28.378995126581234
-longitude,4,Poisson + PIB + vacina,10.0,41.73605614880621
-longitude,4,Binomial negativa completa,0.1,25.06241902390646
-longitude,4,Binomial negativa completa,1.0,29.15768812746868
-longitude,4,Binomial negativa completa,10.0,61.414531481829336
-longitude,4,Boosting sem vacina,3.0,74.93079900161646
-longitude,4,Boosting sem vacina,7.0,73.73548649647738
-longitude,4,Boosting com vacina,3.0,68.56130340594646
-longitude,4,Boosting com vacina,7.0,76.74336091757566
+longitude,4,Poisson demografia,0.1,30.38862498238677
+longitude,4,Poisson demografia,1.0,29.58515462977398
+longitude,4,Poisson demografia,10.0,42.941906118873014
+longitude,4,Poisson + PIB,0.1,31.293362708840046
+longitude,4,Poisson + PIB,1.0,30.32075441235192
+longitude,4,Poisson + PIB,10.0,43.28114214842418
+longitude,4,Poisson + PIB + vacina,0.1,32.448832474148155
+longitude,4,Poisson + PIB + vacina,1.0,31.011467646280753
+longitude,4,Poisson + PIB + vacina,10.0,42.828911419693085
+longitude,4,Binomial negativa completa,0.1,26.35961928221373
+longitude,4,Binomial negativa completa,1.0,29.60559610891564
+longitude,4,Binomial negativa completa,10.0,62.3053504540761
+longitude,4,Boosting sem vacina,3.0,73.2703576369582
+longitude,4,Boosting sem vacina,7.0,75.00947047485823
+longitude,4,Boosting com vacina,3.0,64.87647850368411
+longitude,4,Boosting com vacina,7.0,68.09406316573865
 longitude,5,Referência populacional,0.0,0.0
-longitude,5,Poisson demografia,0.1,3.2508581407671966
-longitude,5,Poisson demografia,1.0,3.218224242004542
-longitude,5,Poisson demografia,10.0,3.0756527349660616
-longitude,5,Poisson + PIB,0.1,3.359589017923952
-longitude,5,Poisson + PIB,1.0,3.289498857789312
-longitude,5,Poisson + PIB,10.0,3.102646882539271
-longitude,5,Poisson + PIB + vacina,0.1,3.607432527371221
-longitude,5,Poisson + PIB + vacina,1.0,3.393342651507553
-longitude,5,Poisson + PIB + vacina,10.0,3.1185261113812572
-longitude,5,Binomial negativa completa,0.1,3.4696288863369342
-longitude,5,Binomial negativa completa,1.0,3.255289495108868
-longitude,5,Binomial negativa completa,10.0,3.161167039523847
-longitude,5,Boosting sem vacina,3.0,3.602889828407702
-longitude,5,Boosting sem vacina,7.0,3.5815604825832525
-longitude,5,Boosting com vacina,3.0,3.632030821982427
-longitude,5,Boosting com vacina,7.0,3.911509458969454
+longitude,5,Poisson demografia,0.1,3.195071653351651
+longitude,5,Poisson demografia,1.0,3.1659844050081656
+longitude,5,Poisson demografia,10.0,3.0196044834562614
+longitude,5,Poisson + PIB,0.1,3.2459757862812793
+longitude,5,Poisson + PIB,1.0,3.193972099724638
+longitude,5,Poisson + PIB,10.0,3.0408491870225767
+longitude,5,Poisson + PIB + vacina,0.1,3.446599188091413
+longitude,5,Poisson + PIB + vacina,1.0,3.2738570601430244
+longitude,5,Poisson + PIB + vacina,10.0,3.047578867956971
+longitude,5,Binomial negativa completa,0.1,3.4051760124587975
+longitude,5,Binomial negativa completa,1.0,3.248932222957396
+longitude,5,Binomial negativa completa,10.0,3.0980263359585054
+longitude,5,Boosting sem vacina,3.0,3.4823512108145254
+longitude,5,Boosting sem vacina,7.0,3.6439133214372945
+longitude,5,Boosting com vacina,3.0,3.4272346426606797
+longitude,5,Boosting com vacina,7.0,3.535098363700772
 aleatorio,1,Referência populacional,0.0,0.0
-aleatorio,1,Poisson demografia,0.1,19.173126577755454
-aleatorio,1,Poisson demografia,1.0,16.05100225827191
-aleatorio,1,Poisson demografia,10.0,17.549768738047153
-aleatorio,1,Poisson + PIB,0.1,19.130565069823948
-aleatorio,1,Poisson + PIB,1.0,16.28720163180491
-aleatorio,1,Poisson + PIB,10.0,17.548231737471877
-aleatorio,1,Poisson + PIB + vacina,0.1,23.527980927402275
-aleatorio,1,Poisson + PIB + vacina,1.0,18.630893869307155
-aleatorio,1,Poisson + PIB + vacina,10.0,18.457388289178077
-aleatorio,1,Binomial negativa completa,0.1,17.658695356955462
-aleatorio,1,Binomial negativa completa,1.0,18.52306677361741
-aleatorio,1,Binomial negativa completa,10.0,36.34775990848042
-aleatorio,1,Boosting sem vacina,3.0,23.917115876187964
-aleatorio,1,Boosting sem vacina,7.0,29.00044946260812
-aleatorio,1,Boosting com vacina,3.0,27.148210768238595
-aleatorio,1,Boosting com vacina,7.0,35.179010929127855
+aleatorio,1,Poisson demografia,0.1,19.277831836832146
+aleatorio,1,Poisson demografia,1.0,16.119732698009802
+aleatorio,1,Poisson demografia,10.0,17.58451704221646
+aleatorio,1,Poisson + PIB,0.1,19.233223467192605
+aleatorio,1,Poisson + PIB,1.0,16.394870674817643
+aleatorio,1,Poisson + PIB,10.0,17.596180907770034
+aleatorio,1,Poisson + PIB + vacina,0.1,23.44291496948249
+aleatorio,1,Poisson + PIB + vacina,1.0,19.2071500932664
+aleatorio,1,Poisson + PIB + vacina,10.0,18.66042606412696
+aleatorio,1,Binomial negativa completa,0.1,17.900137154080706
+aleatorio,1,Binomial negativa completa,1.0,18.60580922330247
+aleatorio,1,Binomial negativa completa,10.0,36.68709594269745
+aleatorio,1,Boosting sem vacina,3.0,24.450634475426803
+aleatorio,1,Boosting sem vacina,7.0,30.558932369552803
+aleatorio,1,Boosting com vacina,3.0,32.04990105035997
+aleatorio,1,Boosting com vacina,7.0,38.61930543046367
 aleatorio,2,Referência populacional,0.0,0.0
-aleatorio,2,Poisson demografia,0.1,15.348067593529272
-aleatorio,2,Poisson demografia,1.0,16.72084956961808
-aleatorio,2,Poisson demografia,10.0,20.307130874997082
-aleatorio,2,Poisson + PIB,0.1,17.159972687176097
-aleatorio,2,Poisson + PIB,1.0,18.392539169895983
-aleatorio,2,Poisson + PIB,10.0,22.165700393413015
-aleatorio,2,Poisson + PIB + vacina,0.1,19.725450145767056
-aleatorio,2,Poisson + PIB + vacina,1.0,20.108970482718767
-aleatorio,2,Poisson + PIB + vacina,10.0,22.830380910691563
-aleatorio,2,Binomial negativa completa,0.1,12.86572815682883
-aleatorio,2,Binomial negativa completa,1.0,12.608595442363852
-aleatorio,2,Binomial negativa completa,10.0,28.096847780709155
-aleatorio,2,Boosting sem vacina,3.0,29.80884077353944
-aleatorio,2,Boosting sem vacina,7.0,33.01073680464271
-aleatorio,2,Boosting com vacina,3.0,26.259258397515364
-aleatorio,2,Boosting com vacina,7.0,40.31224367983858
+aleatorio,2,Poisson demografia,0.1,15.410315063572165
+aleatorio,2,Poisson demografia,1.0,16.78033737292664
+aleatorio,2,Poisson demografia,10.0,20.377471976799455
+aleatorio,2,Poisson + PIB,0.1,17.308330122515876
+aleatorio,2,Poisson + PIB,1.0,18.504510769032276
+aleatorio,2,Poisson + PIB,10.0,22.228229413977427
+aleatorio,2,Poisson + PIB + vacina,0.1,18.943644796885867
+aleatorio,2,Poisson + PIB + vacina,1.0,19.612395399630486
+aleatorio,2,Poisson + PIB + vacina,10.0,22.775745861485355
+aleatorio,2,Binomial negativa completa,0.1,12.690075840176519
+aleatorio,2,Binomial negativa completa,1.0,12.762804773508913
+aleatorio,2,Binomial negativa completa,10.0,28.51004256454504
+aleatorio,2,Boosting sem vacina,3.0,29.14024474052733
+aleatorio,2,Boosting sem vacina,7.0,30.827696718668086
+aleatorio,2,Boosting com vacina,3.0,23.26211377296213
+aleatorio,2,Boosting com vacina,7.0,34.63188573306561
 aleatorio,3,Referência populacional,0.0,0.0
-aleatorio,3,Poisson demografia,0.1,12.898846623986625
-aleatorio,3,Poisson demografia,1.0,14.11066140001693
-aleatorio,3,Poisson demografia,10.0,15.575844615709627
-aleatorio,3,Poisson + PIB,0.1,13.330604293496174
-aleatorio,3,Poisson + PIB,1.0,13.897422523249213
-aleatorio,3,Poisson + PIB,10.0,16.20227451975756
-aleatorio,3,Poisson + PIB + vacina,0.1,18.43441953325948
-aleatorio,3,Poisson + PIB + vacina,1.0,17.24643112189228
-aleatorio,3,Poisson + PIB + vacina,10.0,17.264074755026
-aleatorio,3,Binomial negativa completa,0.1,10.914618019517928
-aleatorio,3,Binomial negativa completa,1.0,10.378301812851028
-aleatorio,3,Binomial negativa completa,10.0,25.75009937478876
-aleatorio,3,Boosting sem vacina,3.0,29.675408778009846
-aleatorio,3,Boosting sem vacina,7.0,31.50992461000425
-aleatorio,3,Boosting com vacina,3.0,23.20469677059183
-aleatorio,3,Boosting com vacina,7.0,30.684804384757737
+aleatorio,3,Poisson demografia,0.1,12.924009688280151
+aleatorio,3,Poisson demografia,1.0,14.087528508471715
+aleatorio,3,Poisson demografia,10.0,15.531731596224104
+aleatorio,3,Poisson + PIB,0.1,13.402715060864391
+aleatorio,3,Poisson + PIB,1.0,13.943646488789613
+aleatorio,3,Poisson + PIB,10.0,16.222773683246967
+aleatorio,3,Poisson + PIB + vacina,0.1,17.800145676273054
+aleatorio,3,Poisson + PIB + vacina,1.0,16.91494630003633
+aleatorio,3,Poisson + PIB + vacina,10.0,17.11714292181234
+aleatorio,3,Binomial negativa completa,0.1,11.031094533244307
+aleatorio,3,Binomial negativa completa,1.0,10.588540590551302
+aleatorio,3,Binomial negativa completa,10.0,25.939935005581322
+aleatorio,3,Boosting sem vacina,3.0,31.145201696767398
+aleatorio,3,Boosting sem vacina,7.0,31.707275373727
+aleatorio,3,Boosting com vacina,3.0,26.246043030663067
+aleatorio,3,Boosting com vacina,7.0,33.21255960794691
 aleatorio,4,Referência populacional,0.0,0.0
-aleatorio,4,Poisson demografia,0.1,19.424169619198068
-aleatorio,4,Poisson demografia,1.0,16.125462487867942
-aleatorio,4,Poisson demografia,10.0,17.71362398294298
-aleatorio,4,Poisson + PIB,0.1,19.252306248536822
-aleatorio,4,Poisson + PIB,1.0,16.15535316151954
-aleatorio,4,Poisson + PIB,10.0,17.76177172118392
-aleatorio,4,Poisson + PIB + vacina,0.1,21.733209573661878
-aleatorio,4,Poisson + PIB + vacina,1.0,18.864234034380935
-aleatorio,4,Poisson + PIB + vacina,10.0,19.402520953703878
-aleatorio,4,Binomial negativa completa,0.1,15.317793915673883
-aleatorio,4,Binomial negativa completa,1.0,16.46154254885357
-aleatorio,4,Binomial negativa completa,10.0,32.474414820059216
-aleatorio,4,Boosting sem vacina,3.0,22.649002042416484
-aleatorio,4,Boosting sem vacina,7.0,22.252071462779636
-aleatorio,4,Boosting com vacina,3.0,23.525505207365907
-aleatorio,4,Boosting com vacina,7.0,27.05192306021209
+aleatorio,4,Poisson demografia,0.1,19.436102332272117
+aleatorio,4,Poisson demografia,1.0,16.155628511651173
+aleatorio,4,Poisson demografia,10.0,17.761599996867346
+aleatorio,4,Poisson + PIB,0.1,19.23288321077525
+aleatorio,4,Poisson + PIB,1.0,16.14959766453164
+aleatorio,4,Poisson + PIB,10.0,17.79415387282558
+aleatorio,4,Poisson + PIB + vacina,0.1,22.257348063005796
+aleatorio,4,Poisson + PIB + vacina,1.0,19.368595914536144
+aleatorio,4,Poisson + PIB + vacina,10.0,19.728535123540418
+aleatorio,4,Binomial negativa completa,0.1,15.331611607523579
+aleatorio,4,Binomial negativa completa,1.0,16.062505777345276
+aleatorio,4,Binomial negativa completa,10.0,32.50569607773558
+aleatorio,4,Boosting sem vacina,3.0,24.699855012938535
+aleatorio,4,Boosting sem vacina,7.0,22.036458098585246
+aleatorio,4,Boosting com vacina,3.0,28.448235765289226
+aleatorio,4,Boosting com vacina,7.0,35.81678642841532
 aleatorio,5,Referência populacional,0.0,0.0
-aleatorio,5,Poisson demografia,0.1,9.947554166863027
-aleatorio,5,Poisson demografia,1.0,9.43552832550285
-aleatorio,5,Poisson demografia,10.0,9.847225734211344
-aleatorio,5,Poisson + PIB,0.1,9.984138671902388
-aleatorio,5,Poisson + PIB,1.0,9.645764146509775
-aleatorio,5,Poisson + PIB,10.0,9.914389134536188
-aleatorio,5,Poisson + PIB + vacina,0.1,10.550161658633124
-aleatorio,5,Poisson + PIB + vacina,1.0,9.54468020603868
-aleatorio,5,Poisson + PIB + vacina,10.0,9.39496731893926
-aleatorio,5,Binomial negativa completa,0.1,9.1983228844779
-aleatorio,5,Binomial negativa completa,1.0,9.313540852406721
-aleatorio,5,Binomial negativa completa,10.0,12.346819889141585
-aleatorio,5,Boosting sem vacina,3.0,10.948526480865198
-aleatorio,5,Boosting sem vacina,7.0,10.94711352970123
-aleatorio,5,Boosting com vacina,3.0,11.617988644835135
-aleatorio,5,Boosting com vacina,7.0,11.709841444444153
-espacial_cob_limitada,1,Poisson + PIB + vacina,0.1,45.62637132103273
-espacial_cob_limitada,1,Poisson + PIB + vacina,1.0,45.20091072369799
-espacial_cob_limitada,1,Poisson + PIB + vacina,10.0,58.51173768407054
-espacial_cob_limitada,1,Boosting com vacina,3.0,78.77553057069737
-espacial_cob_limitada,1,Boosting com vacina,7.0,80.04881671748997
-espacial_cob_limitada,2,Poisson + PIB + vacina,0.1,34.720575859185665
-espacial_cob_limitada,2,Poisson + PIB + vacina,1.0,42.32444067083151
-espacial_cob_limitada,2,Poisson + PIB + vacina,10.0,67.01166097921985
-espacial_cob_limitada,2,Boosting com vacina,3.0,86.46985006142842
-espacial_cob_limitada,2,Boosting com vacina,7.0,82.70967273495488
-espacial_cob_limitada,3,Poisson + PIB + vacina,0.1,72.00658658390591
-espacial_cob_limitada,3,Poisson + PIB + vacina,1.0,63.98716620198897
-espacial_cob_limitada,3,Poisson + PIB + vacina,10.0,66.95528813991638
-espacial_cob_limitada,3,Boosting com vacina,3.0,84.64221358010022
-espacial_cob_limitada,3,Boosting com vacina,7.0,79.2361338414923
-espacial_cob_limitada,4,Poisson + PIB + vacina,0.1,32.798764435068755
-espacial_cob_limitada,4,Poisson + PIB + vacina,1.0,30.189794293217158
-espacial_cob_limitada,4,Poisson + PIB + vacina,10.0,42.83966074081157
-espacial_cob_limitada,4,Boosting com vacina,3.0,89.2009571874091
-espacial_cob_limitada,4,Boosting com vacina,7.0,100.71890431767538
-espacial_cob_limitada,5,Poisson + PIB + vacina,0.1,3.3267493736619187
-espacial_cob_limitada,5,Poisson + PIB + vacina,1.0,3.241889981036145
-espacial_cob_limitada,5,Poisson + PIB + vacina,10.0,2.9670971623212985
-espacial_cob_limitada,5,Boosting com vacina,3.0,3.140587580506542
-espacial_cob_limitada,5,Boosting com vacina,7.0,3.2498986872312026
+aleatorio,5,Poisson demografia,0.1,10.050455425059234
+aleatorio,5,Poisson demografia,1.0,9.532742607845906
+aleatorio,5,Poisson demografia,10.0,9.951145118674724
+aleatorio,5,Poisson + PIB,0.1,10.158540544132013
+aleatorio,5,Poisson + PIB,1.0,9.801053032469786
+aleatorio,5,Poisson + PIB,10.0,10.055201427298101
+aleatorio,5,Poisson + PIB + vacina,0.1,10.620732787104158
+aleatorio,5,Poisson + PIB + vacina,1.0,9.703288005923817
+aleatorio,5,Poisson + PIB + vacina,10.0,9.58055070568552
+aleatorio,5,Binomial negativa completa,0.1,9.372843830472158
+aleatorio,5,Binomial negativa completa,1.0,9.451371690042006
+aleatorio,5,Binomial negativa completa,10.0,12.567485902794488
+aleatorio,5,Boosting sem vacina,3.0,10.941440028035748
+aleatorio,5,Boosting sem vacina,7.0,11.721081422156866
+aleatorio,5,Boosting com vacina,3.0,10.855900990655199
+aleatorio,5,Boosting com vacina,7.0,11.085217451352827
+rras_cob_limitada,1,Poisson + PIB + vacina,0.1,28.162181168881652
+rras_cob_limitada,1,Poisson + PIB + vacina,1.0,27.894715901741773
+rras_cob_limitada,1,Poisson + PIB + vacina,10.0,26.853779224478473
+rras_cob_limitada,1,Boosting com vacina,3.0,38.442241001605154
+rras_cob_limitada,1,Boosting com vacina,7.0,42.75165705968607
+rras_cob_limitada,2,Poisson + PIB + vacina,0.1,21.778119792912854
+rras_cob_limitada,2,Poisson + PIB + vacina,1.0,21.12808290952299
+rras_cob_limitada,2,Poisson + PIB + vacina,10.0,21.50488324258203
+rras_cob_limitada,2,Boosting com vacina,3.0,23.999285000175156
+rras_cob_limitada,2,Boosting com vacina,7.0,23.903365300647287
+rras_cob_limitada,3,Poisson + PIB + vacina,0.1,23.542287813131413
+rras_cob_limitada,3,Poisson + PIB + vacina,1.0,22.309029663262777
+rras_cob_limitada,3,Poisson + PIB + vacina,10.0,21.58745577626072
+rras_cob_limitada,3,Boosting com vacina,3.0,24.613758546390223
+rras_cob_limitada,3,Boosting com vacina,7.0,23.96892448824739
+rras_cob_limitada,4,Poisson + PIB + vacina,0.1,23.092220553087174
+rras_cob_limitada,4,Poisson + PIB + vacina,1.0,22.266567047385752
+rras_cob_limitada,4,Poisson + PIB + vacina,10.0,22.35911992085301
+rras_cob_limitada,4,Boosting com vacina,3.0,30.45561508484018
+rras_cob_limitada,4,Boosting com vacina,7.0,30.246619154712103
+rras_cob_limitada,5,Poisson + PIB + vacina,0.1,21.76640349086952
+rras_cob_limitada,5,Poisson + PIB + vacina,1.0,21.465050920240483
+rras_cob_limitada,5,Poisson + PIB + vacina,10.0,22.132446549116647
+rras_cob_limitada,5,Boosting com vacina,3.0,21.04432209177378
+rras_cob_limitada,5,Boosting com vacina,7.0,23.688318790367184
+rras_cob_limitada,6,Poisson + PIB + vacina,0.1,24.15633925724894
+rras_cob_limitada,6,Poisson + PIB + vacina,1.0,22.556225798601847
+rras_cob_limitada,6,Poisson + PIB + vacina,10.0,20.582806052112716
+rras_cob_limitada,6,Boosting com vacina,3.0,27.204153205718352
+rras_cob_limitada,6,Boosting com vacina,7.0,27.60619773251602
+rras_cob_limitada,7,Poisson + PIB + vacina,0.1,22.23490882489723
+rras_cob_limitada,7,Poisson + PIB + vacina,1.0,20.838602171286794
+rras_cob_limitada,7,Poisson + PIB + vacina,10.0,19.11561080717227
+rras_cob_limitada,7,Boosting com vacina,3.0,20.90944659929942
+rras_cob_limitada,7,Boosting com vacina,7.0,23.885285278961987
+rras_cob_limitada,8,Poisson + PIB + vacina,0.1,25.229733663285693
+rras_cob_limitada,8,Poisson + PIB + vacina,1.0,23.462186088552883
+rras_cob_limitada,8,Poisson + PIB + vacina,10.0,21.411281352806043
+rras_cob_limitada,8,Boosting com vacina,3.0,25.45572033013673
+rras_cob_limitada,8,Boosting com vacina,7.0,29.30040488167432
+rras_cob_limitada,9,Poisson + PIB + vacina,0.1,23.588032002405914
+rras_cob_limitada,9,Poisson + PIB + vacina,1.0,22.059631126477278
+rras_cob_limitada,9,Poisson + PIB + vacina,10.0,21.020845941851118
+rras_cob_limitada,9,Boosting com vacina,3.0,22.79678977608937
+rras_cob_limitada,9,Boosting com vacina,7.0,27.46364838291522
+rras_cob_limitada,10,Poisson + PIB + vacina,0.1,25.291973610590222
+rras_cob_limitada,10,Poisson + PIB + vacina,1.0,23.46884193679549
+rras_cob_limitada,10,Poisson + PIB + vacina,10.0,21.45196028032603
+rras_cob_limitada,10,Boosting com vacina,3.0,27.83727989212356
+rras_cob_limitada,10,Boosting com vacina,7.0,33.94131047786021
+rras_cob_limitada,11,Poisson + PIB + vacina,0.1,23.247024366672417
+rras_cob_limitada,11,Poisson + PIB + vacina,1.0,21.967599825825634
+rras_cob_limitada,11,Poisson + PIB + vacina,10.0,21.280753901419335
+rras_cob_limitada,11,Boosting com vacina,3.0,19.997036124762026
+rras_cob_limitada,11,Boosting com vacina,7.0,25.460980633056195
+rras_cob_limitada,12,Poisson + PIB + vacina,0.1,25.64033074385273
+rras_cob_limitada,12,Poisson + PIB + vacina,1.0,23.649979504726037
+rras_cob_limitada,12,Poisson + PIB + vacina,10.0,21.985164276397228
+rras_cob_limitada,12,Boosting com vacina,3.0,24.278344064109532
+rras_cob_limitada,12,Boosting com vacina,7.0,23.844761820231625
+rras_cob_limitada,13,Poisson + PIB + vacina,0.1,12.699947900412834
+rras_cob_limitada,13,Poisson + PIB + vacina,1.0,11.604440949725428
+rras_cob_limitada,13,Poisson + PIB + vacina,10.0,13.574575313994236
+rras_cob_limitada,13,Boosting com vacina,3.0,16.79532184965329
+rras_cob_limitada,13,Boosting com vacina,7.0,19.850420123920124
+rras_cob_limitada,14,Poisson + PIB + vacina,0.1,28.57500530406612
+rras_cob_limitada,14,Poisson + PIB + vacina,1.0,25.412273182622513
+rras_cob_limitada,14,Poisson + PIB + vacina,10.0,22.65967012970437
+rras_cob_limitada,14,Boosting com vacina,3.0,27.570925806233237
+rras_cob_limitada,14,Boosting com vacina,7.0,31.049980271394436
+rras_cob_limitada,15,Poisson + PIB + vacina,0.1,23.21291669828629
+rras_cob_limitada,15,Poisson + PIB + vacina,1.0,22.76736110938264
+rras_cob_limitada,15,Poisson + PIB + vacina,10.0,22.202040906255366
+rras_cob_limitada,15,Boosting com vacina,3.0,28.525851110039888
+rras_cob_limitada,15,Boosting com vacina,7.0,30.513452805752863
+rras_cob_limitada,16,Poisson + PIB + vacina,0.1,14.531552906631758
+rras_cob_limitada,16,Poisson + PIB + vacina,1.0,13.6281948004552
+rras_cob_limitada,16,Poisson + PIB + vacina,10.0,12.06200776456239
+rras_cob_limitada,16,Boosting com vacina,3.0,12.410768612444354
+rras_cob_limitada,16,Boosting com vacina,7.0,12.32094073910889
+rras_cob_limitada,17,Poisson + PIB + vacina,0.1,26.232274046050446
+rras_cob_limitada,17,Poisson + PIB + vacina,1.0,24.167200216291228
+rras_cob_limitada,17,Poisson + PIB + vacina,10.0,21.16739753455325
+rras_cob_limitada,17,Boosting com vacina,3.0,21.400825687630306
+rras_cob_limitada,17,Boosting com vacina,7.0,27.350978176214426
+rras_cob_limitada,18,Poisson + PIB + vacina,0.1,22.856536793712095
+rras_cob_limitada,18,Poisson + PIB + vacina,1.0,21.894232379022533
+rras_cob_limitada,18,Poisson + PIB + vacina,10.0,21.427013756912658
+rras_cob_limitada,18,Boosting com vacina,3.0,29.111208947454983
+rras_cob_limitada,18,Boosting com vacina,7.0,29.939661230308637
+rras_cob_limitada,19,Poisson + PIB + vacina,0.1,24.490695872783224
+rras_cob_limitada,19,Poisson + PIB + vacina,1.0,23.952738040688274
+rras_cob_limitada,19,Poisson + PIB + vacina,10.0,24.423114072875652
+rras_cob_limitada,19,Boosting com vacina,3.0,24.30562704389251
+rras_cob_limitada,19,Boosting com vacina,7.0,25.289083599718566

@@ -9,24 +9,21 @@ from sklearn.metrics import silhouette_score,adjusted_rand_score
 from sklearn.decomposition import PCA
 from scipy.optimize import linear_sum_assignment
 from threadpoolctl import threadpool_limits
+import base as dados
 from modelagem import carregar_base
 ROOT=Path(__file__).resolve().parents[1]
 FEATURES=['d1_media','d2_media','d1_delta','d2_delta','log_incidencia','log_densidade','frac_0a4']
 WEIGHTS=np.array([.5,.5,.5,.5,1,1/np.sqrt(2),1/np.sqrt(2)])
 
 def assinatura():
-    paths=list((ROOT/'data/processed').glob('*'))+[Path(__file__),ROOT/'scripts/modelagem.py']
+    paths=list((ROOT/'data/processed').glob('*'))+[Path(__file__),ROOT/'scripts/modelagem.py',ROOT/'scripts/base.py']
     return {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(paths) if p.is_file()}
 
 def base(cenario='limitada'):
     d=carregar_base(cap=cenario=='limitada');d['incidencia']=d.casos/d.populacao*1e5;d['log_incidencia']=np.log1p(d.incidencia)
-    if cenario=='ausente':
-        v=pd.read_csv(ROOT/'data/processed/mmr.csv',dtype={'municipality_ibge':str});v['codigo']=v.municipality_ibge.str[:6]
-        v.loc[v.coverage_percent>100,'coverage_percent']=np.nan
-        p=v.pivot(index='codigo',columns=['year','dose'],values='coverage_percent')
-        for dose,label in [('MMR1','d1'),('MMR2','d2')]:
-            d[label+'_media']=p.loc[:,[(y,dose) for y in [2016,2017,2018]]].mean(axis=1)
-            d[label+'_delta']=p[(2018,dose)]-p[(2016,dose)]
+    if cenario=='ausente':  # valores > 100 tratados como ausentes; o que sobrar vazio é imputado em transformar()
+        alt=dados.cobertura_janela(dados.painel(),'ausente')
+        for c in ['d1_media','d2_media','d1_delta','d2_delta']:d[c]=alt[c]
     return d
 
 def transformar(d,cols=FEATURES):
@@ -93,11 +90,10 @@ def run(out=ROOT/'results/clustering'):
     desc['densidade_mediana']=np.exp(desc.log_densidade_mediana);desc['pib_pc_mediano']=np.exp(desc.pib_log_mediano)
     d['grupo_k2']=fits[2]
     # Variáveis abaixo descrevem os grupos; não participam do agrupamento.
-    notif=pd.read_csv(ROOT/'data/processed/notificacoes.csv',dtype=str,keep_default_na=False)
-    dt=pd.to_datetime(notif.DT_INICIO_,errors='coerce')
-    cc=notif[notif.SG_UF.eq('35') & notif.CLASSI_FIN.eq('1') & dt.dt.year.eq(2019)].copy()
+    notif=dados.notificacoes()
+    cc=notif[notif.ano.eq(dados.ANO_SURTO)].copy()
     cc['grupo']=cc.ID_MN_RESI.map(d.grupo);cod=pd.to_numeric(cc.NU_IDADE_N,errors='coerce')
-    cc['adulto20a29']=cod.between(4020,4029);cc['julho_setembro']=pd.to_datetime(cc.DT_INICIO_).dt.month.between(7,9)
+    cc['adulto20a29']=cod.between(4020,4029);cc['julho_setembro']=pd.to_datetime(cc.DT_CASO).dt.month.between(7,9)
     ext=cc.groupby('grupo').agg(casos=('grupo','size'),adultos20a29=('adulto20a29','sum'),julho_setembro=('julho_setembro','sum'),hospitalizados=('ID_HOSPIT',lambda x:x.eq('1').sum()),hospitalizacao_conhecida=('ID_HOSPIT',lambda x:x.isin(['1','2']).sum()))
     ext['adultos20a29_%']=ext.adultos20a29/ext.casos*100;ext['julho_setembro_%']=ext.julho_setembro/ext.casos*100
     ext['hospitalizados_%_conhecidos']=ext.hospitalizados/ext.hospitalizacao_conhecida*100
