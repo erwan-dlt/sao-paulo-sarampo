@@ -1,0 +1,37 @@
+Cobertura estadual (soma de doses / soma da populacao-alvo, InfoMS):
+  2023: D1 93.7%  D2 80.3%
+  2024: D1 99.4%  D2 88.1%
+  2025: D1 94.4%  D2 84.8%
+  2026: D1 96.3%  D2 83.8%  (parcial)
+
+Criancas da populacao-alvo sem a dose, estado (soma das RRAS; cobertura de cada RRAS limitada a 100%):
+dose                         D1       D2
+cenario           ano                   
+mantém 2023-2025  2026  20053.0  74001.0
+                  2027  20053.0  74001.0
+meta de 95%       2026  17248.0  23509.0
+                  2027  17248.0  23509.0
+observado         2023  31739.0  99304.0
+                  2024   7288.0  56065.0
+                  2025  26391.0  71809.0
+repete o pior ano 2026  35300.0  93997.0
+                  2027  35300.0  93997.0
+
+Acumulado 2026-2027 por cenario (e somando 2023-2025 observado):
+  mantém 2023-2025  : sem D1   40,107 ( 105,525) | sem D2  148,002 ( 375,180)
+  repete o pior ano : sem D1   70,599 ( 136,017) | sem D2  187,993 ( 415,171)
+  meta de 95%       : sem D1   34,496 (  99,914) | sem D2   47,019 ( 274,197)
+
+Cenario "mantem 2023-2025", 2026-2027, RRAS com mais criancas sem D2:
+dose         D1       D2  por_mil_alvo_D2
+rras                                     
+RRAS6   13823.0  33640.0            139.0
+RRAS2    2614.0  12807.0            180.0
+RRAS15   2181.0  11831.0            142.0
+RRAS5    4099.0  11797.0            244.0
+RRAS7    3581.0  11343.0            261.0
+RRAS17   3215.0  11005.0            206.0
+RRAS13   2040.0   8495.0            161.0
+RRAS8    1590.0   8248.0            143.0
+
+Geracao nascida em 1989-2001 (24 a 36 anos em 2025), serie do Ministerio da Saude: 8,809,504 pessoas (19.1% da populacao do estado).
