@@ -95,7 +95,7 @@ hierarquia urbana das Regiões de Influência das Cidades do Instituto Brasileir
 exigida para este trabalho recai, portanto, sobre o pacote que os próprios autores produzem a partir delas: o
 conjunto formado por este relatório e pelos dados municipais consolidados, depositado no Zenodo e associado à
 comunidade *Big Data Analytics Research Group of Escola Politécnica da Universidade de São Paulo*, com o DOI
-#raw("10.5281/zenodo.XXXXXXX") (a ser preenchido após a publicação do depósito) @zenododeposito.
+#link("https://doi.org/10.5281/zenodo.2451851")[10.5281/zenodo.2451851] @zenododeposito.
 
 == Reprodutibilidade e repositório de código
 
